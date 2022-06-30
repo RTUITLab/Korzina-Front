@@ -1,0 +1,18 @@
+-
+    const grades = ["Бакалавриат", "Магистратура"]
+
+section.courses
+    h1#CoursesTitle.courses__title
+        | Направления подготовки
+    nav.courses__nav
+        each obj in grades
+            if(obj === "Бакалавриат")
+                input(name="courses__nav" type="radio", id=`courses__nav__Бакалавриат`, checked)
+                label(for=`courses__nav__Бакалавриат` onclick=`generateSections("Бакалавриат")`)
+                    =obj
+            else
+                input(name="courses__nav" type="radio", id=`courses__nav__${obj}`)
+                label(for=`courses__nav__${obj}` onclick=`generateSections("${obj}")`)
+                    =obj
+    //input#SearchInput
+    section#CoursesParent.courses__parent

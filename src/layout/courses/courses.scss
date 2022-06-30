@@ -1,0 +1,56 @@
+@import "./src/style.scss";
+
+.courses {
+    //@todo выпилить
+    padding-top: 150px;
+    min-height: 150vh;
+
+    & .courses__title {
+        @include h1();
+        text-align: center;
+        color: $paragraph-black;
+        margin-bottom: 25px;
+    }
+
+    & .courses__nav {
+        @include flexible();
+        justify-content: center;
+        gap: 45px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0 15px 5px;
+
+        border-bottom: 2px solid transparent;
+        @include h3-regular();
+        cursor: pointer;
+
+        color: $paragraph-black;
+
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+
+        label {
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            &:hover {
+                border-bottom: 2px solid $primary-color;
+            }
+        }
+
+        input {
+            display: none;
+        }
+
+        & input:checked + label {
+            border-bottom: 2px solid $primary-color;
+            padding-bottom: 5px;
+            color: $primary-color;
+            font-weight: 700;
+        }
+    }
+}
+
+

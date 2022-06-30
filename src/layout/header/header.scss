@@ -48,6 +48,7 @@
 
         & .header__button {
             display: block;
+            width: max-content;
             margin: 0 auto;
             @include h3-bold();
             cursor: pointer;
