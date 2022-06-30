@@ -1,0 +1,24 @@
+{
+  "name": "korzina-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.pug --open -p 3000 --dist-dir build --no-cache",
+    "build": "parcel build src/index.pug --dist-dir build --public-url ./ "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "jake": "^10.8.5",
+    "sass": "^1.53.0"
+  }
+}
