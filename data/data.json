@@ -1,0 +1,252 @@
+{
+    "courses": [
+        {
+            "fileName": "AppliedMathBach.pug",
+            "ico": "../../../assets/icons/courses/AppliedMath.svg",
+            "title": "Прикладная математика",
+            "grade": "Бакалавриат",
+            "cipher": "01.03.04",
+            "price": "222 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "4 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Математика"
+                },
+                {
+                    "ico": "",
+                    "examName": "Русский язык"
+                },
+                {
+                    "ico": "",
+                    "examName": "Информатика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Анализ данных"
+                }
+            ]
+        },
+        {
+            "fileName": "IVTBach.pug",
+            "ico": "../../../assets/icons/courses/IVT.svg",
+            "title": "Информатика и вычислительная техника",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.01",
+            "price": "240 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "4 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Математика"
+                },
+                {
+                    "ico": "",
+                    "examName": "Русский язык"
+                },
+                {
+                    "ico": "",
+                    "examName": "Информатика / Физика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Цифровые комплексы, системы и сети"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Инфраструктура информационных технологий"
+                }
+            ]
+        },
+        {
+            "fileName": "AppliedInformaticsBach.pug",
+            "ico": "../../../assets/icons/courses/AppliedInformatics.svg",
+            "title": "Прикладная информатика",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.03",
+            "price": "266 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "4 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Математика"
+                },
+                {
+                    "ico": "",
+                    "examName": "Русский язык"
+                },
+                {
+                    "ico": "",
+                    "examName": "Информатика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Информатизация организаций"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Управление данными"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Цифровая трансформация"
+                }
+            ]
+        },
+        {
+            "fileName": "ProgInjBach.pug",
+            "ico": "../../../assets/icons/courses/ProgInj.svg",
+            "title": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "4 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Математика"
+                },
+                {
+                    "ico": "",
+                    "examName": "Русский язык"
+                },
+                {
+                    "ico": "",
+                    "examName": "Информатика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Информационные системы управления ресурсами предприятия"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Системная и программная инженерия"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Интеллектуальные системы поддержки принятия решений"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Разработка и дизайн компьютерных игр и мультимедийных приложений"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Разработка программных продуктов и проектирование информационных систем"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Проектирование и разработка сред и приложений дополненной и виртуальной реальности"
+                }
+            ]
+        },
+        {
+            "fileName": "AppliedMathMaster.pug",
+            "ico": "../../../assets/icons/courses/AppliedMath.svg",
+            "title": "Прикладная математика",
+            "grade": "Магистратура",
+            "cipher": "01.04.04",
+            "price": "208 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "2 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Высшая математика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Интеллектуальный анализ данных"
+                }
+            ]
+        },
+        {
+            "fileName": "IVTMaster.pug",
+            "ico": "../../../assets/icons/courses/IVT.svg",
+            "title": "Информатика и вычислительная техника",
+            "grade": "Магистратура",
+            "cipher": "09.04.01",
+            "price": "226 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "2 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Высшая математика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Архитектура вычислительной техники и информационных систем"
+                }
+            ]
+        },
+        {
+            "fileName": "AppliedInformaticsMaster.pug",
+            "ico": "../../../assets/icons/courses/AppliedInformatics.svg",
+            "title": "Прикладная информатика",
+            "grade": "Магистратура",
+            "cipher": "09.04.03",
+            "price": "226 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "2 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Высшая математика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Корпоративные и распределенные информационные системы"
+                }
+            ]
+        },
+        {
+            "fileName": "ProgInjMaster.pug",
+            "ico": "../../../assets/icons/courses/ProgInj.svg",
+            "title": "Программная инженерия",
+            "grade": "Магистратура",
+            "cipher": "09.04.04",
+            "price": "226 000 рублей",
+            "address": "Москва, пр-кт Вернадского, 78",
+            "period": "2 года",
+            "exams": [
+                {
+                    "ico": "",
+                    "examName": "Высшая математика"
+                }
+            ],
+            "profiles": [
+                {
+                    "link": "#",
+                    "profileName": "Архитектура информационных систем"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Системная инженерия"
+                },
+                {
+                    "link": "#",
+                    "profileName": "Информационные системы управления ресурсами и взаимоотношениями предприятия"
+                }
+            ]
+        }
+    ]
+}

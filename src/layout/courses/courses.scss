@@ -19,6 +19,7 @@
         width: 100%;
         flex-wrap: wrap;
         padding: 0 15px 5px;
+        margin-bottom: 50px;
 
         border-bottom: 2px solid transparent;
         @include h3-regular();
@@ -51,6 +52,113 @@
             font-weight: 700;
         }
     }
+
+    & .courses__search {
+        position: relative;
+        width: 1170px;
+        margin: 0 auto 75px;
+
+        & input {
+            @include paragraph-regular();
+            transition: all 0.4s ease;
+            border: 1px solid white;
+            padding: 15px 64px 16px;
+            color: $paragraph-black;
+            border-radius: 15px;
+            display: block;
+            width: 100%;
+
+            &::placeholder {
+                color: rgba(44, 44, 44, 0.5);
+            }
+            &:focus {
+                border: 1px solid $primary-color;
+            }
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 15px;
+            margin: auto;
+            background-size: cover;
+            width: 24px;
+            height: 24px;
+            background: url('/assets/icons/search-loupe.svg') no-repeat;
+        }
+
+    }
 }
 
+.courses__parent {
+    & .card__container {
+        width: 1170px;
+        padding: 75px;
+        margin: 0 auto 50px;
+        background: white;
+        border-radius: 15px;
 
+        & .card__header {
+            @include flexible();
+            margin-bottom: 50px;
+        }
+
+        & .card__content {
+            display: grid;
+            grid-template-columns: 8fr 15fr;
+            grid-gap: 70px;
+
+            & .card__info {
+                & .card__item {
+                    margin-bottom: 50px;
+
+                    & .item__title {
+                        @include h3-bold();
+                        margin-bottom: 25px;
+                    }
+                    & .item__text {
+                        @include paragraph-regular();
+                        margin-bottom: 17px;
+                    }
+                }
+            }
+            & .card__profiles {
+                width: 100%;
+
+                & .profile__title {
+                    @include h3-bold();
+                    margin-bottom: 25px;
+                }
+
+                & .profile__container {
+                    display: block;
+                    padding: 15px 20px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    background-color: $primary-color;
+                    @include flexible();
+                    justify-content: space-between;
+                    border-radius: 10px;
+                    transition: all 0.4s ease;
+
+                    & .profile__text {
+                        @include paragraph-regular();
+                        color: white;
+                    }
+                    & .profile__ico {
+                        display: block;
+                    }
+
+                    &:hover {
+                        background-color: $primary-color-hover;
+                    }
+                    &:active {
+                        background-color: $primary-color-active;
+                    }
+                }
+            }
+        }
+    }
+}

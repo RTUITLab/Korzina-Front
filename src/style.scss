@@ -17,36 +17,43 @@ $paragraph-black: #2c2c2c;
 }
 
 @mixin h1 {
+    color: $paragraph-black;
     font-weight: 700;
     font-size: 72px;
     line-height: 83px;
 }
 @mixin h2-regular {
+    color: $paragraph-black;
     font-weight: 400;
     font-size: 46px;
     line-height: 53px;
 }
 @mixin h2-bold {
+    color: $paragraph-black;
     font-weight: 700;
     font-size: 46px;
     line-height: 53px;
 }
 @mixin h3-regular {
+    color: $paragraph-black;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
 }
 @mixin h3-bold {
+    color: $paragraph-black;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
 }
 @mixin paragraph-regular {
+    color: $paragraph-black;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 @mixin paragraph-bold {
+    color: $paragraph-black;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;

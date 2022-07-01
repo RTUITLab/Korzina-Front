@@ -14,5 +14,7 @@ section.courses
                 input(name="courses__nav" type="radio", id=`courses__nav__${obj}`)
                 label(for=`courses__nav__${obj}` onclick=`generateSections("${obj}")`)
                     =obj
-    //input#SearchInput
+    div.courses__search
+        input(placeholder='Поиск по направлениям')#SearchInput
+        div#SearchResult.courses__result
     section#CoursesParent.courses__parent
