@@ -3,23 +3,23 @@ include ../../data/footerData.pug
 div.footer__container
     .footer__inner
         a(href='https://www.mirea.ru/', target="_blank")
-            img(src='/assets/images/mirea-logo.svg').footer__logo
+            img(src='./assets/images/mirea-logo.svg').footer__logo
         .footer__section
             .footer__title
                 | Статистика прошлых лет
             each obj in data.statistics
-                a(href=obj.link).footer__item
+                a(href=obj.link, target="_blank").footer__item
                     =obj.title
         .footer__section
             .footer__title
                 | МИРЭА в социальных сетях
             each obj in data.social_media
-                a(href=obj.link).footer__item
+                a(href=obj.link, target="_blank").footer__item
                     =obj.title
         .footer__section
             .footer__title
                  | Чаты абитуриентов
             .footer__chats
                 each obj in data.chats
-                    a(href=obj.link).footer__item
+                    a(href=obj.link, target="_blank").footer__item
                         img(src=obj.ico, alt=obj.title)

@@ -48,9 +48,6 @@ window.addEventListener('load', onLoad.bind(globalThis));
 function getCourseCardLayout(obj) {
     let container = getElement('section', 'card__container');
 
-
-
-
     //header
     let header = getElement('div', 'card__header');
     let icon = getImage(obj.ico, obj.title, 'card__icon')
@@ -95,7 +92,7 @@ function getCourseCardLayout(obj) {
     obj.profiles.forEach((e) => {
         let profileItem = getLink(e.link, '','profile__container');
         let profileText = getElement('div', 'profile__text', e.profileName);
-        let profileIco = getImage(arrow, 'arrow', 'profile__ico');
+        let profileIco = getImage( '/assets/icons/profile_arrow.svg', 'arrow', 'profile__ico');
         profileItem = appendElement(profileItem, [profileText, profileIco])
         profiles = appendElement(profiles, [profileItem])
     })

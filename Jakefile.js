@@ -1,9 +1,11 @@
 const fs = require("fs");
 const { readdir } = require('fs').promises;
+const exec = require("child_process").exec;
 
 task("default", [
     "create course.js file",
     "create footer.pug file",
+    "buildFrontProd",
 ], function () {
 });
 
@@ -31,5 +33,37 @@ task("create footer.pug file", function () {
         fs.writeFileSync(`./src/data/footerData.pug`, file, "utf-8");
 
         resolve();
+    });
+});
+
+desc("Build Landing Front prod");
+task("buildFrontProd", function () {
+    return new Promise((resolve, reject) => {
+        const rimraf = require("rimraf");
+        rimraf.sync("./build");
+        try {
+            fs.mkdirSync("./build")
+        }catch (e){}
+        try {
+            fs.mkdirSync("./build/dist")
+        }catch (e){}
+
+        let command = "parcel build ./src/index.pug --dist-dir build --public-url ./ --no-cache "
+            + "&& cp -a ./assets ./build/ "
+            + "&& node ./postbuild.js"
+            // + "&& cp -a ./robots.txt ./build/"
+            + "&& exit 0";
+
+        exec(command, (err, stdout, stderr) => {
+            if (err) {
+                console.error(stderr);
+                reject(stderr);
+                // return;
+            }
+
+            // fs.copyFileSync("./src/images/favicon.ico","./build/favicon.ico")
+
+            resolve(true);
+        });
     });
 });

@@ -2,7 +2,7 @@
     "courses": [
         {
             "fileName": "AppliedMathBach.pug",
-            "ico": "../../../assets/icons/courses/AppliedMath.svg",
+            "ico": "/assets/icons/courses/AppliedMath.svg",
             "title": "Прикладная математика",
             "grade": "Бакалавриат",
             "cipher": "01.03.04",
@@ -32,7 +32,7 @@
         },
         {
             "fileName": "IVTBach.pug",
-            "ico": "../../../assets/icons/courses/IVT.svg",
+            "ico": "/assets/icons/courses/IVT.svg",
             "title": "Информатика и вычислительная техника",
             "grade": "Бакалавриат",
             "cipher": "09.03.01",
@@ -66,7 +66,7 @@
         },
         {
             "fileName": "AppliedInformaticsBach.pug",
-            "ico": "../../../assets/icons/courses/AppliedInformatics.svg",
+            "ico": "/assets/icons/courses/AppliedInformatics.svg",
             "title": "Прикладная информатика",
             "grade": "Бакалавриат",
             "cipher": "09.03.03",
@@ -104,7 +104,7 @@
         },
         {
             "fileName": "ProgInjBach.pug",
-            "ico": "../../../assets/icons/courses/ProgInj.svg",
+            "ico": "/assets/icons/courses/ProgInj.svg",
             "title": "Программная инженерия",
             "grade": "Бакалавриат",
             "cipher": "09.03.04",
@@ -154,7 +154,7 @@
         },
         {
             "fileName": "AppliedMathMaster.pug",
-            "ico": "../../../assets/icons/courses/AppliedMath.svg",
+            "ico": "/assets/icons/courses/AppliedMath.svg",
             "title": "Прикладная математика",
             "grade": "Магистратура",
             "cipher": "01.04.04",
@@ -176,7 +176,7 @@
         },
         {
             "fileName": "IVTMaster.pug",
-            "ico": "../../../assets/icons/courses/IVT.svg",
+            "ico": "/assets/icons/courses/IVT.svg",
             "title": "Информатика и вычислительная техника",
             "grade": "Магистратура",
             "cipher": "09.04.01",
@@ -198,7 +198,7 @@
         },
         {
             "fileName": "AppliedInformaticsMaster.pug",
-            "ico": "../../../assets/icons/courses/AppliedInformatics.svg",
+            "ico": "/assets/icons/courses/AppliedInformatics.svg",
             "title": "Прикладная информатика",
             "grade": "Магистратура",
             "cipher": "09.04.03",
@@ -220,7 +220,7 @@
         },
         {
             "fileName": "ProgInjMaster.pug",
-            "ico": "../../../assets/icons/courses/ProgInj.svg",
+            "ico": "/assets/icons/courses/ProgInj.svg",
             "title": "Программная инженерия",
             "grade": "Магистратура",
             "cipher": "09.04.04",
