@@ -1,0 +1,45 @@
+@import "./src/style.scss";
+
+.footer__container {
+    background-color: $primary-color;
+
+    & .footer__inner {
+        width: 1170px;
+        padding: 75px 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+
+        & a {
+            display: block;
+            & .footer__logo {
+                display: block;
+                width: 170px;
+            }
+        }
+
+        & .footer__section {
+            & .footer__title {
+                @include paragraph-bold();
+                color: white;
+                margin-bottom: 25px;
+            }
+            & .footer__item {
+                display: block;
+                @include paragraph-regular();
+                color: rgba(255, 255, 255, 0.75);
+                margin-bottom: 15px;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    color: white;
+                }
+            }
+            & .footer__chats {
+                @include flexible();
+                gap: 15px;
+            }
+        }
+    }
+}

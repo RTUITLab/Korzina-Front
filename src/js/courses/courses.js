@@ -56,7 +56,7 @@ function getCourseCardLayout(obj) {
     let icon = getImage(obj.ico, obj.title, 'card__icon')
     let name = getElement('div', 'card__name')
     let title = getElement('h2', 'card__title', obj.title);
-    let cipher = getElement('div', 'card__cipher', obj.cipher);
+    let cipher = getElement('h3', 'card__cipher', obj.cipher);
     name = appendElement(name, [title, cipher])
     header = appendElement(header, [icon, name])
 

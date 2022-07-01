@@ -6,8 +6,12 @@
     @include flexible();
     justify-content: center;
 
-    & img {
+    & a {
         display: block;
-        height: 7vh;
+
+        & img {
+            display: block;
+            height: 7vh;
+        }
     }
 }

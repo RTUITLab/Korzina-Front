@@ -1,10 +1,14 @@
 @import "./src/style.scss";
 
 .courses {
-    //@todo выпилить
-    padding-top: 150px;
-    min-height: 150vh;
+    padding: 150px 0;
 
+    & .courses__title {
+        @include h1();
+        text-align: center;
+        color: $paragraph-black;
+        margin-bottom: 25px;
+    }
     & .courses__title {
         @include h1();
         text-align: center;
@@ -103,6 +107,16 @@
         & .card__header {
             @include flexible();
             margin-bottom: 50px;
+
+            & .card__title {
+                @include h2-bold();
+                margin-bottom: 10px;
+            }
+
+            & .card__cipher {
+                @include h3-regular();
+                color: rgba(44, 44, 44, 0.5);
+            }
         }
 
         & .card__content {
@@ -149,6 +163,7 @@
                     }
                     & .profile__ico {
                         display: block;
+                        margin-left: 5px;
                     }
 
                     &:hover {
