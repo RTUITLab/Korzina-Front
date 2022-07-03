@@ -11,15 +11,15 @@
             "period": "4 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Математика"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_russian.svg",
                     "examName": "Русский язык"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_informatics.svg",
                     "examName": "Информатика"
                 }
             ],
@@ -33,7 +33,7 @@
         {
             "fileName": "IVTBach.pug",
             "ico": "/assets/icons/courses/IVT.svg",
-            "title": "Информатика и вычислительная техника",
+            "title": "Информатика и вычислительная\nтехника",
             "grade": "Бакалавриат",
             "cipher": "09.03.01",
             "price": "240 000 рублей",
@@ -41,15 +41,15 @@
             "period": "4 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Математика"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_russian.svg",
                     "examName": "Русский язык"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_physics.svg",
                     "examName": "Информатика / Физика"
                 }
             ],
@@ -75,15 +75,15 @@
             "period": "4 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Математика"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_russian.svg",
                     "examName": "Русский язык"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_informatics.svg",
                     "examName": "Информатика"
                 }
             ],
@@ -113,15 +113,15 @@
             "period": "4 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Математика"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_russian.svg",
                     "examName": "Русский язык"
                 },
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_informatics.svg",
                     "examName": "Информатика"
                 }
             ],
@@ -163,7 +163,7 @@
             "period": "2 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Высшая математика"
                 }
             ],
@@ -177,7 +177,7 @@
         {
             "fileName": "IVTMaster.pug",
             "ico": "/assets/icons/courses/IVT.svg",
-            "title": "Информатика и вычислительная техника",
+            "title": "Информатика и вычислительная\nтехника",
             "grade": "Магистратура",
             "cipher": "09.04.01",
             "price": "226 000 рублей",
@@ -185,7 +185,7 @@
             "period": "2 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Высшая математика"
                 }
             ],
@@ -207,7 +207,7 @@
             "period": "2 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Высшая математика"
                 }
             ],
@@ -229,7 +229,7 @@
             "period": "2 года",
             "exams": [
                 {
-                    "ico": "",
+                    "ico": "/assets/icons/exam_math.svg",
                     "examName": "Высшая математика"
                 }
             ],

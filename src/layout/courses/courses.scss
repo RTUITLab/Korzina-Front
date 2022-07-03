@@ -107,16 +107,29 @@
         & .card__header {
             @include flexible();
             margin-bottom: 50px;
+            justify-content: center;
 
-            & .card__title {
-                @include h2-bold();
-                margin-bottom: 10px;
+            & img {
+                margin-right: 35px;
+                display: block;
+                width: 80px;
             }
 
-            & .card__cipher {
-                @include h3-regular();
-                color: rgba(44, 44, 44, 0.5);
+            & .card__name {
+                padding-left: 35px;
+                border-left: 2px solid $paragraph-black;
+                & .card__title {
+                    word-wrap: break-word;
+                    @include h2-bold();
+                    margin-bottom: 10px;
+                }
+
+                & .card__cipher {
+                    @include h3-regular();
+                    color: rgba(44, 44, 44, 0.5);
+                }
             }
+
         }
 
         & .card__content {
@@ -128,6 +141,10 @@
                 & .card__item {
                     margin-bottom: 50px;
 
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
                     & .item__title {
                         @include h3-bold();
                         margin-bottom: 25px;
@@ -135,6 +152,23 @@
                     & .item__text {
                         @include paragraph-regular();
                         margin-bottom: 17px;
+                    }
+                    & .card__exam {
+                        @include flexible();
+                        margin-bottom: 17px;
+
+                        img {
+                            display: block;
+                            width: 24px;
+                            margin-right: 20px;
+                        }
+                        & .item__text {
+                            margin-bottom: 0;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
                     }
                 }
             }
@@ -166,6 +200,9 @@
                         margin-left: 5px;
                     }
 
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
                     &:hover {
                         background-color: $primary-color-hover;
                     }

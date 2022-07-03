@@ -35,10 +35,26 @@
                 &:hover {
                     color: white;
                 }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                & svg {
+                    & path {
+                        transition: all 0.4s ease;
+                    }
+                    &:hover path {
+                        fill-opacity: 1;
+                    }
+                }
             }
             & .footer__chats {
                 @include flexible();
                 gap: 15px;
+
+                & .footer__item {
+                    margin-bottom: 0;
+                }
             }
         }
     }

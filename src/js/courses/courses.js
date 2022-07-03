@@ -80,8 +80,11 @@ function getCourseCardLayout(obj) {
     let examsTitle = getElement('h3', 'item__title', 'Вступительные испытания');
     examsItem = appendElement(examsItem, [examsTitle])
     obj.exams.forEach((e) => {
+        let exam = getElement('div', 'card__exam');
+        let ico = getImage(e.ico, ' ','item__ico');
         let item = getElement('div', 'item__text', e.examName);
-        examsItem = appendElement(examsItem, [item])
+        exam = appendElement(exam, [ico, item])
+        examsItem = appendElement(examsItem, [exam])
     })
 
     info = appendElement(info, [priceItem, addressItem, periodItem, examsItem])
