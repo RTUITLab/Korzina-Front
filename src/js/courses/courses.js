@@ -1,17 +1,17 @@
-import coursesData from '../../data/data'
+import coursesData from '../../data/coursesData'
 import arrow from '../../../assets/icons/profile_arrow.svg'
 
 const coursesParent = document.getElementById('CoursesParent');
-const searchParent = document.getElementById('SearchResult');
+const searchResult = document.getElementById('SearchResult');
 const searchInput = document.getElementById("SearchInput");
 
 let displayedCourses = coursesData;
 let initProjects = false;
 let currentSection = "";
+let searchResults = [];
 
 function generateSections(e) {
     currentSection = e;
-    // searchInput.value = "";
     let sections;
     console.log('currentSection', e)
     sections = coursesData.filter((k) => {
@@ -37,10 +37,29 @@ function onLoad() {
     if (initProjects) {
         return false;
     }
-    initProjects=true
     window.removeEventListener('load', onLoad);
     generateSections('Бакалавриат')
     document.getElementById('courses__nav__Бакалавриат').checked = true;
+    coursesData.forEach(e => {
+        const courseObj = {
+            title: e.title,
+            link: '#',
+            grade: e.grade,
+            cipher: e.cipher
+        }
+        searchResults.push(courseObj);
+        e.profiles.forEach(pr => {
+            const profileObj = {
+                title: pr.profileName,
+                link: pr.link,
+                grade: e.grade,
+                cipher: e.cipher
+            }
+            searchResults.push(profileObj);
+        })
+    })
+    console.log(searchResults);
+    initProjects=true
 }
 
 window.addEventListener('load', onLoad.bind(globalThis));
@@ -105,6 +124,43 @@ function getCourseCardLayout(obj) {
     return container
 }
 
+function search(value) {
+    console.log("inputValue", value)
+    const maxResultsLength = 5
+    let sections, matchedSections, length = 0;
+    searchResult.innerHTML = '';
+    searchResult.classList.remove('result__hidden')
+    //Фильтер по уч. степени
+    sections = searchResults.filter((k) => {
+        return k.grade.indexOf(currentSection) !== -1;
+    });
+    matchedSections = sections.filter((el) => {
+        return el.title.toLowerCase().includes(value.toLowerCase()) || el.cipher.toLowerCase().includes(value.toLowerCase())
+    })
+    console.log(matchedSections)
+    if(matchedSections.length === 0 || value === '') {
+        searchResult.innerHTML = '';
+        searchResult.classList.add('result__hidden')
+    }
+    else {
+        let container = getElement('div', 'result__container');
+        matchedSections.forEach(e => {
+            if(length <= maxResultsLength) {
+                let item;
+                if(matchedSections.length === 1) {
+                    item = getLink(e.link, e.cipher + ' / ' + e.title, 'result__item result__round');
+                }
+                else item = getLink(e.link, e.cipher + ' / ' + e.title, 'result__item');
+                container = appendElement(container, [item]);
+                length++
+            }
+        })
+        appendElement(searchResult, [container])
+    }
+
+}
+
+window.search = search.bind(this);
 function getElement(element, className = '', text = '') {
     let item = document.createElement(element);
     if(className !== '') item.className = className;

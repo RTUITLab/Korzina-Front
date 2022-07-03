@@ -9,12 +9,6 @@
         color: $paragraph-black;
         margin-bottom: 25px;
     }
-    & .courses__title {
-        @include h1();
-        text-align: center;
-        color: $paragraph-black;
-        margin-bottom: 25px;
-    }
 
     & .courses__nav {
         @include flexible();
@@ -58,39 +52,93 @@
     }
 
     & .courses__search {
-        position: relative;
         width: 1170px;
         margin: 0 auto 75px;
 
-        & input {
-            @include paragraph-regular();
-            transition: all 0.4s ease;
-            border: 1px solid white;
-            padding: 15px 64px 16px;
-            color: $paragraph-black;
-            border-radius: 15px;
-            display: block;
+        .courses__input {
+            position: relative;
             width: 100%;
+            & input {
+                @include paragraph-regular();
+                transition: all 0.4s ease;
+                border: 1px solid white;
+                padding: 15px 64px 16px;
+                color: $paragraph-black;
+                border-radius: 15px;
+                display: block;
+                width: 100%;
 
-            &::placeholder {
-                color: rgba(44, 44, 44, 0.5);
+                &::placeholder {
+                    color: rgba(44, 44, 44, 0.5);
+                }
+                &:focus {
+                    border: 1px solid $primary-color;
+                }
             }
-            &:focus {
-                border: 1px solid $primary-color;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 15px;
+                margin: auto;
+                background-size: cover;
+                width: 24px;
+                height: 24px;
+                background: url('/assets/icons/search-loupe.svg') no-repeat;
             }
         }
 
-        &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 15px;
-            margin: auto;
-            background-size: cover;
-            width: 24px;
-            height: 24px;
-            background: url('/assets/icons/search-loupe.svg') no-repeat;
+
+        & .courses__result {
+            width: 100%;
+            position: relative;
+
+            & .result__container {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 15px;
+                width: 100%;
+                background: white;
+                box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+
+                & .result__item {
+                    padding: 15px;
+                    @include paragraph-regular();
+                    width: 100%;
+                    display: block;
+                    transition: all 0.4s ease;
+
+                    &:first-child {
+                        border-radius: 15px 15px 0 0;
+                    }
+                    &:last-child {
+                        border-radius: 0 0 15px 15px;
+                    }
+                    &:last-child &:first-child{
+                        border-radius: 15px;
+                    }
+                    &:hover {
+                        background-color: rgba(25, 107, 177, 0.1);
+                    }
+                }
+
+                & .result__round {
+                    &:first-child {
+                        border-radius: 15px;
+                    }
+                    &:last-child {
+                        border-radius: 15px;
+                    }
+                }
+            }
+
+            & .result__hidden {
+                display: none;
+            }
         }
 
     }
@@ -119,6 +167,7 @@
                 padding-left: 35px;
                 border-left: 2px solid $paragraph-black;
                 & .card__title {
+                    max-width: 763px;
                     word-wrap: break-word;
                     @include h2-bold();
                     margin-bottom: 10px;

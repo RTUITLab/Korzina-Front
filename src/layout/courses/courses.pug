@@ -15,6 +15,7 @@ section.courses
                 label(for=`courses__nav__${obj}` onclick=`generateSections("${obj}")`)
                     =obj
     div.courses__search
-        input(placeholder='Поиск по направлениям и профилям обучения')#SearchInput
+        .courses__input
+            input(placeholder='Поиск по направлениям и профилям обучения' oninput='search(this.value)')#SearchInput
         div#SearchResult.courses__result
     section#CoursesParent.courses__parent

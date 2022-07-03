@@ -5,22 +5,8 @@ const exec = require("child_process").exec;
 task("default", [
     "create course.js file",
     "create footer.pug file",
-    "buildFrontProd",
+    "build prod version",
 ], function () {
-});
-
-desc("Creating course.js file from /data/courses.json");
-task("create course.js file", function () {
-    return new Promise((resolve, reject) => {
-        let data = require('./data/courses.json')
-        let file;
-        fs.rmSync('./src/data', { recursive: true, force: true });
-        fs.mkdirSync('./src/data');
-
-        file = "const data = " + JSON.stringify(data.courses) + "\nexport default data;";
-        fs.writeFileSync(`./src/data/data.js`, file, "utf-8");
-        resolve();
-    });
 });
 
 desc("Creating footer.pug file from /data/footer.json");
@@ -36,8 +22,22 @@ task("create footer.pug file", function () {
     });
 });
 
-desc("Build Landing Front prod");
-task("buildFrontProd", function () {
+desc("Creating course.js file from /data/courses.json");
+task("create course.js file", function () {
+    return new Promise((resolve, reject) => {
+        let data = require('./data/courses.json')
+        let file;
+        fs.rmSync('./src/data', { recursive: true, force: true });
+        fs.mkdirSync('./src/data');
+
+        file = "const data = " + JSON.stringify(data.courses) + "\nexport default data;";
+        fs.writeFileSync(`./src/data/coursesData.js`, file, "utf-8");
+        resolve();
+    });
+});
+
+desc("Build project Front prod");
+task("build prod version", function () {
     return new Promise((resolve, reject) => {
         const rimraf = require("rimraf");
         rimraf.sync("./build");
@@ -51,7 +51,6 @@ task("buildFrontProd", function () {
         let command = "parcel build ./src/index.pug --dist-dir build --public-url ./ --no-cache "
             + "&& cp -a ./assets ./build/ "
             + "&& node ./postbuild.js"
-            // + "&& cp -a ./robots.txt ./build/"
             + "&& exit 0";
 
         exec(command, (err, stdout, stderr) => {
