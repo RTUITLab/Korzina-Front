@@ -2,6 +2,8 @@
 
 .courses {
     padding: 150px 0;
+    background:url("/assets/images/courses_background.svg") bottom no-repeat;
+    background-size: contain;
 
     & .courses__title {
         @include h1();
