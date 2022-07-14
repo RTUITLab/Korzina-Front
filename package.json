@@ -13,7 +13,8 @@
   "dependencies": {
     "parcel": "^2.6.2",
     "pug": "^3.0.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "swiper": "^8.3.1"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.6.2",

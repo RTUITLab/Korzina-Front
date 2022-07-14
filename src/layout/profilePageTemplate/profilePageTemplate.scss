@@ -22,7 +22,6 @@
         & .course__title {
             position: relative;
             z-index: 1;
-            text-align: center;
             @include h1();
             margin-bottom: 30px;
             color: white;
@@ -35,5 +34,24 @@
             @include h2-regular();
             color: white;
         }
+    }
+}
+
+.profiles__container {
+    @include page-template();
+    min-height: 400vh;
+
+    & .profiles__title {
+        @include h1();
+        margin-bottom: 50px;
+    }
+}
+
+.card__parent {
+    & .card__content {
+       grid-gap: 50px;
+    }
+    & .card__container {
+        cursor: grab;
     }
 }

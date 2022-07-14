@@ -11,6 +11,7 @@ html(lang="ru")
 
         script(src='../js/profilePageTemplate/profilePageTemplate.js', type='module')
         script(src='../js/header/header.js', type='module')
+        link(rel="stylesheet" href="../swiper/swiper-bundle.min.css")
         link(rel="stylesheet" href="../style.scss")
         link(rel="stylesheet" href="../layout/profilePageTemplate/profilePageTemplate.scss")
         link(rel="stylesheet" href="../layout/header/header.scss")
@@ -28,6 +29,57 @@ html(lang="ru")
                     h2.course__cipher
                         =obj.cipher
                         |  /
+                        |
                         =obj.grade
+            section.profiles__container
+                h1.profiles__title
+                    | Профили подготовки
+                .swiper-pagination.profilesSwiperPagination
+                .swiper.profilesSwiperParent
+                    .swiper-wrapper
+                        each item in obj.profiles
+                            .swiper-slide
+                                .card__parent
+                                    .card__container
+                                        .card__header
+                                            img(src=`#`).card__icon
+                                            .card__name
+                                                .card__title
+                                                    =item.profileName
+                                        .card__content
+                                            .card__info
+                                                .card__item
+                                                    .item__title
+                                                        | Стоимость обучения
+                                                    .item__text
+                                                        =obj.price
+                                                .card__item
+                                                    .item__title
+                                                        | Адрес обучения
+                                                    .item__text
+                                                        =obj.address
+                                                .card__item
+                                                    .item__title
+                                                        | Срок обучения
+                                                    .item__text
+                                                        =obj.period
+                                                .card__item
+                                                    .item__title
+                                                        | Вступительные испытания
+                                                    each exam in item.exams
+                                                        .card__exam
+                                                            img(src=`${exam.ico}`).item__ico
+                                                            .item__text
+                                                                =exam.examName
+                                            .card__profiles
+                                                h3.profile__title
+                                                    | Описание профиля обучения
+                                                .profile__description
+                                                    =item.description
+                                                .profile__important
+                                                    span
+                                                        | Важно:
+                                                        |
+                                                    =item.important
         footer
             include ../footer/footer.pug
