@@ -1,1 +1,39 @@
 @import "./src/style.scss";
+
+.course__header {
+    position: relative;
+    height: 46vh;
+    width: 100%;
+    @include flexible();
+    justify-content: center;
+
+    & .course__background {
+        z-index: 0;
+        height: inherit;
+        display: block;
+        width: 100%;
+        @include absoluteCenter();
+        object-fit: cover;
+    }
+    & .course__information {
+        width: 1200px;
+        margin: 0 auto;
+
+        & .course__title {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            @include h1();
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        & .course__cipher {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            @include h2-regular();
+            color: white;
+        }
+    }
+}

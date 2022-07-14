@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.pug --open -p 3000 --no-cache",
-    "build": "parcel build src/index.pug --dist-dir build --public-url ./ "
+    "start": "parcel src/index.pug src/profiles/*.pug --open -p 3000 --no-cache",
+    "build": "parcel build src/index.pug src/profiles/*.pug --dist-dir build --public-url ./ "
   },
   "keywords": [],
   "author": "",

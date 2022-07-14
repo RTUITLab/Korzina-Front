@@ -1,10 +1,12 @@
 const fs = require("fs");
+const data = require('./data/courses.json')
 const { readdir } = require('fs').promises;
 const exec = require("child_process").exec;
 
 task("default", [
     "create course.js file",
     "create footer.pug file",
+    "create profile files",
     "build prod version",
 ], function () {
 });
@@ -43,11 +45,9 @@ task("create profile files", function () {
         fs.mkdirSync('./src/profiles');
         let data = require('./data/courses.json')
 
-        console.log(result)
         for (let j in data.courses) {
-            fs.writeFileSync(`./src/profiles/${j.fileName}`, "extends ../test/test.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]), 'utf-8');
+            fs.writeFileSync(`./src/profiles/${data.courses[j].fileName}`, "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(data.courses[j]), 'utf-8');
         }
-        file = undefined;
         resolve();
     });
 })
@@ -65,9 +65,17 @@ task("build prod version", function () {
         }catch (e){}
 
         let command = "parcel build ./src/index.pug --dist-dir build --public-url ./ --no-cache "
+            + "&& parcel build ./src/profiles/*.pug --dist-dir build --public-url ./ --no-cache "
             + "&& cp -a ./assets ./build/ "
-            + "&& node ./postbuild.js"
+            + "&& node ./postbuild.js && node ./postbuild.js profiles"
             + "&& exit 0";
+        if (process.platform === "win32") command =
+        	"parcel build ./src/index.pug --dist-dir build --public-url ./ --no-cache"
+        	+ "&& parcel build ./src/profiles/*.pug --dist-dir build/profiles --public-url ./ --no-cache"
+        	+ "&& mkdir .\\build\\assets"
+        	+ "&& xcopy /E .\\assets .\\build\\assets\\"
+        	+ "&& node .\\postbuild.js && node .\\postbuild.js profiles"
+        	+ "&& exit 0";
 
         exec(command, (err, stdout, stderr) => {
             if (err) {

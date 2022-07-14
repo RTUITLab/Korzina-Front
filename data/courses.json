@@ -3,6 +3,7 @@
         {
             "fileName": "AppliedMathBach.pug",
             "ico": "/assets/icons/courses/AppliedMath.svg",
+            "background": "/assets/images/courses_backgrounds/AppliedMathBack.png",
             "title": "Прикладная математика",
             "grade": "Бакалавриат",
             "cipher": "01.03.04",
@@ -152,6 +153,7 @@
         {
             "fileName": "IVTBach.pug",
             "ico": "/assets/icons/courses/IVT.svg",
+            "background": "/assets/images/courses_backgrounds/IVTBack.png",
             "title": "Информатика и вычислительная техника",
             "grade": "Бакалавриат",
             "cipher": "09.03.01",
@@ -454,6 +456,7 @@
         {
             "fileName": "AppliedInformaticsBach.pug",
             "ico": "/assets/icons/courses/AppliedInformatics.svg",
+            "background": "/assets/images/courses_backgrounds/AppliedInformaticsBack.png",
             "title": "Прикладная информатика",
             "grade": "Бакалавриат",
             "cipher": "09.03.03",
@@ -849,6 +852,7 @@
         {
             "fileName": "ProgInjBach.pug",
             "ico": "/assets/icons/courses/ProgInj.svg",
+            "background": "/assets/images/courses_backgrounds/ProgInjBack.png",
             "title": "Программная инженерия",
             "grade": "Бакалавриат",
             "cipher": "09.03.04",
@@ -1613,6 +1617,7 @@
         {
             "fileName": "AppliedMathMaster.pug",
             "ico": "/assets/icons/courses/AppliedMath.svg",
+            "background": "/assets/images/courses_backgrounds/AppliedMathBack.png",
             "title": "Прикладная математика",
             "grade": "Магистратура",
             "cipher": "01.04.04",
@@ -1635,6 +1640,7 @@
         {
             "fileName": "IVTMaster.pug",
             "ico": "/assets/icons/courses/IVT.svg",
+            "background": "/assets/images/courses_backgrounds/IVTBack.png",
             "title": "Информатика и вычислительная техника",
             "grade": "Магистратура",
             "cipher": "09.04.01",
@@ -1657,6 +1663,8 @@
         {
             "fileName": "AppliedInformaticsMaster.pug",
             "ico": "/assets/icons/courses/AppliedInformatics.svg",
+            "background": "/assets/images/courses_backgrounds/AppliedInformaticsBack.png",
+
             "title": "Прикладная информатика",
             "grade": "Магистратура",
             "cipher": "09.04.03",
@@ -1679,6 +1687,7 @@
         {
             "fileName": "ProgInjMaster.pug",
             "ico": "/assets/icons/courses/ProgInj.svg",
+            "background": "/assets/images/courses_backgrounds/ProgInjBack.png",
             "title": "Программная инженерия",
             "grade": "Магистратура",
             "cipher": "09.04.04",

@@ -9,12 +9,25 @@ html(lang="ru")
         meta(name="description" content=obj.description)
         title #{obj.title}
 
-        script(src='../../js/profilePageTemplate/profilePageTemplate.js', type='module')
+        script(src='../js/profilePageTemplate/profilePageTemplate.js', type='module')
+        script(src='../js/header/header.js', type='module')
+        link(rel="stylesheet" href="../style.scss")
+        link(rel="stylesheet" href="../layout/profilePageTemplate/profilePageTemplate.scss")
+        link(rel="stylesheet" href="../layout/header/header.scss")
+        link(rel="stylesheet" href="../layout/footer/footer.scss")
 
     body
         header
             include ../header/header.pug
         main
-
+            section.course__header
+                img(src=`${obj.background}`).course__background
+                .course__information
+                    h1.course__title
+                        =obj.title
+                    h2.course__cipher
+                        =obj.cipher
+                        |  /
+                        =obj.grade
         footer
             include ../footer/footer.pug

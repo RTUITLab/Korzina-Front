@@ -29,4 +29,4 @@ yarn-error.log*
 
 /.parcel-cache
 /src/data
-/src/layout/profiles
+/src/profiles
