@@ -1,17 +1,72 @@
 @import "./src/style.scss";
 
 .header__top {
-    height: 12vh;
+    height: 14vh;
     background-color: $primary-color;
-    @include flexible();
-    justify-content: center;
 
-    & a {
-        display: block;
+    & .header__inner {
+        width: 1170px;
+        height: inherit;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas: 'back logo compare';
+        align-items: center;
 
         & img {
             display: block;
-            height: 7vh;
+        }
+
+        & .header__logo {
+            margin: 0 auto;
+            display: block;
+            grid-area: logo;
+
+            & img {
+                height: 9vh;
+            }
+        }
+
+        & .header__compare {
+            margin-left: auto;
+            grid-area: compare;
+            &:hover {
+                & path {
+                    fill-opacity: 1;
+                }
+            }
+            & svg {
+                height: 6vh;
+                & path {
+                    transition: all 0.4s ease;
+                }
+            }
+        }
+
+        & .header__back {
+            margin-right: auto;
+            grid-area: back;
+            outline: none;
+            background-color: transparent;
+            display: block;
+            cursor: pointer;
+
+            &:hover {
+                & path {
+                    stroke-opacity: 1;
+                }
+            }
+            & svg {
+                height: 4vh;
+                & path {
+                    transition: all 0.4s ease;
+                }
+            }
+        }
+
+        & .header__hidden {
+            display: none;
         }
     }
+
 }

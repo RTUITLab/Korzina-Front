@@ -1,3 +1,7 @@
+const headerCompare = document.getElementById('HeaderCompare');
+const headerBack = document.getElementById('HeaderBack');
+
+let initProjects = false;
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]'));
 const animationTime = 500;
 const framesCount = 60;
@@ -30,3 +34,16 @@ anchors.forEach(function(item) {
         }, animationTime / framesCount);
     });
 });
+
+function onLoad() {
+    if (initProjects) {
+        return false;
+    }
+    window.removeEventListener('load', onLoad);
+    if(window.location.pathname !== '/') {
+        headerBack.classList.remove('header__hidden');
+    }
+    initProjects=true;
+}
+
+window.addEventListener('load', onLoad.bind(globalThis));

@@ -1,5 +1,6 @@
 import coursesData from '../../data/coursesData'
 import arrow from '../../../assets/icons/profile_arrow.svg'
+import {appendElement, getElement, getImage, getLink} from "../../create-elements";
 
 const coursesParent = document.getElementById('CoursesParent');
 const searchResult = document.getElementById('SearchResult');
@@ -161,32 +162,3 @@ function search(value) {
 }
 
 window.search = search.bind(this);
-function getElement(element, className = '', text = '') {
-    let item = document.createElement(element);
-    if(className !== '') item.className = className;
-    if(text !== '') item.innerText = text;
-    return item;
-}
-
-function getImage(src, alt, className = '') {
-    let item = document.createElement('img');
-    if(className !== '') item.className = className;
-    item.src = src;
-    item.alt = alt;
-    return item;
-}
-
-function getLink(href, text = '', className = '') {
-    let item = document.createElement('a');
-    if(className !== '') item.className = className;
-    item.href = href;
-    item.innerText = text;
-    return item;
-}
-
-function appendElement(parentElement, children = []) {
-    children.forEach((e) => {
-        parentElement.appendChild(e)
-    })
-    return parentElement;
-}
