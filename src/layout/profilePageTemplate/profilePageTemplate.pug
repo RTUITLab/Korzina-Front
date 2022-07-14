@@ -1,0 +1,20 @@
+block variables
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description" content=obj.description)
+        title #{obj.title}
+
+        script(src='../../js/profilePageTemplate/profilePageTemplate.js', type='module')
+
+    body
+        header
+            include ../header/header.pug
+        main
+
+        footer
+            include ../footer/footer.pug
