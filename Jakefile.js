@@ -36,6 +36,22 @@ task("create course.js file", function () {
     });
 });
 
+desc("Creating profile .pug files from /data/courses.json");
+task("create profile files", function () {
+    return new Promise((resolve, reject) => {
+        fs.rmSync('./src/profiles', { recursive: true, force: true });
+        fs.mkdirSync('./src/profiles');
+        let data = require('./data/courses.json')
+
+        console.log(result)
+        for (let j in data.courses) {
+            fs.writeFileSync(`./src/profiles/${j.fileName}`, "extends ../test/test.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]), 'utf-8');
+        }
+        file = undefined;
+        resolve();
+    });
+})
+
 desc("Build project Front prod");
 task("build prod version", function () {
     return new Promise((resolve, reject) => {
