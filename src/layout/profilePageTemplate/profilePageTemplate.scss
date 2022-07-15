@@ -39,7 +39,6 @@
 
 .profiles__container {
     @include page-template();
-    min-height: 400vh;
 
     & .profiles__title {
         @include h1();
@@ -56,11 +55,15 @@
     }
 }
 
-.card__based {
+.card__subject {
     & .card__topic {
         margin: 100px 0 50px;
         @include h2-bold;
         text-align: center;
+    }
+
+    & .card__special {
+        margin: 75px 0 50px;
     }
 
     & .subject {
@@ -91,6 +94,12 @@
                 line-height: 14px;
                 text-align: center;
                 color: $paragraph-black;
+            }
+        }
+
+        & .subject__container__disabled {
+            & .subject__icon {
+                background: #CBCBCB;
             }
         }
     }

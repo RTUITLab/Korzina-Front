@@ -84,19 +84,41 @@ html(lang="ru")
                                                     =item.important
                                                 button(onclick="console.log('click')").card__button
                                                     | Добавить к сравнению
-                                        .card__based
+                                        .card__subject
                                             h2.card__topic
                                                 | Базовые компетенции
                                             .subject
                                                 each base in item.based
-                                                    .subject__container
-                                                        .subject__icon
-                                                            if(base.isActive)
+                                                    if(base.isActive)
+                                                        .subject__container
+                                                            .subject__icon
                                                                 img(src=`${base.ico}`)
-                                                            else
+                                                            .subject__name
+                                                                =base.title
+                                                    else
+                                                        .subject__container.subject__container__disabled
+                                                            .subject__icon
                                                                 img(src=`${base.ico_disable}`)
-                                                        .subject__name
-                                                            =base.title
+                                                            .subject__name
+                                                                =base.title
+                                        if item.special
+                                            .card__subject
+                                                h2.card__topic.card__special
+                                                    | Профильные компетенции
+                                                .subject
+                                                    each special in item.special
+                                                        if(special.isActive)
+                                                            .subject__container
+                                                                .subject__icon
+                                                                    img(src=`${special.ico}`)
+                                                                .subject__name
+                                                                    =special.title
+                                                        else
+                                                            .subject__container.subject__container__disabled
+                                                                .subject__icon
+                                                                    img(src=`${special.ico_disable}`)
+                                                                .subject__name
+                                                                    =special.title
 
 
         footer
