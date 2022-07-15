@@ -70,12 +70,16 @@ function getCourseCardLayout(obj) {
 
     //header
     let header = getElement('div', 'card__header');
+    let iconContainer = getElement('div',  'card__iconContainer')
     let icon = getImage(obj.ico, obj.title, 'card__icon')
+    let nameContainer = getElement('div', 'card__nameContainer');
     let name = getElement('div', 'card__name')
     let title = getElement('h2', 'card__title', obj.title);
     let cipher = getElement('h3', 'card__cipher', obj.cipher);
     name = appendElement(name, [title, cipher])
-    header = appendElement(header, [icon, name])
+    iconContainer = appendElement(iconContainer, [icon])
+    nameContainer = appendElement(nameContainer, [name])
+    header = appendElement(header, [iconContainer, nameContainer])
 
     //content
     let content = getElement('div', 'card__content');

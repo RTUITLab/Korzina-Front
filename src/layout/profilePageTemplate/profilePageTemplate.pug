@@ -42,9 +42,10 @@ html(lang="ru")
                                 .card__parent
                                     .card__container
                                         .card__header
-                                            img(src=`#`).card__icon
-                                            .card__name
-                                                .card__title
+                                            .card__iconContainer
+                                                img(src=`${item.ico}`).card__icon.profileCard__icon
+                                            .card__nameContainer
+                                                span.card__title.profileCard__title
                                                     =item.profileName
                                         .card__content
                                             .card__info
@@ -83,5 +84,17 @@ html(lang="ru")
                                                     =item.important
                                                 button(onclick="console.log('click')").card__button
                                                     | Добавить к сравнению
+                                        .card__based
+                                            h2.card__topic
+                                                | Базовые компетенции
+                                            .subject
+                                                each base in item.based
+                                                    .subject__container
+                                                        .subject__icon
+                                                            img(src=`${base.ico}`)
+                                                        .subject__name
+                                                            =base.title
+
+
         footer
             include ../footer/footer.pug

@@ -55,3 +55,43 @@
         cursor: grab;
     }
 }
+
+.card__based {
+    & .card__topic {
+        margin: 100px 0 50px;
+        @include h2-bold;
+        text-align: center;
+    }
+
+    & .subject {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 9px 25px;
+        justify-content: center;
+        align-items: flex-start;
+
+        .subject__container {
+            .subject__icon {
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(73.81% 92.33% at 8.65% 12.15%, #65BFFF 0%, #FF6FCE 100%);
+                border-radius: 10px;
+                @include flexible();
+                justify-content: center;
+                margin: 0 auto 10px;
+
+                & img {
+                    display: block;
+
+                }
+            }
+
+            .subject__name {
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                color: $paragraph-black;
+            }
+        }
+    }
+}
