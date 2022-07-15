@@ -91,7 +91,10 @@ html(lang="ru")
                                                 each base in item.based
                                                     .subject__container
                                                         .subject__icon
-                                                            img(src=`${base.ico}`)
+                                                            if(base.isActive)
+                                                                img(src=`${base.ico}`)
+                                                            else
+                                                                img(src=`${base.ico_disable}`)
                                                         .subject__name
                                                             =base.title
 
