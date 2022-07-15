@@ -14,7 +14,7 @@ let searchResults = [];
 function generateSections(e) {
     currentSection = e;
     let sections;
-    console.log('currentSection', e)
+    localStorage.setItem('section', e)
     sections = coursesData.filter((k) => {
         return k.grade.indexOf(currentSection) !== -1;
     });
@@ -39,8 +39,17 @@ function onLoad() {
         return false;
     }
     window.removeEventListener('load', onLoad);
-    generateSections('Бакалавриат')
-    document.getElementById('courses__nav__Бакалавриат').checked = true;
+    const section = localStorage.getItem('section');
+    if(section) {
+        generateSections(section)
+        document.getElementById('courses__nav__' + section).checked = true;
+    }
+    else {
+        generateSections('Бакалавриат')
+        document.getElementById('courses__nav__Бакалавриат').checked = true;
+    }
+
+
     coursesData.forEach(e => {
         const courseObj = {
             title: e.title,

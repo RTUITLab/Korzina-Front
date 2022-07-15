@@ -45,21 +45,21 @@ html(lang="ru")
                                             .card__iconContainer
                                                 img(src=`${item.ico}`).card__icon.profileCard__icon
                                             .card__nameContainer
-                                                span.card__title.profileCard__title
+                                                .card__title.profileCard__title
                                                     =item.profileName
                                         .card__content
                                             .card__info
-                                                .card__item
+                                                .card__item.profileCard__item
                                                     .item__title
                                                         | Стоимость обучения
                                                     .item__text
                                                         =obj.price
-                                                .card__item
+                                                .card__item.profileCard__item
                                                     .item__title
                                                         | Адрес обучения
                                                     .item__text
                                                         =obj.address
-                                                .card__item
+                                                .card__item.profileCard__item
                                                     .item__title
                                                         | Срок обучения
                                                     .item__text

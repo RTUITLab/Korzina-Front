@@ -61,9 +61,7 @@ body {
                 @include h3-regular();
                 color: rgba(44, 44, 44, 0.5);
             }
-
         }
-
     }
 
     & .card__content {
@@ -72,6 +70,7 @@ body {
         grid-gap: 70px;
 
         & .card__info {
+
             & .card__item {
                 margin-bottom: 50px;
 
@@ -105,7 +104,12 @@ body {
                     }
                 }
             }
+            & .profileCard__item {
+                margin-bottom: 68px;
+            }
         }
+
+
         & .card__profiles {
             width: 100%;
             position: relative;
