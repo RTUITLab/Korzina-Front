@@ -10,7 +10,6 @@ function onLoad() {
         return false;
     }
     const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]'));
-    console.log(anchors)
 
     anchors.forEach(function(item) {
         // каждому якорю присваиваем обработчик события

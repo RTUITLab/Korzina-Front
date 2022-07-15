@@ -5,7 +5,7 @@ let swiper = null
 function onLoad() {
     swiper = new Swiper(".profilesSwiperParent", {
         slidesPerView: "auto",
-        loop: true,
+        loop: false,
         spaceBetween: 15,
         modules: [Pagination],
         pagination: {
@@ -14,6 +14,12 @@ function onLoad() {
             type: "bullets"
         },
     })
+
+    const params = new URLSearchParams(window.location.search)
+    const index = params.get('index');
+    if(!isNaN(Number(index)) && index) {
+        swiper.slideTo(Number(index));
+    }
 }
 
 function toNext() {

@@ -51,13 +51,13 @@ $paragraph-black: #2c2c2c;
     color: $paragraph-black;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 20px;
 }
 @mixin paragraph-bold {
     color: $paragraph-black;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 @mixin page-template {
@@ -67,6 +67,17 @@ $paragraph-black: #2c2c2c;
 
     @media (max-width: 1170px) {
         background-size: cover;
+    }
+}
+
+@mixin button-actions {
+    transition: all 0.4s ease;
+
+    &:hover {
+        background-color: $primary-color-hover;
+    }
+    &:active {
+        background-color: $primary-color-active;
     }
 }
 
@@ -123,7 +134,7 @@ body {
 
     & .card__content {
         display: grid;
-        grid-template-columns: 8fr 15fr;
+        grid-template-columns: max-content 1fr;
         grid-gap: 70px;
 
         & .card__info {
@@ -163,6 +174,7 @@ body {
         }
         & .card__profiles {
             width: 100%;
+            position: relative;
 
             & .profile__title {
                 @include h3-bold();
@@ -192,12 +204,8 @@ body {
                 &:last-child {
                     margin-bottom: 0;
                 }
-                &:hover {
-                    background-color: $primary-color-hover;
-                }
-                &:active {
-                    background-color: $primary-color-active;
-                }
+
+                @include button-actions();
             }
 
             & .profile__description {
@@ -212,6 +220,20 @@ body {
                     @include paragraph-bold();
                     color: $primary-color;
                 }
+            }
+
+            & .card__button {
+                cursor: pointer;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: block;
+                @include paragraph-bold();
+                color: white;
+                padding: 15px 40px;
+                border-radius: 15px;
+                background-color: $primary-color;
+                @include button-actions();
             }
         }
     }
