@@ -1,0 +1,70 @@
+{
+    "fileName": "AppliedInformaticsMaster.pug",
+    "position": 3,
+    "ico": "/assets/icons/courses/AppliedInformatics.svg",
+    "background": "/assets/images/courses_backgrounds/AppliedInformaticsBack.png",
+    "title": "Прикладная информатика",
+    "grade": "Магистратура",
+    "cipher": "09.04.03",
+    "price": "226 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/AppliedInformaticsMaster.html",
+            "profileName": "Корпоративные и распределенные информационные системы",
+            "ico": "/assets/icons/profiles/kis.svg",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "description": "В рамках данной магистерской программы студенты познакомятся с цифровым производством, с принципами его функционирования, получат навыки применения технологии IIoT в производстве, разработки встраиваемых систем управления технологическим оборудованием. Студенты научатся как создавать самостоятельное программное обеспечение, так и интегрировать свои решения в существующие программные продукты и системы, овладеют навыками построения и администрирования ИТ-инфраструктурой предприятия. В лабораториях студенты научатся работать с системами управления российского производства, а также зарубежных фирм Siemens, OMRON, Bosch Rexroth, B&R Industrial Automation и др. Выпускники данной образовательной программы окажутся подготовленными к процессу цифровой трансформации производственных предприятий.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитектура, программирование и разработка программных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методология информационно-аналитической работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управление информационно-технологическими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка баз и хранилищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интеллекутальные системы и технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управление проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управление бизнес процессами"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "fileName": "ProgInjMaster.pug",
+    "position": 4,
+    "ico": "/assets/icons/courses/ProgInj.svg",
+    "background": "/assets/images/courses_backgrounds/ProgInjBack.png",
+    "title": "Программная инженерия",
+    "grade": "Магистратура",
+    "cipher": "09.04.04",
+    "price": "226 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/ProgInjMaster.html",
+            "profileName": "Архитектура информационных систем",
+            "ico": "/assets/icons/profiles/archIS.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в сфере анализа, выбора и реализации архитектурных решений при проектировании программного обеспечения и информационно-вычислительных систем различного назначения в контексте их индустриального производства.\n\nУчебный процесс проходит в компьютерных классах, оснащённых современным аппаратно-программным обеспечением и мультимедийным оборудованием, изучаются отечественные и зарубежные практики индустриального производства программного обеспечения, анализа, выбора и реализации архитектурных решений.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитектура, программирование и разработка программных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методология информационно-аналитической работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управление информационно-технологическими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка баз и хранилищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интеллекутальные системы и технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управление проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управление бизнес процессами"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjMaster.html/?index=1",
+            "profileName": "Информационные системы управления ресурсами и взаимоотношениями предприятия",
+            "ico": "/assets/icons/profiles/resourceControl.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области стандартизации программной и системной инженерии, создания и развития сложных, многоверсионных, тиражируемых программных средств и баз данных высокого качества и надежности на основе междисциплинарного подхода. Лаборатории оснащены современным компьютерным, сетевым, мультимедийным и офисным оборудованием, обеспечивающим учебный процесс, исследовательские проекты и инициативные разработки. Студентам предоставляются возможности для самостоятельной работы, в том числе в области разработки и внедрения программного обеспечения, а также сетевого и системного администрирования.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитектура, программирование и разработка программных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методология информационно-аналитической работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управление информационно-технологическими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка баз и хранилищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интеллекутальные системы и технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управление проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управление бизнес процессами"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjMaster.html/?index=2",
+            "profileName": "Системная инженерия",
+            "ico": "/assets/icons/profiles/sipi.svg",
+            "description": "Программа направлена на углубленную подготовку профессионалов в вопросах внедрения, сопровождения, доработки и эксплуатации отечественных и зарубежных систем класса ERPII (ERRP, Enterprise Resource and Relationship Processing), включающих функционал синхронизированного планирования ресурсов предприятия (Customer Synchronized Resource Planning, CSRP), планирования потребностей в материалах (Material Requirements Planing, MRP), планирования потребностей в производственных ресурсах (Manufacturing Resource Planing, MRPII), управления взаимоотношениями с клиентами (Customer Relationship Management, CRM), а также управления цепочками поставок (Supply Chain Management, SCM).",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [
+                {
+                    "ico": "/assets/icons/exam_math.svg",
+                    "examName": "Высшая математика"
+                }
+            ],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитектура, программирование и разработка программных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методология информационно-аналитической работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управление информационно-технологическими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка баз и хранилищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интеллекутальные системы и технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управление проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управление бизнес процессами"
+                }
+            ]
+        }
+    ]
+}

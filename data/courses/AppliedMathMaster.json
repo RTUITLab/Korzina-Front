@@ -1,0 +1,70 @@
+{
+    "fileName": "AppliedMathMaster.pug",
+    "position": 1,
+    "ico": "/assets/icons/courses/AppliedMath.svg",
+    "background": "/assets/images/courses_backgrounds/AppliedMathBack.png",
+    "title": "Прикладная математика",
+    "grade": "Магистратура",
+    "cipher": "01.04.04",
+    "price": "208 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/AppliedMathMaster.html",
+            "profileName": "Интеллектуальный анализ данных",
+            "ico": "/assets/icons/profiles/analyseData.svg",
+            "description": "Профессиональная деятельность выпускников включает применение, разработку и исследование программного обеспечения, а также математических методов и моделей, предназначенных для анализа, выработки и подготовки решений во всех сферах деятельности и в конкретных предметных областях. Углублённо изучаются классические математические дисциплины, современные концепции и методы прикладной и вычислительной математики, методы математического моделирования и анализа данных применительно к различным предметным областям: экономике, физике, технике, исследованию природных процессов и т.д.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитектура, программирование и разработка программных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методология информационно-аналитической работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управление информационно-технологическими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка баз и хранилищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интеллекутальные системы и технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управление проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управление бизнес процессами"
+                }
+            ]
+        }
+    ]
+}
