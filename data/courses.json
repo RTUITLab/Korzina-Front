@@ -1023,6 +1023,240 @@
                             "isActive": true,
                             "title": "Программирование на языке Джава"
                         }
+                    ],
+                    "special": [
+                        {
+                            "ico": "/assets/icons/subjects/virtualizing.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии виртуализации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pzo.svg",
+                            "isActive": true,
+                            "title": "Практические задачи оптимизации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": true,
+                            "title": "Реинжиниринг бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Корпоративная архитектура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matan.svg",
+                            "isActive": true,
+                            "title": "Основы численных методов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/analyseData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                            "isActive": true,
+                            "title": "Методы анализа данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/infManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/infManage_disable.svg",
+                            "isActive": true,
+                            "title": "Информационный менеджмент"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": true,
+                            "title": "Архитектура организаций"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": true,
+                            "title": "Информационно-технологическая инфраструктура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathModel_disable.svg",
+                            "isActive": false,
+                            "title": "Математическое моделирование прикладных задач"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": false,
+                            "title": "Предметно-ориентированное проектирование"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/predAnalyse.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/predAnalyse_disable.svg",
+                            "isActive": false,
+                            "title": "Модели и методы предиктивной аналитики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/siaod.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                            "isActive": true,
+                            "title": "Структуры и алгоритмы обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/tkbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/tkbp_disable.svg",
+                            "isActive": true,
+                            "title": "Технологии контроллинга бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/dynSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/dynSyst_disable.svg",
+                            "isActive": false,
+                            "title": "Моделирование динамических систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура приложений и данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathObesp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                            "isActive": false,
+                            "title": "Математическое обеспечение систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": false,
+                            "title": "Стратегии трансформации бизнес-процессов и моделей"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/1c.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/1c_disable.svg",
+                            "isActive": true,
+                            "title": "Разработка конфигураций в среде “1С: Предприятие”"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": true,
+                            "title": "Проектирование предметно-ориентированных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matStat.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/matStat_disable.svg",
+                            "isActive": false,
+                            "title": "Прикладные задачи математической статистики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/ML.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/ML_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии и инструментарий машинного обучения"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура интеграции и развертывания"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/imitModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/imitModel_disable.svg",
+                            "isActive": false,
+                            "title": "Программные средства имитационного моделирования систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": true,
+                            "title": "Управление информационно-технологическими сервисами и контентом"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/resourceManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                            "isActive": true,
+                            "title": "Информационные системы управления ресурсами организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/langStatProc.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/langStatProc_disable.svg",
+                            "isActive": false,
+                            "title": "Языки программирования для статической обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/lifeCycle.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                            "isActive": false,
+                            "title": "Управление жизненным циклом информационных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": true,
+                            "title": "Предметно-ориентированные информационные системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование архитектуры цифровой организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obespSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                            "isActive": true,
+                            "title": "Разработка обеспечивающих подсистем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": true,
+                            "title": "Информационные системы управления корпоративным контентом и взаимоотношениями с клиентами "
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obrStatData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obrStatData_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии организации, обработки и хранения статистических данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/progAnalyseSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/progAnalyseSyst_disable.svg",
+                            "isActive": true,
+                            "title": "Прогнозно-аналитические системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mobileDev.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                            "isActive": true,
+                            "title": "Разработка мобильных приложений"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/standarts.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                            "isActive": false,
+                            "title": "Стандарты цифровых технологий"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": false,
+                            "title": "Системы управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/microservises.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура микросервисов"
+                        }
                     ]
                 },
                 {
@@ -1153,6 +1387,240 @@
                             "isActive": true,
                             "title": "Программирование на языке Джава"
                         }
+                    ],
+                    "special": [
+                        {
+                            "ico": "/assets/icons/subjects/virtualizing.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии виртуализации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pzo.svg",
+                            "isActive": true,
+                            "title": "Практические задачи оптимизации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": false,
+                            "title": "Реинжиниринг бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Корпоративная архитектура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matan.svg",
+                            "isActive": true,
+                            "title": "Основы численных методов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/analyseData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                            "isActive": true,
+                            "title": "Методы анализа данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/infManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/infManage_disable.svg",
+                            "isActive": false,
+                            "title": "Информационный менеджмент"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура организаций"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": false,
+                            "title": "Информационно-технологическая инфраструктура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathModel_disable.svg",
+                            "isActive": true,
+                            "title": "Математическое моделирование прикладных задач"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": false,
+                            "title": "Предметно-ориентированное проектирование"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/predAnalyse.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/predAnalyse_disable.svg",
+                            "isActive": true,
+                            "title": "Модели и методы предиктивной аналитики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/siaod.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                            "isActive": true,
+                            "title": "Структуры и алгоритмы обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/tkbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/tkbp_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии контроллинга бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/dynSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/dynSyst_disable.svg",
+                            "isActive": true,
+                            "title": "Моделирование динамических систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура приложений и данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathObesp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                            "isActive": true,
+                            "title": "Математическое обеспечение систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": false,
+                            "title": "Стратегии трансформации бизнес-процессов и моделей"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/1c.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/1c_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка конфигураций в среде “1С: Предприятие”"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование предметно-ориентированных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matStat.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/matStat_disable.svg",
+                            "isActive": true,
+                            "title": "Прикладные задачи математической статистики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/ML.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/ML_disable.svg",
+                            "isActive": true,
+                            "title": "Технологии и инструментарий машинного обучения"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура интеграции и развертывания"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": true,
+                            "title": "Проектирование систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/imitModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/imitModel_disable.svg",
+                            "isActive": true,
+                            "title": "Программные средства имитационного моделирования систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": false,
+                            "title": "Управление информационно-технологическими сервисами и контентом"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/resourceManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                            "isActive": false,
+                            "title": "Информационные системы управления ресурсами организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/langStatProc.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/langStatProc_disable.svg",
+                            "isActive": true,
+                            "title": "Языки программирования для статической обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/lifeCycle.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                            "isActive": false,
+                            "title": "Управление жизненным циклом информационных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": true,
+                            "title": "Предметно-ориентированные информационные системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование архитектуры цифровой организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obespSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка обеспечивающих подсистем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": false,
+                            "title": "Информационные системы управления корпоративным контентом и взаимоотношениями с клиентами "
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obrStatData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obrStatData_disable.svg",
+                            "isActive": true,
+                            "title": "Технологии организации, обработки и хранения статистических данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/progAnalyseSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/progAnalyseSyst_disable.svg",
+                            "isActive": true,
+                            "title": "Прогнозно-аналитические системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mobileDev.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка мобильных приложений"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/standarts.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                            "isActive": false,
+                            "title": "Стандарты цифровых технологий"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": true,
+                            "title": "Системы управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/microservises.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура микросервисов"
+                        }
                     ]
                 },
                 {
@@ -1282,6 +1750,240 @@
                             "ico": "/assets/icons/subjects/java.svg",
                             "isActive": true,
                             "title": "Программирование на языке Джава"
+                        }
+                    ],
+                    "special": [
+                        {
+                            "ico": "/assets/icons/subjects/virtualizing.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                            "isActive": true,
+                            "title": "Технологии виртуализации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pzo.svg",
+                            "isActive": true,
+                            "title": "Практические задачи оптимизации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": false,
+                            "title": "Реинжиниринг бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Корпоративная архитектура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matan.svg",
+                            "isActive": true,
+                            "title": "Основы численных методов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/analyseData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                            "isActive": false,
+                            "title": "Методы анализа данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/infManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/infManage_disable.svg",
+                            "isActive": false,
+                            "title": "Информационный менеджмент"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура организаций"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": true,
+                            "title": "Информационно-технологическая инфраструктура"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathModel_disable.svg",
+                            "isActive": false,
+                            "title": "Математическое моделирование прикладных задач"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": true,
+                            "title": "Предметно-ориентированное проектирование"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/predAnalyse.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/predAnalyse_disable.svg",
+                            "isActive": false,
+                            "title": "Модели и методы предиктивной аналитики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/siaod.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                            "isActive": true,
+                            "title": "Структуры и алгоритмы обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/tkbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/tkbp_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии контроллинга бизнес-процессов"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/dynSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/dynSyst_disable.svg",
+                            "isActive": false,
+                            "title": "Моделирование динамических систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/pis.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                            "isActive": true,
+                            "title": "Архитектура приложений и данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mathObesp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                            "isActive": false,
+                            "title": "Математическое обеспечение систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mbp.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mbp_disable.svg",
+                            "isActive": true,
+                            "title": "Стратегии трансформации бизнес-процессов и моделей"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/1c.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/1c_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка конфигураций в среде “1С: Предприятие”"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование предметно-ориентированных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/matStat.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/matStat_disable.svg",
+                            "isActive": false,
+                            "title": "Прикладные задачи математической статистики"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/ML.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/ML_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии и инструментарий машинного обучения"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                            "isActive": false,
+                            "title": "Архитектура интеграции и развертывания"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": false,
+                            "title": "Проектирование систем управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/imitModel.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/imitModel_disable.svg",
+                            "isActive": false,
+                            "title": "Программные средства имитационного моделирования систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": false,
+                            "title": "Управление информационно-технологическими сервисами и контентом"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/resourceManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                            "isActive": true,
+                            "title": "Информационные системы управления ресурсами организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/langStatProc.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/langStatProc_disable.svg",
+                            "isActive": false,
+                            "title": "Языки программирования для статической обработки данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/lifeCycle.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                            "isActive": true,
+                            "title": "Управление жизненным циклом информационных систем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/aikms.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                            "isActive": true,
+                            "title": "Предметно-ориентированные информационные системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/corpArch.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/corpArch_disable.svg",
+                            "isActive": true,
+                            "title": "Проектирование архитектуры цифровой организации"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obespSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка обеспечивающих подсистем"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/contentManage.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                            "isActive": true,
+                            "title": "Информационные системы управления корпоративным контентом и взаимоотношениями с клиентами "
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/obrStatData.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/obrStatData_disable.svg",
+                            "isActive": false,
+                            "title": "Технологии организации, обработки и хранения статистических данных"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/progAnalyseSyst.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/progAnalyseSyst_disable.svg",
+                            "isActive": false,
+                            "title": "Прогнозно-аналитические системы"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/mobileDev.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                            "isActive": false,
+                            "title": "Разработка мобильных приложений"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/standarts.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                            "isActive": true,
+                            "title": "Стандарты цифровых технологий"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/database.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                            "isActive": false,
+                            "title": "Системы управления данными"
+                        },
+                        {
+                            "ico": "/assets/icons/subjects/microservises.svg",
+                            "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                            "isActive": true,
+                            "title": "Архитектура микросервисов"
                         }
                     ]
                 }
