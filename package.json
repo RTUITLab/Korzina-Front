@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.pug src/profiles/*.pug --open -p 3000 --no-cache",
-    "build": "parcel build src/index.pug src/profiles/*.pug --dist-dir build --public-url ./ "
+    "build": "parcel build src/index.pug src/profiles/*.pug --dist-dir build --public-url ./ ",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@parcel/transformer-pug": "^2.6.2",
     "@parcel/transformer-sass": "^2.6.2",
+    "gh-pages": "^4.0.0",
     "jake": "^10.8.5",
     "lodash.escaperegexp": "^4.1.2",
     "replace-in-file": "^6.3.5",

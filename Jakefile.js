@@ -88,7 +88,7 @@ task("build prod version", function () {
         if (process.platform === "win32") command =
         	"parcel build ./src/index.pug --dist-dir build --public-url ./ --no-cache"
         	+ "&& parcel build ./src/profiles/*.pug --dist-dir build/profiles --public-url ./ --no-cache"
-        	+ "&& mkdir .\\build\\assets"
+        	+ "&& mkdir .\\build\\assets\\"
         	+ "&& xcopy /E .\\assets .\\build\\assets\\"
         	+ "&& node .\\postbuild.js && node .\\postbuild.js profiles"
         	+ "&& exit 0";
