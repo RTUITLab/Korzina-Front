@@ -1000,9 +1000,9 @@
                     "title": "Технологии и инструментарий машинного обучения"
                 },
                 {
-                    "ico": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                    "ico": "/assets/icons/subjects/archInter.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/archInter_disable.svg",
-                    "isActive": false,
+                    "isActive": true,
                     "title": "Архитектура интеграции и развертывания"
                 },
                 {
