@@ -22,7 +22,7 @@
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизированных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
@@ -63,6 +63,58 @@
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
                     "title": "Управление бизнес процессами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/obespKis.svg",
+                    "isActive": true,
+                    "title": "Программное обеспечение коропративных информационных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/kis.svg",
+                    "isActive": true,
+                    "title": "Проектирование корпоративных информационных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infTech.svg",
+                    "isActive": true,
+                    "title": "Базовые и прикладные информационные технологии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/optManage.svg",
+                    "isActive": true,
+                    "title": "Модели и методы оптимального управления"
+                },
+                {
+                    "ico": "/assets/icons/subjects/supportSyst.svg",
+                    "isActive": true,
+                    "title": "Системы и службы поддержки пользователей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pasprIS.svg",
+                    "isActive": true,
+                    "title": "Распределенные информационные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/kis.svg",
+                    "isActive": true,
+                    "title": "Корпоративные информационные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/dataProcessingMethods.svg",
+                    "isActive": true,
+                    "title": "Методы обработки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Современные проблемы и методы прикладной информатики и развития информационного общества"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "isActive": true,
+                    "title": "Методы и технологии управления данными организации"
                 }
             ]
         }

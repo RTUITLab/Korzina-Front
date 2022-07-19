@@ -22,7 +22,7 @@
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизированных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
@@ -63,6 +63,58 @@
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
                     "title": "Управление бизнес процессами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "isActive": true,
+                    "title": "Инструментальные средства проектирования цифровых устройств в составе инфо-коммуникационных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "isActive": true,
+                    "title": "Проектирование и разработка цифровых устройств на базе программируемых логических интегральных схем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/nonlinearDyn.svg",
+                    "isActive": true,
+                    "title": "Инструментальные свойства разработки программно-аппаратных комплексов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avtProekt.svg",
+                    "isActive": true,
+                    "title": "Зарубежные комплексы обработки информации и автоматизированного проектирования"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progObesp.svg",
+                    "isActive": true,
+                    "title": "Программное обеспечение устройств и систем вычислительной техники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/controlDiagnostics.svg",
+                    "isActive": true,
+                    "title": "Контроль и диагностика цифровых устройств в инфо-коммуникационных системах"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитектура устройств и систем вычислительной техники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "isActive": true,
+                    "title": "Верификация проектов в системах автоматизированного проектирования"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "isActive": true,
+                    "title": "Проектирование устройств и систем вычислительной техники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "isActive": true,
+                    "title": "Проектирование систем на кристалле"
                 }
             ]
         }

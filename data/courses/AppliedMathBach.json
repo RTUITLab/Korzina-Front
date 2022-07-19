@@ -227,7 +227,7 @@
                     "title": "Технологии организации, обработки и хранения статистических данных"
                 },
                 {
-                    "ico": "/assets/icons/subjects/imitModeling.svg",
+                    "ico": "/assets/icons/subjects/imitModel.svg",
                     "isActive": true,
                     "title": "Программные средства имитационного моделирования систем"
                 }

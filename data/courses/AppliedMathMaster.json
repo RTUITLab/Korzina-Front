@@ -22,7 +22,7 @@
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизированных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
@@ -63,6 +63,53 @@
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
                     "title": "Управление бизнес процессами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "isActive": true,
+                    "title": "Построение и применение нейронных сетей и генетических алгоритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "isActive": true,
+                    "title": "Технологии хранения и интерактивной обработки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/imitModel.svg",
+                    "isActive": true,
+                    "title": "Программное обеспечение параллельных вычислений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObespAnalyse.svg",
+                    "isActive": true,
+                    "title": "Информационное обеспечение систем анализа данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/nonlinearDyn.svg",
+                    "isActive": true,
+                    "title": "Прикладные задачи нелинейной динамики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathModel.svg",
+                    "isActive": true,
+                    "title": "Математическое моделирование прикладных задач"
+                },
+                {
+                    "ico": "/assets/icons/subjects/predAnalyse.svg",
+                    "isActive": true,
+                    "title": "Прогнозно-аналитические системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intAnalyse.svg",
+                    "isActive": true,
+                    "title": "Интеллектуальный анализ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "isActive": true,
+                    "title": "Методы анализа данных"
                 }
             ]
         }
