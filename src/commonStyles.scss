@@ -22,6 +22,10 @@ body {
     background: white;
     border-radius: 15px;
 
+    &:last-child {
+        margin: 0 auto;
+    }
+
     & .card__header {
         display: flex;
         justify-content: center;

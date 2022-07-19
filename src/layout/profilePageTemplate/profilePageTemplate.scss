@@ -69,11 +69,12 @@
     & .subject {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-gap: 9px 25px;
+        grid-gap: 25px 9px;
         justify-content: center;
         align-items: flex-start;
 
         .subject__container {
+            width: 120px;
             .subject__icon {
                 width: 100px;
                 height: 100px;
@@ -94,12 +95,16 @@
                 line-height: 14px;
                 text-align: center;
                 color: $paragraph-black;
+                word-wrap: break-word;
             }
         }
 
         & .subject__container__disabled {
             & .subject__icon {
                 background: #CBCBCB;
+            }
+            & .subject__name__disabled {
+                color: rgba(44, 44, 44, 0.5);
             }
         }
     }
