@@ -58,12 +58,8 @@ task("create profile files", function () {
         }
         result.sort((a,b) => (a.position > b.position) ? 1 : ((b.position > a.position) ? -1 : 0));
         for (let j in result) {
-            fs.writeFileSync(`./src/profiles/${dir[j]}.pug`,  "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]), 'utf-8');
+            fs.writeFileSync(`./src/profiles/${result[j].fileName}`,  "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]), 'utf-8');
         }
-
-        // for (let j in data.courses) {
-        //     fs.writeFileSync(`./src/profiles/${data.courses[j].fileName}`, "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(data.courses[j]), 'utf-8');
-        // }
         resolve();
     });
 })
