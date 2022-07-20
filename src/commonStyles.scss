@@ -180,3 +180,33 @@ body {
         }
     }
 }
+
+.swiper-pagination {
+    width: 100% !important;
+    position: relative !important;
+    bottom: auto !important;
+    margin: 0 auto 50px;
+    column-gap: 15px;
+    @include flexible();
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    opacity: 1;
+    background-color: rgba(25, 107, 177, 0.5);;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: $primary-color;
+    width: 30px;
+    height: 30px;
+}
+
+.swiper-pagination-bullet:only-child {
+    display: flex !important;
+}
