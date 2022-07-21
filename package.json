@@ -2,10 +2,11 @@
   "name": "korzina-front",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://rtuitlab.github.io/korzina-front",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.pug src/profiles/*.pug --open -p 3000 --no-cache",
-    "build": "parcel build src/index.pug src/profiles/*.pug --dist-dir build --public-url ./ ",
+    "start": "parcel src/index.pug src/profiles/*.pug src/compare/compare.pug --open -p 3000 --no-cache",
+    "build": "parcel build src/index.pug src/profiles/*.pug src/compare/compare.pug --dist-dir build --public-url ./ ",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],

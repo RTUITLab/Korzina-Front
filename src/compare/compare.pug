@@ -1,0 +1,25 @@
+- var headerLink = './compare.pug'
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description" content="Сравнение профилей обучения")
+        title Сравнение
+
+        script(src='../js/header/header.js', type='module')
+        link(rel="stylesheet" href="../commonStyles.scss")
+        link(rel="stylesheet" href="./compare.scss")
+        link(rel="stylesheet" href="../layout/header/header.scss")
+        link(rel="stylesheet" href="../layout/footer/footer.scss")
+
+    body
+        header
+            include ../layout/header/header
+        main
+            h1
+                | Hello world
+        footer
+            include ../layout/footer/footer
