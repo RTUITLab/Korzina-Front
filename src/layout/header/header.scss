@@ -1,72 +1,99 @@
 @import "./src/style.scss";
 
 .header__top {
-    height: 14vh;
-    background-color: $primary-color;
+    position: relative;
+    padding-top: 14vh;
 
-    & .header__inner {
-        width: 1170px;
-        height: inherit;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-areas: 'back logo compare';
-        align-items: center;
+    & .header__outer {
+        position: fixed;
+        z-index: 100;
+        height: 14vh;
+        background-color: $primary-color;
+        top: 0;
+        left: 0;
+        right: 0;
 
-        & img {
-            display: block;
-        }
-
-        & .header__logo {
+        & .header__inner {
+            width: 1170px;
+            height: inherit;
             margin: 0 auto;
-            display: block;
-            grid-area: logo;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-areas: 'back logo compare';
+            align-items: center;
 
             & img {
-                height: 9vh;
+                display: block;
             }
-        }
 
-        & .header__compare {
-            margin-left: auto;
-            grid-area: compare;
-            &:hover {
-                & path {
-                    fill-opacity: 1;
+            & .header__logo {
+                margin: 0 auto;
+                display: block;
+                grid-area: logo;
+
+                & img {
+                    height: 9vh;
                 }
             }
-            & svg {
-                height: 6vh;
-                & path {
-                    transition: all 0.4s ease;
+
+            & .header__compare {
+                position: relative;
+                margin-left: auto;
+                grid-area: compare;
+                &:hover {
+                    & path {
+                        fill-opacity: 1;
+                    }
+                }
+                & svg {
+                    height: 6vh;
+                    & path {
+                        transition: all 0.4s ease;
+                    }
+                }
+                & .header__badge {
+                    position: absolute;
+                    left: -30%;
+                    top: -6%;
+                    font-size: 14px;
+                    line-height: 16px;
+                    width: 20px;
+                    height: 20px;
+                    background-color: #CA0202;
+                    border-radius: 50%;
+                    color: white;
+                    @include flexible();
+                    justify-content: center;
+                }
+                & .header__badge__hidden {
+                    display: none;
                 }
             }
-        }
 
-        & .header__back {
-            margin-right: auto;
-            grid-area: back;
-            outline: none;
-            background-color: transparent;
-            display: block;
-            cursor: pointer;
+            & .header__back {
+                margin-right: auto;
+                grid-area: back;
+                outline: none;
+                background-color: transparent;
+                display: block;
+                cursor: pointer;
 
-            &:hover {
-                & path {
-                    stroke-opacity: 1;
+                &:hover {
+                    & path {
+                        stroke-opacity: 1;
+                    }
+                }
+                & svg {
+                    height: 4vh;
+                    & path {
+                        transition: all 0.4s ease;
+                    }
                 }
             }
-            & svg {
-                height: 4vh;
-                & path {
-                    transition: all 0.4s ease;
-                }
-            }
-        }
 
-        & .header__hidden {
-            display: none;
+            & .header__hidden {
+                display: none;
+            }
         }
     }
-
 }

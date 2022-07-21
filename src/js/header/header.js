@@ -1,15 +1,24 @@
+import coursesData from '../../data/coursesData'
 const headerCompare = document.getElementById('HeaderCompare');
 const headerBack = document.getElementById('HeaderBack');
+const compareButton = document.getElementById('CompareButton');
 
 let initProjects = false;
 const animationTime = 500;
 const framesCount = 60;
 
+const profiles = [];
+
 function onLoad() {
     if (initProjects) {
         return false;
     }
+    const savedProfiles = JSON.parse(localStorage.getItem('profiles'))
     const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]'));
+
+    if(isProfileAlreadyAppend(savedProfiles, window.location.pathname + window.location.search)) {
+        compareButton.classList.add('card__button__hidden')
+    }
 
     anchors.forEach(function(item) {
         // каждому якорю присваиваем обработчик события
@@ -39,11 +48,46 @@ function onLoad() {
             }, animationTime / framesCount);
         });
     });
-    window.removeEventListener('load', onLoad);
     if(window.location.pathname !== '/') {
         headerBack.classList.remove('header__hidden');
     }
+
+    // filling profiles array
+    coursesData.forEach((item) => {
+        item.profiles.forEach((profile) => {
+            profiles.push(profile)
+        })
+    })
+
     initProjects=true;
+    window.removeEventListener('load', onLoad);
 }
 
 window.addEventListener('load', onLoad.bind(globalThis));
+
+function handleAppendProfile(profileName) {
+    const savedProfiles = JSON.parse(localStorage.getItem('profiles'))
+    const currentProfile = profiles.filter((profile) => profile.profileName === profileName)[0]
+
+    if(!isProfileAlreadyAppend(savedProfiles, profileName)) {
+        if(!savedProfiles) {
+            localStorage.setItem('profiles', JSON.stringify([currentProfile]))
+        }
+        else {
+            if(savedProfiles.length === 2) {
+                savedProfiles.splice(0, 1)
+            }
+            savedProfiles.push(currentProfile)
+            localStorage.setItem('profiles', JSON.stringify(savedProfiles))
+        }
+
+        compareButton.classList.add('card__button__hidden')
+    }
+}
+
+window.handleAppendProfile = handleAppendProfile.bind(globalThis);
+
+function isProfileAlreadyAppend(array, value) {
+    if(!array) return false
+    return array.find(item => item.profileName === value) || array.find(item => item.link === value)
+}

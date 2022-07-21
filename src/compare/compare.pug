@@ -18,8 +18,14 @@ html(lang="ru")
     body
         header
             include ../layout/header/header
-        main
-            h1
-                | Hello world
+        main.compare.compare__background__top
+            h1.compare__title
+                | Сравнение профилей
+            section.compare__container
+                div.compare__empty
+                    h2.compare__subtitle
+                        | Для сравнения добавьте два профиля
+                    a(href='/').compare__link
+                        | Перейти к выбору
         footer
             include ../layout/footer/footer

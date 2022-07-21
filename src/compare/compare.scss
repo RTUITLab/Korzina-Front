@@ -1,1 +1,34 @@
-@import "../style";
+@import "./src/style.scss";
+
+.compare {
+    @include page-template();
+
+    & .compare__title {
+        @include h1();
+    }
+
+    & .compare__container {
+        width: 1170px;
+        margin: 0 auto;
+
+        & .compare__empty {
+            margin: 240px 0 255px;
+
+            & .compare__subtitle {
+                @include h2-bold();
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            & .compare__link {
+                margin: 0 auto;
+                @include cta-button();
+            }
+        }
+    }
+
+}
+
+.compare__background__top {
+    background:url("/assets/images/courses_background.svg") top no-repeat;
+    background-size: cover;
+}

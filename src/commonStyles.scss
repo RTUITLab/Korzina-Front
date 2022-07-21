@@ -177,6 +177,10 @@ body {
                 background-color: $primary-color;
                 @include button-actions();
             }
+
+            & .card__button__hidden {
+                display: none;
+            }
         }
     }
 }

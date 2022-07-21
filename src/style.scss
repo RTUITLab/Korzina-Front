@@ -80,3 +80,19 @@ $paragraph-black: #2c2c2c;
         background-color: $primary-color-active;
     }
 }
+
+@mixin button {
+    @include button-actions();
+    display: block;
+    width: max-content;
+    cursor: pointer;
+    background-color: $primary-color;
+    color: white;
+}
+
+@mixin cta-button {
+    @include h3-bold();
+    @include button();
+    padding: 20px 45px;
+    border-radius: 15px;
+}

@@ -9,13 +9,13 @@ html(lang="ru")
         meta(name="description" content=obj.description)
         title #{obj.title}
 
-        script(src='../js/profilePageTemplate/profilePageTemplate.js', type='module')
-        script(src='../js/header/header.js', type='module')
         link(rel="stylesheet" href="../swiper/swiper-bundle.min.css")
         link(rel="stylesheet" href="../commonStyles.scss")
         link(rel="stylesheet" href="../layout/profilePageTemplate/profilePageTemplate.scss")
         link(rel="stylesheet" href="../layout/header/header.scss")
         link(rel="stylesheet" href="../layout/footer/footer.scss")
+        script(src='../js/header/header.js', type='module')
+        script(src='../js/profilePageTemplate/profilePageTemplate.js', type='module')
 
     body
         header
@@ -82,8 +82,9 @@ html(lang="ru")
                                                         | Важно:
                                                         |
                                                     =item.important
-                                                button(onclick="console.log('click')").card__button
-                                                    | Добавить к сравнению
+                                                div(class=`${item.profileName}__button`)
+                                                    button(onclick=`handleAppendProfile('${item.profileName}')`).card__button#CompareButton
+                                                        | Добавить к сравнению
                                         .card__subject
                                             h2.card__topic
                                                 | Базовые компетенции
