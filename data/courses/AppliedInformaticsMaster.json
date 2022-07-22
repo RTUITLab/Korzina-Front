@@ -13,6 +13,7 @@
     "profiles": [
         {
             "link": "/profiles/AppliedInformaticsMaster.html",
+            "className": "kis",
             "profileName": "Корпоративные и распределенные информационные системы",
             "ico": "/assets/icons/profiles/kis.svg",
             "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",

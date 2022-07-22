@@ -16,10 +16,6 @@ function onLoad() {
     const savedProfiles = JSON.parse(localStorage.getItem('profiles'))
     const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]'));
 
-    if(isProfileAlreadyAppend(savedProfiles, window.location.pathname + window.location.search)) {
-        compareButton.classList.add('card__button__hidden')
-    }
-
     anchors.forEach(function(item) {
         // каждому якорю присваиваем обработчик события
         item.addEventListener('click', function(e) {
@@ -59,6 +55,17 @@ function onLoad() {
         })
     })
 
+    // hide profiles button which already append to compare
+    if(savedProfiles?.length > 0) {
+        savedProfiles.forEach((item) => {
+            const currentProfile = profiles.filter((profile) => {
+                return profile.link === item.link
+            })[0]
+            const currentElement = document.getElementsByClassName(currentProfile.className)[0]
+            if(currentElement) currentElement.classList.add('card__button__hidden')
+        })
+    }
+
     initProjects=true;
     window.removeEventListener('load', onLoad);
 }
@@ -75,13 +82,19 @@ function handleAppendProfile(profileName) {
         }
         else {
             if(savedProfiles.length === 2) {
+                const erasedElement = document.getElementsByClassName(savedProfiles[0].className)[0]
+                erasedElement.classList.remove('card__button__hidden')
                 savedProfiles.splice(0, 1)
+            }
+            else {
+
             }
             savedProfiles.push(currentProfile)
             localStorage.setItem('profiles', JSON.stringify(savedProfiles))
         }
 
-        compareButton.classList.add('card__button__hidden')
+        const currentElement = document.getElementsByClassName(currentProfile.className)[0]
+        currentElement.classList.add('card__button__hidden')
     }
 }
 

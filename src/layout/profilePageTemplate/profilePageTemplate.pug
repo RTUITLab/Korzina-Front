@@ -82,9 +82,8 @@ html(lang="ru")
                                                         | Важно:
                                                         |
                                                     =item.important
-                                                div(class=`${item.profileName}__button`)
-                                                    button(onclick=`handleAppendProfile('${item.profileName}')`).card__button#CompareButton
-                                                        | Добавить к сравнению
+                                                button(class=`${item.className} card__button`, onclick=`handleAppendProfile('${item.profileName}')`)#CompareButton
+                                                    | Добавить к сравнению
                                         .card__subject
                                             h2.card__topic
                                                 | Базовые компетенции
