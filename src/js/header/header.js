@@ -1,7 +1,6 @@
 import coursesData from '../../data/coursesData'
 const headerCompare = document.getElementById('HeaderCompare');
 const headerBack = document.getElementById('HeaderBack');
-const compareButton = document.getElementById('CompareButton');
 
 let initProjects = false;
 const animationTime = 500;
@@ -58,6 +57,9 @@ function onLoad() {
     // hide profiles button which already append to compare
     if(savedProfiles?.length > 0) {
         savedProfiles.forEach((item) => {
+            headerCompare.innerText = savedProfiles.length
+            headerCompare.classList.remove('header__badge__hidden')
+
             const currentProfile = profiles.filter((profile) => {
                 return profile.link === item.link
             })[0]
@@ -79,6 +81,8 @@ function handleAppendProfile(profileName) {
     if(!isProfileAlreadyAppend(savedProfiles, profileName)) {
         if(!savedProfiles) {
             localStorage.setItem('profiles', JSON.stringify([currentProfile]))
+            headerCompare.innerText = '1'
+            headerCompare.classList.remove('header__badge__hidden')
         }
         else {
             if(savedProfiles.length === 2) {
@@ -86,13 +90,10 @@ function handleAppendProfile(profileName) {
                 erasedElement.classList.remove('card__button__hidden')
                 savedProfiles.splice(0, 1)
             }
-            else {
-
-            }
+            headerCompare.innerText = '2'
             savedProfiles.push(currentProfile)
             localStorage.setItem('profiles', JSON.stringify(savedProfiles))
         }
-
         const currentElement = document.getElementsByClassName(currentProfile.className)[0]
         currentElement.classList.add('card__button__hidden')
     }
