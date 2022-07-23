@@ -1,4 +1,4 @@
-- var headerLink = './compare.pug'
+- var headerLink = './compare'
 
 doctype html
 html(lang="ru")
@@ -7,7 +7,7 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         meta(name="description" content="Сравнение профилей обучения")
-        title Сравнение
+        title Сравнение профилей
 
         script(src='../js/header/header.js', type='module')
         link(rel="stylesheet" href="../commonStyles.scss")
@@ -21,7 +21,7 @@ html(lang="ru")
         main.compare.compare__background__top
             h1.compare__title
                 | Сравнение профилей
-            section.compare__container
+            section.compare__container#CompareContainer
                 div.compare__empty
                     h2.compare__subtitle
                         | Для сравнения добавьте два профиля

@@ -2,6 +2,7 @@ $primary-color: #196BB1;
 $primary-color-hover: #0175D8;
 $primary-color-active: #15568D;
 $paragraph-black: #2c2c2c;
+$paragraph-black-05: rgba(44, 44, 44, 0.5);
 
 @mixin flexible {
     display: flex;

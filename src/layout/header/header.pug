@@ -3,9 +3,8 @@ div.header__top
         .header__inner
             button(onclick=`history.back()`).header__back.header__hidden#HeaderBack
                 include ../../../assets/icons/header_arrow.svg
-            a(href='https://www.mirea.ru/', target="_blank").header__logo
+            a(href='/').header__logo
                 img(src='/assets/images/mirea-logo.svg' alt='MIREA-logo')
-            a(href=`${headerLink}`).header__compare
+            a(href=`${headerLink}.pug`).header__compare
                 div.header__badge.header__badge__hidden#HeaderCompare
-                    | 2
                 include ../../../assets/icons/header_compare.svg

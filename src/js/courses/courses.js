@@ -4,7 +4,6 @@ import {appendElement, getElement, getImage, getLink} from "../../create-element
 
 const coursesParent = document.getElementById('CoursesParent');
 const searchResult = document.getElementById('SearchResult');
-const searchInput = document.getElementById("SearchInput");
 
 let displayedCourses = coursesData;
 let initProjects = false;
@@ -74,7 +73,7 @@ function onLoad() {
 
 window.addEventListener('load', onLoad.bind(globalThis));
 
-function getCourseCardLayout(obj) {
+function getCourseCardLayout(obj) { //course object
     let container = getElement('section', 'card__container');
 
     //header
