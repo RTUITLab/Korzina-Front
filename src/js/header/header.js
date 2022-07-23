@@ -61,22 +61,23 @@ function onLoad() {
         })
     })
 
-    // hide profiles button which already append to compare
     if(savedProfiles?.length > 0) {
         savedProfiles.forEach((item) => {
             headerCompare.innerText = savedProfiles.length
             headerCompare.classList.remove('header__badge__hidden')
+
             const currentProfile = profiles.filter((profile) => {
                 return profile.link === item.link
             })[0]
             const currentElement = document.getElementsByClassName(currentProfile.className)[0]
-            if(currentElement) currentElement.classList.add('card__button__hidden')
+            if(currentElement) currentElement.classList.add('card__button__hidden') //hide button
         })
 
         if(compareContainer) {
             compareContainer.innerHTML = '';
             compareContainer.appendChild(getComparePageLayout(savedProfiles))
         }
+        correctNameHeight()
     }
 
     initProjects=true;
@@ -121,6 +122,7 @@ function handleDeleteProfile(obj) {
             compareContainer.appendChild(getComparePageLayout(filteredProfiles))
             headerCompare.innerText = '1'
             localStorage.setItem('profiles', JSON.stringify(filteredProfiles))
+            correctNameHeight()
         }
         else {
             headerCompare.classList.remove('header__badge__hidden')
@@ -156,7 +158,8 @@ function getCompareCardLayout(obj) { //profile object
 
     //header
     let header = getElement('div', 'compare__header');
-    const name = getElement('h3', 'compare__name', obj.profileName);
+    const name = getElement('h3', 'compare__name compare__head', obj.profileName);
+    name.id = 'CompareName'
     let button = getElement('button', 'compare__button');
     const svg = getCrossSvg();
 
@@ -254,4 +257,17 @@ function getCrossSvg() {
 
     svg.appendChild(newpath)
     return svg
+}
+
+function correctNameHeight() {
+    const names = document.getElementsByClassName('compare__head')
+    let maxHeight = 0;
+    if(names?.length > 0) {
+        for (let item of names) {
+            if(item.clientHeight > maxHeight) maxHeight = item.clientHeight
+        }
+        for (let item of names) {
+            item.style.height = String(maxHeight) + 'px'
+        }
+    }
 }
