@@ -31,6 +31,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
+        align-items: flex-start;
 
         & .compare__card {
             background-color: white;
@@ -43,24 +44,30 @@
 
             & .compare__header {
                 display: grid;
+                align-items: flex-start;
                 grid-template-columns: 1fr 18px;
                 grid-column-gap: 10px;
                 margin-bottom: 15px;
 
-                & svg {
-                    cursor: pointer;
+                & .compare__button {
+                    display: block;
                     position: relative;
                     top: 5px;
-                    & path {
-                        transition: all 0.4s ease;
-                    }
-                    &:hover {
+                    cursor: pointer;
+                    background-color: transparent;
+                    & svg {
                         & path {
-                            stroke: #FF4E4E;
-                            stroke-opacity: 1;
+                            transition: all 0.4s ease;
+                        }
+                        &:hover {
+                            & path {
+                                stroke: #FF4E4E;
+                                stroke-opacity: 1;
+                            }
                         }
                     }
                 }
+
             }
 
             & .compare__course {
@@ -102,31 +109,17 @@
                 }
             }
 
-            & .compare__link {
-                display: inline-block;
-                @include paragraph-regular();
-                color: $primary-color;
-                padding-bottom: 5px;
-                border-bottom: 1px solid $primary-color;
-                transition: all 0.4s ease;
-                &:hover {
-                    color: $primary-color-hover;
-                    border-bottom: 1px solid $primary-color-hover;
-                }
-                &:active {
-                    color: $primary-color-active;
-                    border-bottom: 1px solid $primary-color-active;
-                }
-                margin-bottom: 50px;
-            }
-
             & .compare__subjects {
-                margin-top: 25px;
+                margin: 25px 0 50px;
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 grid-gap: 15px 5px;
                 justify-content: center;
                 align-items: flex-start;
+
+                &:last-child {
+                    margin: 25px 0 0;
+                }
 
                 .compare__subject {
                     width: 120px;
@@ -153,6 +146,40 @@
                     }
                 }
             }
+        }
+
+        & .compare__emptyProfile {
+            padding: 35px;
+
+            & .compare__emptyTitle {
+                @include h3-bold();
+                text-align: center;
+                margin-bottom: 35px;
+            }
+
+        }
+        & .compare__emptyLink {
+            @include h3-regular();
+            margin: 0 auto;
+        }
+
+        & .compare__link {
+            display: block;
+            width: max-content;
+            @include paragraph-regular();
+            color: $primary-color;
+            padding-bottom: 5px;
+            border-bottom: 1px solid $primary-color;
+            transition: all 0.4s ease;
+            &:hover {
+                color: $primary-color-hover;
+                border-bottom: 1px solid $primary-color-hover;
+            }
+            &:active {
+                color: $primary-color-active;
+                border-bottom: 1px solid $primary-color-active;
+            }
+            margin-bottom: 50px;
         }
     }
 

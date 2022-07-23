@@ -1,5 +1,6 @@
 import Swiper, {Pagination} from 'swiper'
 
+const compareLink = document.getElementById('CompareLink')
 let swiper = null
 
 function onLoad() {
@@ -15,6 +16,7 @@ function onLoad() {
         },
     });
 
+    compareLink.href = '../compare/compare.html'
     const params = new URLSearchParams(window.location.search)
     const index = params.get('index')
     if(!isNaN(Number(index)) && index) {

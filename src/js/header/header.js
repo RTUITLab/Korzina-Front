@@ -112,15 +112,42 @@ function handleAppendProfile(profileName) {
 
 window.handleAppendProfile = handleAppendProfile.bind(globalThis);
 
+function handleDeleteProfile(obj) {
+    const savedProfiles = JSON.parse(localStorage.getItem('profiles'))
+    if(savedProfiles) {
+        const filteredProfiles = savedProfiles.filter((item) => item.profileName !== obj.profileName)
+        compareContainer.innerHTML = '';
+        if(filteredProfiles.length === 1) {
+            compareContainer.appendChild(getComparePageLayout(filteredProfiles))
+            headerCompare.innerText = '1'
+            localStorage.setItem('profiles', JSON.stringify(filteredProfiles))
+        }
+        else {
+            headerCompare.classList.remove('header__badge__hidden')
+            localStorage.removeItem('profiles')
+            compareContainer.appendChild(getEmptyComparePageLayout())
+        }
+    }
+}
+
 function isProfileAlreadyAppend(array, value) {
     if(!array) return false
     return array.find(item => item.profileName === value) || array.find(item => item.link === value)
 }
 
 function getComparePageLayout(savedProfiles) {
-    const container = getElement('div', 'compare__layout');
-    const card = getCompareCardLayout(savedProfiles[0])
-    container.appendChild(card)
+    let container = getElement('div', 'compare__layout');
+    if(savedProfiles.length === 1) {
+        const card = getCompareCardLayout(savedProfiles[0])
+        const empty = getEmptySecondProfileLayout()
+        container = appendElement(container, [card, empty])
+    }
+    else {
+        const first = getCompareCardLayout(savedProfiles[0])
+        const second = getCompareCardLayout(savedProfiles[1])
+        container = appendElement(container, [first, second])
+    }
+
     return container
 }
 
@@ -130,8 +157,14 @@ function getCompareCardLayout(obj) { //profile object
     //header
     let header = getElement('div', 'compare__header');
     const name = getElement('h3', 'compare__name', obj.profileName);
-    const svg = getSvg();
-    header = appendElement(header, [name, svg]);
+    let button = getElement('button', 'compare__button');
+    const svg = getCrossSvg();
+
+    button = appendElement(button, [svg])
+    button.onclick = function () {
+        handleDeleteProfile(obj)
+    }
+    header = appendElement(header, [name, button]);
 
     const course = getElement('div', 'compare__course', obj.courseName);
     const cipher = getElement('div', 'compare__cipher', obj.cipher + ' / ' + obj.grade);
@@ -153,7 +186,7 @@ function getCompareCardLayout(obj) { //profile object
     })
 
     const compare_link = getLink('https://priem.mirea.ru/', 'Как поступить?', 'compare__link')
-
+    compare_link.target = '_blank'
     // base competencies
     const baseTitle = getElement('h3', 'compare__name', 'Базовые компетенции');
     let baseContainer = getElement('div', 'compare__subjects');
@@ -188,10 +221,24 @@ function getCompareCardLayout(obj) { //profile object
 }
 
 function getEmptyComparePageLayout() {
-    let container = getElement('div', 'card__container');
+    let container = getElement('div', 'compare__empty');
+    const subtitle = getElement('h2', 'compare__subtitle', 'Для сравнения добавьте два профиля');
+    const link = getLink('/', 'Перейти к выбору', 'compare__link')
+
+    container = appendElement(container, [subtitle, link])
+    return container
 }
 
-function getSvg() {
+function getEmptySecondProfileLayout() {
+    let container = getElement('div', 'compare__emptyProfile');
+    let emptyTitle = getElement('h3', 'compare__emptyTitle', 'Добавьте в сравнение ещё профиль');
+    let link = getLink('/', 'Перейти к выбору','compare__link compare__emptyLink');
+
+    container = appendElement(container, [emptyTitle, link])
+    return container
+}
+
+function getCrossSvg() {
     const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute ("width", "18");
     svg.setAttribute ("height", "18");

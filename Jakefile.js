@@ -58,7 +58,7 @@ task("create profile files", function () {
         }
         result.sort((a,b) => (a.position > b.position) ? 1 : ((b.position > a.position) ? -1 : 0));
         for (let j in result) {
-            fs.writeFileSync(`./src/profiles/${result[j].fileName}`,  "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]) + "\n\t\tvar headerLink = '../compare/compare'", 'utf-8');
+            fs.writeFileSync(`./src/profiles/${result[j].fileName}`,  "extends ../layout/profilePageTemplate/profilePageTemplate.pug\n\nblock variables\n\t-\n\t\tlet obj = " + JSON.stringify(result[j]), 'utf-8');
         }
         resolve();
     });
@@ -89,7 +89,7 @@ task("build prod version", function () {
         	+ "&& parcel build ./src/compare/compare.pug --dist-dir build/compare --public-url ./ --no-cache "
             + "&& mkdir .\\build\\assets "
             + "&& xcopy /E .\\assets .\\build\\assets\\ "
-        	+ "&& node .\\postbuild.js && node .\\postbuild.js profiles && node .\\postbuild.js compare && node .\\postbuild.js"
+        	+ "&& node .\\postbuild.js && node .\\postbuild.js profiles && node .\\postbuild.js compare"
         	+ "&& exit 0";
 
         exec(command, (err, stdout, stderr) => {
