@@ -125,7 +125,7 @@ function handleDeleteProfile(obj) {
             correctNameHeight()
         }
         else {
-            headerCompare.classList.remove('header__badge__hidden')
+            headerCompare.classList.add('header__badge__hidden')
             localStorage.removeItem('profiles')
             compareContainer.appendChild(getEmptyComparePageLayout())
         }
