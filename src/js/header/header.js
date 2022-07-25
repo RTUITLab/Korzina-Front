@@ -3,7 +3,9 @@ import {appendElement, getElement, getImage, getLink} from '../../create-element
 
 let headerCompare
 let headerBack
+
 const compareContainer = document.getElementById('CompareContainer')
+const compareBackground = document.getElementById('CompareBackground')
 
 let initProjects = false;
 const animationTime = 500;
@@ -78,6 +80,7 @@ function onLoad() {
             compareContainer.appendChild(getComparePageLayout(savedProfiles))
         }
         correctNameHeight()
+        compareBackground?.classList.remove('compare__background__top')
     }
 
     initProjects=true;
@@ -123,11 +126,13 @@ function handleDeleteProfile(obj) {
             headerCompare.innerText = '1'
             localStorage.setItem('profiles', JSON.stringify(filteredProfiles))
             correctNameHeight()
+            compareBackground?.classList.remove('compare__background__top')
         }
         else {
             headerCompare.classList.add('header__badge__hidden')
             localStorage.removeItem('profiles')
             compareContainer.appendChild(getEmptyComparePageLayout())
+            compareBackground?.classList.add('compare__background__top')
         }
     }
 }
