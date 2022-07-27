@@ -79,7 +79,7 @@ function getCourseCardLayout(obj) { //course object
     //header
     let header = getElement('div', 'card__header');
     let iconContainer = getElement('div',  'card__iconContainer')
-    let icon = getImage(obj.ico, obj.title, 'card__icon')
+    let icon = getImage(obj.ico, ' ', 'card__icon')
     let nameContainer = getElement('div', 'card__nameContainer');
     let name = getElement('div', 'card__name')
     let title = getElement('h2', 'card__title', obj.title);
@@ -127,7 +127,7 @@ function getCourseCardLayout(obj) { //course object
     obj.profiles.forEach((e) => {
         let profileItem = getLink(e.link, '','profile__container');
         let profileText = getElement('div', 'profile__text', e.profileName);
-        let profileIco = getImage( '/assets/icons/profile_arrow.svg', 'arrow', 'profile__ico');
+        let profileIco = getImage( '/assets/icons/profile_arrow.svg', ' ', 'profile__ico');
         profileItem = appendElement(profileItem, [profileText, profileIco])
         profiles = appendElement(profiles, [profileItem])
     })

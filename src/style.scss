@@ -52,12 +52,12 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
 @mixin h2-regular {
     color: $paragraph-black;
     font-weight: 400;
-    font-size: 46px;
-    line-height: 53px;
+    font-size: 42px;
+    line-height: 46px;
 
     @media (max-width: 1180px) {
-        font-size: 42px;
-        line-height: 46px;
+        font-size: 40px;
+        line-height: 44px;
     }
     @media (max-width: 992px) {
         font-size: 36px;
@@ -87,8 +87,8 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
 @mixin h3-regular {
     color: $paragraph-black;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
 
     @media (max-width: 1180px) {
         font-size: 20px;
@@ -140,8 +140,16 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
     background:url("/assets/images/courses_background.svg") bottom no-repeat;
     background-size: contain;
 
-    @media (max-width: 1170px) {
-        background-size: cover;
+    @media (max-width: 1180px) {
+        padding: 100px 20px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 70px 20px;
+    }
+
+    @media (max-width: 480px) {
+        padding: 40px 20px;
     }
 }
 
@@ -178,10 +186,4 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
     @media (max-width: 480px) {
         padding: 12px 25px;
     }
-}
-
-@media (max-width: 1180px) {
-   @mixin h1 {
-
-   }
 }

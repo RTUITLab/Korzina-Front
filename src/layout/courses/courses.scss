@@ -50,7 +50,8 @@
     }
 
     & .courses__search {
-        width: 1170px;
+        max-width: 1170px;
+        width: 100%;
         margin: 0 auto 75px;
 
         .courses__input {
@@ -139,5 +140,33 @@
             }
         }
 
+    }
+}
+
+@media (max-width: 1180px) {
+    .courses {
+        & .courses__nav {
+            padding: 0;
+            margin-bottom: 25px;
+        }
+
+        & .courses__search {
+            margin: 0 auto 40px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .courses {
+        & .courses__nav {
+            gap: 20px;
+        }
+        & .courses__search {
+            margin: 0 auto 30px;
+
+            & .courses__input input {
+                padding: 15px 20px 15px 50px;
+            }
+        }
     }
 }
