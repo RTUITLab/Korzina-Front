@@ -4,14 +4,15 @@
     position: relative;
     background: linear-gradient(0deg, rgba(44, 44, 44, 0.7), rgba(44, 44, 44, 0.7)), url("/assets/images/background-A421.png") center no-repeat;
     background-size: cover;
-    height: 86vh;
+    height: 91vh;
     @include flexible();
     justify-content: center;
 
     & .header__logo {
-          @include absoluteCenter();
-          z-index: 1;
-          height: 72vh;
+        @include absoluteCenter();
+        z-index: 1;
+        height: 72vh;
+        max-width: 85vw;
       }
 
     & .header__information {
@@ -21,36 +22,79 @@
         margin: 0 auto;
 
         & .header__title {
-              @include h1();
-              color: white;
-              margin-bottom: 40px;
+
+            @include h1();
+            color: white;
+            margin-bottom: 40px;
           }
 
         & .header__subtitle {
-              @include h2-regular();
-              color: white;
-              text-align: center;
-              margin-bottom: 97px;
+            @include h2-regular();
+            color: white;
+            text-align: center;
+            margin-bottom: 97px;
           }
 
         & .header__button {
-              display: block;
-              width: max-content;
-              margin: 0 auto;
-              @include h3-bold();
-              cursor: pointer;
-              background-color: $primary-color;
-              color: white;
-              text-align: center;
-              transition: all 0.4s ease;
-              padding: 20px 45px;
-              border-radius: 15px;
-              &:hover {
-                   background-color: $primary-color-hover;
-              }
-              &:active {
-                   background-color: $primary-color-active;
-              }
+            @include cta-button();
+            margin: 0 auto;
+            @include h3-bold();
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .header__container {
+        padding: 0 20px;
+
+        & .header__information {
+            & .header__subtitle {
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header__container {
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .header__container {
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header__container {
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 35px;
+            }
         }
     }
 }

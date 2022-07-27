@@ -21,44 +21,118 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
     text-align: center;
     color: $paragraph-black;
     font-weight: 700;
-    font-size: 72px;
-    line-height: 83px;
+    font-size: 60px;
+    line-height: 66px;
+
+    @media (max-width: 1180px) {
+        font-size: 54px;
+        line-height: 60px;
+    }
+    @media (max-width: 992px) {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    @media (max-width: 768px) {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    @media (max-width: 650px) {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    @media (max-width: 480px) {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    @media (max-width: 320px) {
+        font-size: 24px;
+        line-height: 30px;
+    }
 }
 @mixin h2-regular {
     color: $paragraph-black;
     font-weight: 400;
     font-size: 46px;
     line-height: 53px;
+
+    @media (max-width: 1180px) {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    @media (max-width: 992px) {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    @media (max-width: 768px) {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    @media (max-width: 650px) {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    @media (max-width: 480px) {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    @media (max-width: 320px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 @mixin h2-bold {
-    color: $paragraph-black;
+    @include h2-regular();
     font-weight: 700;
-    font-size: 46px;
-    line-height: 53px;
 }
 @mixin h3-regular {
     color: $paragraph-black;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+
+    @media (max-width: 1180px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    @media (max-width: 992px) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    @media (max-width: 480px) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    @media (max-width: 320px) {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
 @mixin h3-bold {
-    color: $paragraph-black;
+    @include h3-regular;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
 }
 @mixin paragraph-regular {
     color: $paragraph-black;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+
+    @media (max-width: 1180px) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    @media (max-width: 480px) {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    @media (max-width: 320px) {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 @mixin paragraph-bold {
-    color: $paragraph-black;
+    @include paragraph-regular();
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
 }
 
 @mixin page-template {
@@ -96,4 +170,18 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
     @include button();
     padding: 20px 45px;
     border-radius: 15px;
+
+    @media (max-width: 650px) {
+        padding: 15px 35px;
+    }
+
+    @media (max-width: 480px) {
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 1180px) {
+   @mixin h1 {
+
+   }
 }
