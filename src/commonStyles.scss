@@ -329,6 +329,10 @@ body {
 @media (max-width: 480px) {
     .card__container {
         padding: 15px;
+        & .card__header .card__nameContainer {
+            max-width: 190px;
+            box-sizing: content-box;
+        }
         & .card__content {
             grid-gap: 17px;
             grid-template-columns: 1fr;
@@ -339,14 +343,32 @@ body {
 @media (max-width: 400px) {
     .card__container {
         & .card__header {
+
             & .card__iconContainer {
                 & .card__icon {
-                    width: 30px;
+                    width: 40px;
                     margin-right: 15px;
                 }
             }
             & .card__nameContainer {
                 padding-left: 15px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .card__container {
+        & .card__header {
+
+            & .card__iconContainer {
+                & .card__icon {
+                    width: 30px;
+                }
+            }
+            & .card__nameContainer {
+                & .card__name {
+                    word-break: break-word;
+                }
             }
         }
     }
