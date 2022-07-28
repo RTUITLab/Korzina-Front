@@ -57,7 +57,7 @@
 
 .card__subject {
     & .card__topic {
-        margin: 100px 0 50px;
+        margin: 50px 0 30px;
         @include h2-bold;
         text-align: center;
     }
@@ -70,11 +70,11 @@
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-gap: 25px 9px;
-        justify-content: center;
         align-items: flex-start;
 
         .subject__container {
             width: 120px;
+            margin: 0 auto;
             .subject__icon {
                 width: 100px;
                 height: 100px;
@@ -122,9 +122,6 @@
     }
 
     .card__subject {
-        & .card__topic {
-            margin: 50px 0 30px;
-        }
 
         & .subject {
             grid-template-columns: repeat(7, 1fr);
@@ -148,7 +145,7 @@
                max-width: 120px;
 
                & .subject__name {
-                   width: 110px;
+                   width: 105px;
                }
            }
         }

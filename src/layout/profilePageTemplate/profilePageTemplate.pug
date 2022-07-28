@@ -72,16 +72,17 @@ html(lang="ru")
                                                             img(src=`${exam.ico}`).item__ico
                                                             .item__text
                                                                 =exam.examName
-                                            .card__profiles
-                                                h3.profile__title
-                                                    | Описание профиля обучения
-                                                .profile__description
-                                                    =item.description
-                                                .profile__important
-                                                    span
-                                                        | Важно:
-                                                        |
-                                                    =item.important
+                                            .card__profiles.profileCard__profiles
+                                                div
+                                                    h3.profile__title
+                                                        | Описание профиля обучения
+                                                    .profile__description
+                                                        =item.description
+                                                    .profile__important
+                                                        span
+                                                            | Важно:
+                                                            |
+                                                        =item.important
                                                 button(class=`${item.className} card__button`, onclick=`handleAppendProfile('${item.profileName}')`)
                                                     | Добавить к сравнению
                                         .card__subject
