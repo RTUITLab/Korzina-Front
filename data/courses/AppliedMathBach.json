@@ -149,37 +149,37 @@
                 {
                     "ico": "/assets/icons/subjects/issloper.svg",
                     "isActive": true,
-                    "title": "Математическое моделирование прикладных задач"
+                    "title": "Математи&shy;ческое модели&shy;рование приклад&shy;ных задач"
                 },
                 {
                     "ico": "/assets/icons/subjects/mathPhysics.svg",
                     "isActive": true,
-                    "title": "Уравнения математической физики"
+                    "title": "Урав&shy;нения математи&shy;ческой физики"
                 },
                 {
                     "ico": "/assets/icons/subjects/predAnalyse.svg",
                     "isActive": true,
-                    "title": "Модели и методы предиктивной аналитики"
+                    "title": "Модели и методы предик&shy;тивной анали&shy;тики"
                 },
                 {
                     "ico": "/assets/icons/subjects/optManage.svg",
                     "isActive": true,
-                    "title": "Модели и методы оптимального управления"
+                    "title": "Модели и методы оптималь&shy;ного управ&shy;ления"
                 },
                 {
                     "ico": "/assets/icons/subjects/teorAlg.svg",
                     "isActive": true,
-                    "title": "Теория алгоритмов и рекурсивных функций"
+                    "title": "Теория алгорит&shy;мов и рекурсив&shy;ных функций"
                 },
                 {
                     "ico": "/assets/icons/subjects/dynSyst.svg",
                     "isActive": true,
-                    "title": "Моделирование динамических систем"
+                    "title": "Моделиро&shy;вание динами&shy;ческих систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Системы управления данными"
+                    "title": "Системы управ&shy;ления данными"
                 },
                 {
                     "ico": "/assets/icons/subjects/teorGraph.svg",
@@ -189,32 +189,32 @@
                 {
                     "ico": "/assets/icons/subjects/python.svg",
                     "isActive": true,
-                    "title": "Языки программирования для статистической обработки данных"
+                    "title": "Языки програм&shy;мирова&shy;ния для статис&shy;тичес&shy;кой обра&shy;ботки данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/langStatProc.svg",
                     "isActive": true,
-                    "title": "Дополнительные главы вычислительной математики"
+                    "title": "Дополни&shy;тельные главы вычисли&shy;тельной матема&shy;тики"
                 },
                 {
                     "ico": "/assets/icons/subjects/ML.svg",
                     "isActive": true,
-                    "title": "Технологии и инструментарий машинного обучения"
+                    "title": "Техно&shy;логии и инструмен&shy;тарий машин&shy;ного обучения"
                 },
                 {
                     "ico": "/assets/icons/subjects/matStat.svg",
                     "isActive": true,
-                    "title": "Прикладные задачи математической статистики"
+                    "title": "Приклад&shy;ные задачи матема&shy;тической статис&shy;тики"
                 },
                 {
                     "ico": "/assets/icons/subjects/nonlinearDyn.svg",
                     "isActive": true,
-                    "title": "Прикладные задачи нелинейной динамики"
+                    "title": "Приклад&shy;ные задачи нелиней&shy;ной дина&shy;мики"
                 },
                 {
                     "ico": "/assets/icons/subjects/progAnalyse.svg",
                     "isActive": true,
-                    "title": "Прогнозно-аналитические системы"
+                    "title": "Прог&shy;нозно-аналити&shy;ческие системы"
                 },
                 {
                     "ico": "/assets/icons/subjects/analyseData.svg",
@@ -229,12 +229,12 @@
                 {
                     "ico": "/assets/icons/subjects/orgObrStat.svg",
                     "isActive": true,
-                    "title": "Технологии организации, обработки и хранения статистических данных"
+                    "title": "Техно&shy;логии органи&shy;зации, обработ&shy;ки и хранения статисти&shy;ческих данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/imitModel.svg",
                     "isActive": true,
-                    "title": "Программные средства имитационного моделирования систем"
+                    "title": "Програм&shy;мные средства имитаци&shy;онного моделиро&shy;вания систем"
                 }
             ]
         }

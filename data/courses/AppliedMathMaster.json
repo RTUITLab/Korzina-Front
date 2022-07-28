@@ -74,47 +74,47 @@
                 {
                     "ico": "/assets/icons/subjects/neiron.svg",
                     "isActive": true,
-                    "title": "Построение и применение нейронных сетей и генетических алгоритмов"
+                    "title": "Постро&shy;ение и приме&shy;нение нейрон&shy;ных сетей и генети&shy;ческих алгорит&shy;мов"
                 },
                 {
                     "ico": "/assets/icons/subjects/mathObesp.svg",
                     "isActive": true,
-                    "title": "Технологии хранения и интерактивной обработки данных"
+                    "title": "Техно&shy;логии хране&shy;ния и интерак&shy;тивной обра&shy;ботки данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/imitModel.svg",
                     "isActive": true,
-                    "title": "Программное обеспечение параллельных вычислений"
+                    "title": "Програм&shy;мное обеспе&shy;чение парал&shy;лельных вычис&shy;ле&shy;ний"
                 },
                 {
                     "ico": "/assets/icons/subjects/infObespAnalyse.svg",
                     "isActive": true,
-                    "title": "Информационное обеспечение систем анализа данных"
+                    "title": "Информа&shy;ционное обеспе&shy;чение систем ана&shy;лиза данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/nonlinearDyn.svg",
                     "isActive": true,
-                    "title": "Прикладные задачи нелинейной динамики"
+                    "title": "Приклад&shy;ные задачи нели&shy;нейной динамики"
                 },
                 {
                     "ico": "/assets/icons/subjects/mathModel.svg",
                     "isActive": true,
-                    "title": "Математическое моделирование прикладных задач"
+                    "title": "Матема&shy;тическое моде&shy;лирова&shy;ние приклад&shy;ных задач"
                 },
                 {
                     "ico": "/assets/icons/subjects/predAnalyse.svg",
                     "isActive": true,
-                    "title": "Прогнозно-аналитические системы"
+                    "title": "Прог&shy;нозно-аналити&shy;ческие системы"
                 },
                 {
                     "ico": "/assets/icons/subjects/intAnalyse.svg",
                     "isActive": true,
-                    "title": "Интеллектуальный анализ данных"
+                    "title": "Интелл&shy;ектуаль&shy;ный анализ данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/analyseData.svg",
                     "isActive": true,
-                    "title": "Методы анализа данных"
+                    "title": "Методы ана&shy;лиза данных"
                 }
             ]
         }

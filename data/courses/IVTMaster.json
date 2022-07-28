@@ -74,52 +74,52 @@
                 {
                     "ico": "/assets/icons/subjects/neiron.svg",
                     "isActive": true,
-                    "title": "Инструментальные средства проектирования цифровых устройств в составе инфо-коммуникационных систем"
+                    "title": "Инстру&shy;менталь&shy;ные сред&shy;ства проек&shy;тирова&shy;ния цифро&shy;вых уст&shy;ройств в составе инфо&shy;коммуника&shy;ци&shy;онных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/plis.svg",
                     "isActive": true,
-                    "title": "Проектирование и разработка цифровых устройств на базе программируемых логических интегральных схем"
+                    "title": "Проекти&shy;рование и разра&shy;ботка циф&shy;ро&shy;вых уст&shy;ройств на базе програм&shy;миру&shy;емых логи&shy;чес&shy;ких интег&shy;раль&shy;ных схем"
                 },
                 {
                     "ico": "/assets/icons/subjects/nonlinearDyn.svg",
                     "isActive": true,
-                    "title": "Инструментальные свойства разработки программно-аппаратных комплексов"
+                    "title": "Инструмен&shy;тальные свой&shy;ства разра&shy;ботки програм&shy;мно-аппарат&shy;ных комплек&shy;сов"
                 },
                 {
                     "ico": "/assets/icons/subjects/avtProekt.svg",
                     "isActive": true,
-                    "title": "Зарубежные комплексы обработки информации и автоматизированного проектирования"
+                    "title": "Зарубеж&shy;ные комп&shy;лексы обра&shy;ботки инфор&shy;мации и автомати&shy;зирован&shy;ного проектиро&shy;вания"
                 },
                 {
                     "ico": "/assets/icons/subjects/progObesp.svg",
                     "isActive": true,
-                    "title": "Программное обеспечение устройств и систем вычислительной техники"
+                    "title": "Програм&shy;мное обеспе&shy;чение уст&shy;ройств и систем вычисли&shy;тельной техники"
                 },
                 {
                     "ico": "/assets/icons/subjects/controlDiagnostics.svg",
                     "isActive": true,
-                    "title": "Контроль и диагностика цифровых устройств в инфо-коммуникационных системах"
+                    "title": "Контроль и диаг&shy;ностика циф&shy;ровых устройств в инфо&shy;коммуни&shy;кацион&shy;ных системах"
                 },
                 {
                     "ico": "/assets/icons/subjects/avmis.svg",
                     "isActive": true,
-                    "title": "Архитектура устройств и систем вычислительной техники"
+                    "title": "Архи&shy;тектура уст&shy;ройств и систем вычис&shy;литель&shy;ной техники"
                 },
                 {
                     "ico": "/assets/icons/subjects/reliability.svg",
                     "isActive": true,
-                    "title": "Верификация проектов в системах автоматизированного проектирования"
+                    "title": "Вери&shy;фикация проек&shy;тов в сис&shy;темах автомати&shy;зирован&shy;ного проек&shy;тирова&shy;ния"
                 },
                 {
                     "ico": "/assets/icons/subjects/plis.svg",
                     "isActive": true,
-                    "title": "Проектирование устройств и систем вычислительной техники"
+                    "title": "Проек&shy;тирова&shy;ние уст&shy;ройств и систем вычис&shy;лительной тех&shy;ники"
                 },
                 {
                     "ico": "/assets/icons/subjects/archProcessor.svg",
                     "isActive": true,
-                    "title": "Проектирование систем на кристалле"
+                    "title": "Проек&shy;тирован&shy;ие систем на крис&shy;тал&shy;ле"
                 }
             ]
         }

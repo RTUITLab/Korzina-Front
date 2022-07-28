@@ -74,37 +74,37 @@
                 {
                     "ico": "/assets/icons/subjects/obespKis.svg",
                     "isActive": true,
-                    "title": "Программное обеспечение коропративных информационных систем"
+                    "title": "Програм&shy;мное обес&shy;печение коропра&shy;тивных информа&shy;ционных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/kis.svg",
                     "isActive": true,
-                    "title": "Проектирование корпоративных информационных систем"
+                    "title": "Проек&shy;тирование корпора&shy;тивных информа&shy;ционных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/infTech.svg",
                     "isActive": true,
-                    "title": "Базовые и прикладные информационные технологии"
+                    "title": "Базо&shy;вые и приклад&shy;ные информа&shy;ционные техно&shy;логии"
                 },
                 {
                     "ico": "/assets/icons/subjects/optManage.svg",
                     "isActive": true,
-                    "title": "Модели и методы оптимального управления"
+                    "title": "Модели и методы опти&shy;маль&shy;ного управ&shy;ления"
                 },
                 {
                     "ico": "/assets/icons/subjects/supportSyst.svg",
                     "isActive": true,
-                    "title": "Системы и службы поддержки пользователей"
+                    "title": "Системы и службы под&shy;держ&shy;ки пользова&shy;телей"
                 },
                 {
                     "ico": "/assets/icons/subjects/pasprIS.svg",
                     "isActive": true,
-                    "title": "Распределенные информационные системы"
+                    "title": "Распределен&shy;ные информаци&shy;онные системы"
                 },
                 {
                     "ico": "/assets/icons/subjects/kis.svg",
                     "isActive": true,
-                    "title": "Корпоративные информационные системы"
+                    "title": "Корпора&shy;тивные информа&shy;ционные системы"
                 },
                 {
                     "ico": "/assets/icons/subjects/dataProcessingMethods.svg",
@@ -114,12 +114,12 @@
                 {
                     "ico": "/assets/icons/subjects/informatics.svg",
                     "isActive": true,
-                    "title": "Современные проблемы и методы прикладной информатики и развития информационного общества"
+                    "title": "Совре&shy;мен&shy;ные проблемы и методы приклад&shy;ной информа&shy;тики и развития информа&shy;ционного общества"
                 },
                 {
                     "ico": "/assets/icons/subjects/contentManage.svg",
                     "isActive": true,
-                    "title": "Методы и технологии управления данными организации"
+                    "title": "Методы и техно&shy;логии управ&shy;ления дан&shy;ными органи&shy;зации"
                 }
             ]
         }

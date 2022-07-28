@@ -98,8 +98,7 @@ html(lang="ru")
                                                         .subject__container.subject__container__disabled
                                                             .subject__icon
                                                                 img(src=`${base.ico_disable}` loading="lazy")
-                                                            .subject__name#SubjectName
-                                                                =base.title
+                                                            .subject__name !{base.title}
                                         if item.special
                                             .card__subject
                                                 h2.card__topic.card__special
@@ -110,14 +109,13 @@ html(lang="ru")
                                                             .subject__container
                                                                 .subject__icon
                                                                     img(src=`${special.ico}`, loading="lazy")
-                                                                .subject__name
-                                                                    =special.title
+                                                                .subject__name !{special.title}
                                                         else
                                                             .subject__container.subject__container__disabled
                                                                 .subject__icon
                                                                     img(src=`${special.ico_disable}`, loading="lazy")
-                                                                .subject__name.subject__name__disabled
-                                                                    =special.title
+                                                                .subject__name.subject__name__disabled !{special.title}
+
 
 
         footer
