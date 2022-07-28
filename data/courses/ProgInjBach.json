@@ -860,13 +860,13 @@
                 {
                     "ico": "/assets/icons/subjects/resourceManage.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
                 },
                 {
@@ -878,7 +878,7 @@
                 {
                     "ico": "/assets/icons/subjects/contentManage.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
                 },
                 {
@@ -1385,7 +1385,7 @@
                 {
                     "ico": "/assets/icons/subjects/infObesp.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
                 },
                 {
@@ -1583,7 +1583,7 @@
                 {
                     "ico": "/assets/icons/subjects/crossPlat.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
                 },
                 {
@@ -2012,7 +2012,7 @@
                 {
                     "ico": "/assets/icons/subjects/contentManage.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
                 },
                 {
@@ -2531,7 +2531,7 @@
                 {
                     "ico": "/assets/icons/subjects/pis.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
                 },
                 {
@@ -3284,7 +3284,7 @@
                 {
                     "ico": "/assets/icons/subjects/crossPlat.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
-                    "isActive": true,
+                    "isActive": false,
                     "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
                 },
                 {

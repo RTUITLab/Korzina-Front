@@ -1015,7 +1015,7 @@
                     "title": "Техно&shy;логии и инструмен&shy;тарий машин&shy;ного обуче&shy;ния"
                 },
                 {
-                    "ico": "/assets/icons/subjects/non-special/archInter_disable.svg",
+                    "ico": "/assets/icons/subjects/archInter.svg",
                     "ico_disable": "/assets/icons/subjects/non-special/archInter_disable.svg",
                     "isActive": true,
                     "title": "Архитек&shy;тура интегра&shy;ции и разверты&shy;вания"
