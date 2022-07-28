@@ -27,47 +27,47 @@
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизированных систем"
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
                     "isActive": true,
-                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
                 },
                 {
                     "ico": "/assets/icons/subjects/archDev.svg",
                     "isActive": true,
-                    "title": "Архитектура, программирование и разработка программных средств"
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
                 },
                 {
                     "ico": "/assets/icons/subjects/infAnalyse.svg",
                     "isActive": true,
-                    "title": "Методология информационно-аналитической работы"
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
                 },
                 {
                     "ico": "/assets/icons/subjects/uitp.svg",
                     "isActive": true,
-                    "title": "Управление информационно-технологическими проектами"
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Проектирование и разработка баз и хранилищ данных"
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/isit.svg",
                     "isActive": true,
-                    "title": "Интеллекутальные системы и технологии"
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
                 },
                 {
                     "ico": "/assets/icons/subjects/flexManage.svg",
                     "isActive": true,
-                    "title": "Гибкое управление проектами"
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
                 },
                 {
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
-                    "title": "Управление бизнес процессами"
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
                 }
             ],
             "special": [
@@ -257,47 +257,47 @@
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
                     "isActive": true,
-                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
                 },
                 {
                     "ico": "/assets/icons/subjects/archDev.svg",
                     "isActive": true,
-                    "title": "Архитектура, программирование и разработка программных средств"
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
                 },
                 {
                     "ico": "/assets/icons/subjects/infAnalyse.svg",
                     "isActive": true,
-                    "title": "Методология информационно-аналитической работы"
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
                 },
                 {
                     "ico": "/assets/icons/subjects/uitp.svg",
                     "isActive": true,
-                    "title": "Управление информационно-технологическими проектами"
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Проектирование и разработка баз и хранилищ данных"
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/isit.svg",
                     "isActive": true,
-                    "title": "Интеллекутальные системы и технологии"
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
                 },
                 {
                     "ico": "/assets/icons/subjects/flexManage.svg",
                     "isActive": true,
-                    "title": "Гибкое управление проектами"
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
                 },
                 {
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
-                    "title": "Управление бизнес процессами"
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
                 }
             ],
             "special": [
@@ -482,57 +482,52 @@
             "ico": "/assets/icons/profiles/sipi.svg",
             "description": "Программа направлена на углубленную подготовку профессионалов в вопросах внедрения, сопровождения, доработки и эксплуатации отечественных и зарубежных систем класса ERPII (ERRP, Enterprise Resource and Relationship Processing), включающих функционал синхронизированного планирования ресурсов предприятия (Customer Synchronized Resource Planning, CSRP), планирования потребностей в материалах (Material Requirements Planing, MRP), планирования потребностей в производственных ресурсах (Manufacturing Resource Planing, MRPII), управления взаимоотношениями с клиентами (Customer Relationship Management, CRM), а также управления цепочками поставок (Supply Chain Management, SCM).",
             "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
-            "exams": [
-                {
-                    "ico": "/assets/icons/exam_math.svg",
-                    "examName": "Высшая математика"
-                }
-            ],
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
             "based": [
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Разработка программно-аппаратного обеспечения информационных и автоматизирован-ных систем"
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
                 },
                 {
                     "ico": "/assets/icons/subjects/constructor.svg",
                     "isActive": true,
-                    "title": "Методология проведения научно-исследовательских и опытно-конструкторских работ"
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
                 },
                 {
                     "ico": "/assets/icons/subjects/archDev.svg",
                     "isActive": true,
-                    "title": "Архитектура, программирование и разработка программных средств"
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
                 },
                 {
                     "ico": "/assets/icons/subjects/infAnalyse.svg",
                     "isActive": true,
-                    "title": "Методология информационно-аналитической работы"
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
                 },
                 {
                     "ico": "/assets/icons/subjects/uitp.svg",
                     "isActive": true,
-                    "title": "Управление информационно-технологическими проектами"
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Проектирование и разработка баз и хранилищ данных"
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/isit.svg",
                     "isActive": true,
-                    "title": "Интеллекутальные системы и технологии"
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
                 },
                 {
                     "ico": "/assets/icons/subjects/flexManage.svg",
                     "isActive": true,
-                    "title": "Гибкое управление проектами"
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
                 },
                 {
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
-                    "title": "Управление бизнес процессами"
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
                 }
             ],
             "special": [

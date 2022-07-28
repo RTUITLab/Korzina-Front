@@ -92,14 +92,13 @@ html(lang="ru")
                                                     if(base.isActive)
                                                         .subject__container
                                                             .subject__icon
-                                                                img(src=`${base.ico}`)
-                                                            .subject__name
-                                                                =base.title
+                                                                img(src=`${base.ico}` loading="lazy")
+                                                            div.subject__name !{base.title}
                                                     else
                                                         .subject__container.subject__container__disabled
                                                             .subject__icon
-                                                                img(src=`${base.ico_disable}`)
-                                                            .subject__name
+                                                                img(src=`${base.ico_disable}` loading="lazy")
+                                                            .subject__name#SubjectName
                                                                 =base.title
                                         if item.special
                                             .card__subject

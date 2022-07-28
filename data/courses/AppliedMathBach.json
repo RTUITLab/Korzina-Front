@@ -27,122 +27,122 @@
                 {
                     "ico": "/assets/icons/subjects/python.svg",
                     "isActive": true,
-                    "title": "Программирование на языке Питон"
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
                 },
                 {
                     "ico": "/assets/icons/subjects/mbp.svg",
                     "isActive": true,
-                    "title": "Моделирование бизнесс-процессов"
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
                 },
                 {
                     "ico": "/assets/icons/subjects/cisco.svg",
                     "isActive": true,
-                    "title": "Основы сетевых технологий"
+                    "title": "Основы сетевых техно&shy;логий"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Разработка баз данных"
+                    "title": "Разра&shy;ботка баз данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/intelligence.svg",
                     "isActive": true,
-                    "title": "Искусственный интеллект"
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
                 },
                 {
                     "ico": "/assets/icons/subjects/matan.svg",
                     "isActive": true,
-                    "title": "Математический анализ"
+                    "title": "Математи&shy;ческий анализ"
                 },
                 {
                     "ico": "/assets/icons/subjects/database.svg",
                     "isActive": true,
-                    "title": "Проектирование баз данных"
+                    "title": "Проекти&shy;рование баз данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/informatics.svg",
                     "isActive": true,
-                    "title": "Информатика"
+                    "title": "Инфор&shy;матика"
                 },
                 {
                     "ico": "/assets/icons/subjects/procprogramming.svg",
                     "isActive": true,
-                    "title": "Объектно-ориентированное программирование"
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
                 },
                 {
                     "ico": "/assets/icons/subjects/iot.svg",
                     "isActive": true,
-                    "title": "Технологические основы интернета вещей"
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
                 },
                 {
                     "ico": "/assets/icons/subjects/avmis.svg",
                     "isActive": true,
-                    "title": "Архитектура вычислительных машин и систем"
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/pis.svg",
                     "isActive": true,
-                    "title": "Проектирование информационных систем"
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/sipi.svg",
                     "isActive": true,
-                    "title": "Системная и программная инженерия"
+                    "title": "Системная и прог&shy;раммная инженерия"
                 },
                 {
                     "ico": "/assets/icons/subjects/linal.svg",
                     "isActive": true,
-                    "title": "Линейная алгебра и аналитическая геометрия"
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
                 },
                 {
                     "ico": "/assets/icons/subjects/oop.svg",
                     "isActive": true,
-                    "title": "Процедурное программирование"
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
                 },
                 {
                     "ico": "/assets/icons/subjects/sisadm.svg",
                     "isActive": true,
-                    "title": "Системное администрирование"
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
                 },
                 {
                     "ico": "/assets/icons/subjects/modeling.svg",
                     "isActive": true,
-                    "title": "Моделирование сред и разработка приложений виртуальной и дополненной реальности"
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
                 },
                 {
                     "ico": "/assets/icons/subjects/uitp.svg",
                     "isActive": true,
-                    "title": "Управление информационно-технологическими проектами"
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
                 },
                 {
                     "ico": "/assets/icons/subjects/bigdata.svg",
                     "isActive": true,
-                    "title": "Технологии и инструментарий анализа больших данных"
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
                 },
                 {
                     "ico": "/assets/icons/subjects/aikms.svg",
                     "isActive": true,
-                    "title": "Анализ и концептуальное моделирование систем"
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
                 },
                 {
                     "ico": "/assets/icons/subjects/trpp.svg",
                     "isActive": true,
-                    "title": "Технология разработки программных приложений"
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
                 },
                 {
                     "ico": "/assets/icons/subjects/teorver.svg",
                     "isActive": true,
-                    "title": "Теория вероятностей и математическая статистика"
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
                 },
                 {
                     "ico": "/assets/icons/subjects/mathlogic.svg",
                     "isActive": true,
-                    "title": "Математическая логика и теория алгоритмов"
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
                 },
                 {
                     "ico": "/assets/icons/subjects/java.svg",
                     "isActive": true,
-                    "title": "Программирование на языке Джава"
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
                 }
             ],
             "special": [
