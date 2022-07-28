@@ -39,7 +39,6 @@
         & .header__button {
             @include cta-button();
             margin: 0 auto;
-            @include h3-bold();
             color: white;
             cursor: pointer;
         }

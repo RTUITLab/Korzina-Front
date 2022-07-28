@@ -22,7 +22,7 @@ body {
     margin: 0 auto 50px;
     background: white;
     border-radius: 15px;
-    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px 1px #196bb114;
 
     &:last-child {
         margin: 0 auto;
@@ -52,8 +52,6 @@ body {
             @include flexible();
             width: fit-content;
 
-            & .card__name {
-            }
             & .card__title {
                 word-wrap: break-word;
                 @include h2-bold();
@@ -167,17 +165,12 @@ body {
             }
 
             & .card__button {
+                @include cta-button;
                 cursor: pointer;
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                display: block;
-                @include paragraph-bold();
-                color: white;
-                padding: 15px 40px;
-                border-radius: 15px;
-                background-color: $primary-color;
-                @include button-actions();
+
             }
 
             & .card__button__hidden {
@@ -248,8 +241,17 @@ body {
                 & .profile__container {
                     padding: 12px 17px;
                 }
+                & .card__button {
+                    margin-top: 25px;
+                    position: relative;
+                }
             }
         }
+    }
+
+    .swiper-pagination {
+        margin: 0 auto 30px;
+        column-gap: 10px;
     }
 }
 
@@ -282,6 +284,19 @@ body {
                 }
             }
         }
+
+    }
+    .swiper-pagination {
+        margin: 0 auto 20px;
+        column-gap: 10px;
+    }
+    .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -337,6 +352,23 @@ body {
             grid-gap: 17px;
             grid-template-columns: 1fr;
         }
+
+        & .card__button {
+            margin: 0 auto;
+        }
+    }
+
+    .swiper-pagination {
+        margin: 0 auto 20px;
+        column-gap: 7px;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 15px;
+        height: 15px;
     }
 }
 
