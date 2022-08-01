@@ -1,7 +1,7 @@
 export function getElement(element, className = '', text = '') {
     let item = document.createElement(element);
     if(className !== '') item.className = className;
-    if(text !== '') item.innerText = text;
+    if(text !== '') item.innerHTML = text;
     return item;
 }
 

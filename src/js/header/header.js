@@ -1,5 +1,6 @@
 import coursesData from '../../data/coursesData'
 import {appendElement, getElement, getImage, getLink} from '../../create-elements'
+import Swiper, {Pagination} from 'swiper'
 
 let headerCompare
 let headerBack
@@ -10,6 +11,7 @@ const compareBackground = document.getElementById('CompareBackground')
 let initProjects = false;
 const animationTime = 500;
 const framesCount = 60;
+let swiper = null
 
 const profiles = [];
 
@@ -77,10 +79,26 @@ function onLoad() {
 
         if(compareContainer) {
             compareContainer.innerHTML = '';
-            compareContainer.appendChild(getComparePageLayout(savedProfiles))
+            if(window.innerWidth <= 650) compareContainer.appendChild(getCompareSwiperLayout(savedProfiles))
+            else compareContainer.appendChild(getComparePageLayout(savedProfiles))
         }
         correctNameHeight()
         compareBackground?.classList.remove('compare__background__top')
+    }
+
+    if(window.innerWidth <= 650) {
+        swiper = new Swiper(".compareSwiperParent", {
+            slidesPerView: "auto",
+            loop: false,
+            autoHeight: true,
+            spaceBetween: 15,
+            modules: [Pagination],
+            pagination: {
+                el: ".compareSwiperPagination",
+                clickable: true,
+                type: "bullets"
+            },
+        });
     }
 
     initProjects=true;
@@ -140,6 +158,40 @@ function handleDeleteProfile(obj) {
 function isProfileAlreadyAppend(array, value) {
     if(!array) return false
     return array.find(item => item.profileName === value) || array.find(item => item.link === value)
+}
+
+function getCompareSwiperLayout(savedProfiles) {
+    let container = getElement('div', 'compare__swiper')
+    const swiperPagination = getElement('div', 'swiper-pagination compareSwiperPagination')
+    let swiper = getElement('div', 'swiper compareSwiperParent')
+    let swiperWrapper = getElement('div', 'swiper-wrapper')
+
+    if(savedProfiles.length === 1) {
+        let swiperSlide = getElement('div', 'swiper-slide')
+        const card = getCompareCardLayout(savedProfiles[0])
+        const empty = getEmptySecondProfileLayout()
+
+        swiperSlide = appendElement(swiperSlide, [card])
+        swiperWrapper = appendElement(swiperWrapper, [swiperSlide])
+
+        swiperSlide = getElement('div', 'swiper-slide')
+        swiperSlide = appendElement(swiperSlide, [empty])
+        swiperWrapper = appendElement(swiperWrapper, [swiperSlide])
+    }
+    else {
+        savedProfiles.forEach((item, index) => {
+            let swiperSlide = getElement('div', 'swiper-slide')
+            const profile = getCompareCardLayout(savedProfiles[index])
+            swiperSlide = appendElement(swiperSlide, [profile])
+            swiperWrapper = appendElement(swiperWrapper, [swiperSlide])
+        })
+        const first = getCompareCardLayout(savedProfiles[0])
+        const second = getCompareCardLayout(savedProfiles[1])
+    }
+
+    swiper = appendElement(swiper, [swiperWrapper])
+    container = appendElement(container, [swiperPagination, swiper])
+    return container
 }
 
 function getComparePageLayout(savedProfiles) {

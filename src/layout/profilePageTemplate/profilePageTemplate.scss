@@ -141,8 +141,6 @@
            grid-gap: 15px 5px;
 
            & .subject__container {
-               width: 100%;
-               max-width: 120px;
 
                & .subject__name {
                    width: 105px;
@@ -160,13 +158,6 @@
     .card__subject {
        & .subject {
             grid-template-columns: repeat(5, 1fr);
-
-            & .subject__container {
-
-                & .subject__name {
-                    width: 105px;
-                }
-            }
         }
     }
 }
@@ -180,7 +171,6 @@
         }
         & .subject {
             grid-template-columns: repeat(4, 1fr);
-
 
             & .subject__container {
 

@@ -32,155 +32,158 @@
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
         align-items: flex-start;
+    }
+    & .compare__card {
+        background-color: white;
+        padding: 35px;
+        border-radius: 15px;
 
-        & .compare__card {
-            background-color: white;
-            padding: 35px;
-            border-radius: 15px;
+        & .compare__name {
+            @include h3-bold();
+        }
+
+        & .compare__header {
+            display: grid;
+            align-items: flex-start;
+            grid-template-columns: 1fr 18px;
+            grid-column-gap: 10px;
+            margin-bottom: 15px;
+
+            & .compare__button {
+                display: block;
+                position: relative;
+                top: 5px;
+                cursor: pointer;
+                background-color: transparent;
+                & svg {
+                    width: 18px;
+                    height: 18px;
+
+                    & path {
+                        transition: all 0.4s ease;
+                    }
+                    &:hover {
+                        & path {
+                            stroke: #FF4E4E;
+                            stroke-opacity: 1;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        & .compare__course {
+            @include paragraph-regular();
+            color: $paragraph-black-05;
+            margin-bottom: 5px;
+        }
+
+        & .compare__cipher {
+            @include paragraph-regular();
+            color: $paragraph-black-05;
+            margin-bottom: 35px;
+        }
+
+        & .compare__item {
+            margin-bottom: 35px;
 
             & .compare__name {
                 @include h3-bold();
-            }
-
-            & .compare__header {
-                display: grid;
-                align-items: flex-start;
-                grid-template-columns: 1fr 18px;
-                grid-column-gap: 10px;
                 margin-bottom: 15px;
+            }
 
-                & .compare__button {
+            & .compare__text {
+                @include paragraph-regular();
+            }
+
+            & .compare__exam {
+                @include flexible();
+                margin-bottom: 17px;
+
+                & .compare__ico {
                     display: block;
-                    position: relative;
-                    top: 5px;
-                    cursor: pointer;
-                    background-color: transparent;
-                    & svg {
-                        & path {
-                            transition: all 0.4s ease;
-                        }
-                        &:hover {
-                            & path {
-                                stroke: #FF4E4E;
-                                stroke-opacity: 1;
-                            }
-                        }
-                    }
+                    margin-right: 20px;
                 }
-
-            }
-
-            & .compare__course {
-                @include paragraph-regular();
-                color: $paragraph-black-05;
-                margin-bottom: 5px;
-            }
-
-            & .compare__cipher {
-                @include paragraph-regular();
-                color: $paragraph-black-05;
-                margin-bottom: 35px;
-            }
-
-            & .compare__item {
-                margin-bottom: 35px;
-
-                & .compare__name {
-                    @include h3-bold();
-                    margin-bottom: 15px;
-                }
-
-                & .compare__text {
-                    @include paragraph-regular();
-                }
-
-                & .compare__exam {
-                    @include flexible();
-                    margin-bottom: 17px;
-
-                    & .compare__ico {
-                        display: block;
-                        margin-right: 20px;
-                    }
-
-                    &:last-child {
-                        margin-bottom: 0;
-                    }
-                }
-            }
-
-            & .compare__subjects {
-                margin: 25px 0 50px;
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                grid-gap: 15px 5px;
-                justify-content: center;
-                align-items: flex-start;
 
                 &:last-child {
-                    margin: 25px 0 0;
-                }
-
-                .compare__subject {
-                    width: 120px;
-                    .compare__subjectIcoContainer {
-                        width: 100px;
-                        height: 100px;
-                        background: radial-gradient(73.81% 92.33% at 8.65% 12.15%, #65BFFF 0%, #FF6FCE 100%);
-                        border-radius: 10px;
-                        @include flexible();
-                        justify-content: center;
-                        margin: 0 auto 10px;
-
-                        & .compare__subjectIco {
-                            display: block;
-                        }
-                    }
-
-                    .compare__subjectName {
-                        font-size: 12px;
-                        line-height: 14px;
-                        text-align: center;
-                        color: $paragraph-black;
-                        word-wrap: break-word;
-                    }
+                    margin-bottom: 0;
                 }
             }
         }
 
-        & .compare__emptyProfile {
-            padding: 35px;
+        & .compare__subjects {
+            margin: 25px 0 50px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 15px 5px;
+            justify-content: center;
+            align-items: flex-start;
 
-            & .compare__emptyTitle {
-                @include h3-bold();
-                text-align: center;
-                margin-bottom: 35px;
+            &:last-child {
+                margin: 25px 0 0;
             }
 
+            .compare__subject {
+                width: 120px;
+                margin: 0 auto;
+                .compare__subjectIcoContainer {
+                    width: 100px;
+                    height: 100px;
+                    background: radial-gradient(73.81% 92.33% at 8.65% 12.15%, #65BFFF 0%, #FF6FCE 100%);
+                    border-radius: 10px;
+                    @include flexible();
+                    justify-content: center;
+                    margin: 0 auto 10px;
+
+                    & .compare__subjectIco {
+                        display: block;
+                    }
+                }
+
+                .compare__subjectName {
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    color: $paragraph-black;
+                    word-wrap: break-word;
+                }
+            }
         }
-        & .compare__emptyLink {
-            @include h3-regular();
-            margin: 0 auto;
+    }
+
+    & .compare__emptyProfile {
+        padding: 35px;
+
+        & .compare__emptyTitle {
+            @include h3-bold();
+            text-align: center;
+            margin-bottom: 35px;
         }
 
-        & .compare__link {
-            display: block;
-            width: max-content;
-            @include paragraph-regular();
-            color: $primary-color;
-            padding-bottom: 5px;
-            border-bottom: 1px solid $primary-color;
-            transition: all 0.4s ease;
-            &:hover {
-                color: $primary-color-hover;
-                border-bottom: 1px solid $primary-color-hover;
-            }
-            &:active {
-                color: $primary-color-active;
-                border-bottom: 1px solid $primary-color-active;
-            }
-            margin-bottom: 50px;
+    }
+    & .compare__emptyLink {
+        @include h3-regular();
+        margin: 0 auto;
+    }
+
+    & .compare__link {
+        display: block;
+        width: max-content;
+        @include paragraph-regular();
+        color: $primary-color;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $primary-color;
+        transition: all 0.4s ease;
+        &:hover {
+            color: $primary-color-hover;
+            border-bottom: 1px solid $primary-color-hover;
         }
+        &:active {
+            color: $primary-color-active;
+            border-bottom: 1px solid $primary-color-active;
+        }
+        margin-bottom: 50px;
     }
 
 }
@@ -188,4 +191,183 @@
 .compare__background__top {
     background:url("/assets/images/courses_background.svg") top no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 1180px) {
+    .compare {
+        & .compare__title {
+            margin-bottom: 50px;
+        }
+        & .compare__container {
+            width: 100%;
+        }
+        & .compare__layout {
+            grid-column-gap: 20px;
+        }
+        & .compare__card {
+            padding: 30px;
+
+            & .compare__subjects {
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: 15px 0 25px;
+                &:last-child {
+                    margin: 15px 0 0;
+                }
+
+                & .compare__subject {
+                    width: 100%;
+                    max-width: 120px;
+                }
+            }
+            & .compare__link {
+                margin-bottom: 35px;
+            }
+            & .compare__cipher, & .compare__item {
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .compare {
+        & .compare__title {
+            margin-bottom: 50px;
+        }
+        & .compare__layout {
+            grid-column-gap: 20px;
+
+        }
+        & .compare__card {
+            padding: 30px;
+
+            & .compare__subjects {
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: 15px 0 25px;
+                &:last-child {
+                    margin: 15px 0 0;
+                }
+
+                & .compare__subject {
+                    & .compare__subjectIcoContainer {
+                        width: 80px;
+                        height: 80px;
+
+                        & .compare__subjectIco {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+            & .compare__link {
+                margin-bottom: 35px;
+            }
+            & .compare__cipher, & .compare__item {
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .compare {
+        & .compare__title {
+            margin-bottom: 25px;
+        }
+        & .compare__layout {
+            grid-column-gap: 15px;
+        }
+        & .compare__card {
+            padding: 25px;
+
+            & .compare__subjects {
+                grid-template-columns: 1fr 1fr;
+
+            }
+            & .compare__link {
+                margin-bottom: 20px;
+            }
+            & .compare__cipher, & .compare__item {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 650px) {
+    .compare {
+        & .compare__card {
+
+            & .compare__subjects {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+
+                & .compare__subject {
+                    & .compare__subjectIcoContainer {
+                        width: 80px;
+                        height: 80px;
+
+                        & .compare__subjectIco {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .compare {
+        & .compare__card {
+            padding: 20px;
+
+            & .compare__header {
+                & .compare__button {
+                    & svg {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+
+            & .compare__subjects {
+                grid-template-columns: 1fr 1fr 1fr;
+
+                & .compare__subject {
+                    & .compare__subjectIcoContainer {
+                        width: 70px;
+                        height: 70px;
+
+                        & .compare__subjectIco {
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .compare {
+        & .compare__card {
+            & .compare__subjects {
+                & .compare__subject {
+                    & .compare__subjectIcoContainer {
+                        width: 60px;
+                        height: 60px;
+
+                        & .compare__subjectIco {
+                            width: 45px;
+                            height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

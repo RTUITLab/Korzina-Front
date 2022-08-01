@@ -1,5 +1,4 @@
 import coursesData from '../../data/coursesData'
-import arrow from '../../../assets/icons/profile_arrow.svg'
 import {appendElement, getElement, getImage, getLink} from "../../create-elements";
 
 const coursesParent = document.getElementById('CoursesParent');
