@@ -4,19 +4,31 @@
     background-color: $primary-color;
 
     & .footer__inner {
-        width: 1170px;
+        width: 100%;
+        max-width: 1170px;
         padding: 75px 0;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'logo years social chats';
         grid-gap: 30px;
 
         & a {
+            grid-area: logo;
             display: block;
             & .footer__logo {
                 display: block;
                 width: 170px;
             }
+        }
+        & .footer__years {
+            grid-area: years;
+        }
+        & .footer__social {
+            grid-area: social;
+        }
+        & .footer__chats {
+            grid-area: chats;
         }
 
         & .footer__section {
@@ -48,7 +60,7 @@
                     }
                 }
             }
-            & .footer__chats {
+            & .footer__row {
                 @include flexible();
                 gap: 15px;
 
@@ -58,4 +70,100 @@
             }
         }
     }
+}
+
+@media (max-width: 1180px) {
+    .footer__container {
+        padding: 0 20px;
+
+        & .footer__inner {
+            padding: 50px 0;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                    'logo logo logo'
+                    'years social chats';
+
+            & .footer__section {
+                & .footer__title {
+                    margin-bottom: 15px;
+                }
+            }
+
+            & a {
+                width: max-content;
+            }
+        }
+    }
+
+}
+@media (max-width: 992px) {
+    .footer__container {
+       & .footer__inner {
+            padding: 30px 0;
+            grid-template-columns: 3fr 3fr 2fr;
+
+            & .footer__section {
+                & .footer__title {
+                    margin-bottom: 15px;
+                }
+            }
+
+            & a .footer__logo{
+                width: 130px;
+            }
+        }
+    }
+
+}
+@media (max-width: 650px) {
+    .footer__container {
+
+        & .footer__inner {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            grid-template-areas:
+                    'logo chats'
+                    'years social';
+        }
+    }
+
+}
+@media (max-width: 480px) {
+    .footer__container {
+
+        & .footer__inner {
+            padding: 20px 0;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            grid-template-areas:
+                    'logo chats'
+                    'years years'
+                    'social social';
+
+            & .footer__section {
+                & .footer__title {
+                    margin-bottom: 15px;
+                }
+            }
+
+            & a .footer__logo{
+                width: 100px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 300px) {
+    .footer__container {
+        & .footer__inner {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                    'logo'
+                    'chats'
+                    'years'
+                    'social';
+        }
+    }
+
 }
