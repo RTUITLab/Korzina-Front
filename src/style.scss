@@ -144,6 +144,10 @@ $paragraph-black-05: rgba(44, 44, 44, 0.5);
         padding: 45px 20px;
     }
 
+    @media (max-width: 650px) {
+        background:url("/assets/images/courses_background.svg") top no-repeat;
+        background-size: cover;
+    }
     @media (max-width: 480px) {
         padding: 30px 20px;
     }

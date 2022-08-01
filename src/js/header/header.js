@@ -285,7 +285,7 @@ function getEmptyComparePageLayout() {
 function getEmptySecondProfileLayout() {
     let container = getElement('div', 'compare__emptyProfile');
     let emptyTitle = getElement('h3', 'compare__emptyTitle', 'Добавьте в сравнение ещё профиль');
-    let link = getLink('/', 'Перейти к выбору','compare__link compare__emptyLink');
+    let link = getLink('/', 'Перейти к выбору','compare__emptyLink');
 
     container = appendElement(container, [emptyTitle, link])
     return container
