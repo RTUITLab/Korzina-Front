@@ -8,6 +8,7 @@ function onLoad() {
         slidesPerView: "auto",
         loop: false,
         spaceBetween: 15,
+        autoHeight: true,
         modules: [Pagination],
         pagination: {
             el: ".profilesSwiperPagination",

@@ -87,18 +87,7 @@ function onLoad() {
     }
 
     if(window.innerWidth <= 650) {
-        swiper = new Swiper(".compareSwiperParent", {
-            slidesPerView: "auto",
-            loop: false,
-            autoHeight: true,
-            spaceBetween: 15,
-            modules: [Pagination],
-            pagination: {
-                el: ".compareSwiperPagination",
-                clickable: true,
-                type: "bullets"
-            },
-        });
+        initializeSwiper();
     }
 
     initProjects=true;
@@ -140,7 +129,11 @@ function handleDeleteProfile(obj) {
         const filteredProfiles = savedProfiles.filter((item) => item.profileName !== obj.profileName)
         compareContainer.innerHTML = '';
         if(filteredProfiles.length === 1) {
-            compareContainer.appendChild(getComparePageLayout(filteredProfiles))
+            if(window.innerWidth <= 650) {
+                compareContainer.appendChild(getCompareSwiperLayout(filteredProfiles))
+                initializeSwiper();
+            }
+            else compareContainer.appendChild(getComparePageLayout(filteredProfiles))
             headerCompare.innerText = '1'
             localStorage.setItem('profiles', JSON.stringify(filteredProfiles))
             correctNameHeight()
@@ -327,4 +320,19 @@ function correctNameHeight() {
             item.style.height = String(maxHeight) + 'px'
         }
     }
+}
+
+function initializeSwiper() {
+    swiper = new Swiper(".compareSwiperParent", {
+        slidesPerView: "auto",
+        loop: false,
+        autoHeight: true,
+        spaceBetween: 15,
+        modules: [Pagination],
+        pagination: {
+            el: ".compareSwiperPagination",
+            clickable: true,
+            type: "bullets"
+        },
+    });
 }

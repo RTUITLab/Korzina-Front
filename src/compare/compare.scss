@@ -13,7 +13,7 @@
         margin: 0 auto;
 
         & .compare__empty {
-            margin: 240px 0 255px;
+            margin: 240px 0 150px;
 
             & .compare__subtitle {
                 @include h2-bold();
@@ -23,6 +23,7 @@
             & .compare__link {
                 margin: 0 auto;
                 @include cta-button();
+                color: white;
             }
         }
     }
@@ -200,6 +201,9 @@
         }
         & .compare__container {
             width: 100%;
+            & .compare__empty {
+                margin: 150px 0 50px;
+            }
         }
         & .compare__layout {
             grid-column-gap: 20px;
@@ -236,7 +240,11 @@
         }
         & .compare__layout {
             grid-column-gap: 20px;
-
+        }
+        & .compare__container {
+            & .compare__empty {
+                margin: 130px 0 50px;
+            }
         }
         & .compare__card {
             padding: 30px;
@@ -279,6 +287,14 @@
         & .compare__layout {
             grid-column-gap: 15px;
         }
+        & .compare__container {
+            & .compare__empty {
+                margin: 100px 0 50px;
+                & .compare__subtitle {
+                    margin-bottom: 30px;
+                }
+            }
+        }
         & .compare__card {
             padding: 25px;
 
@@ -299,11 +315,14 @@
 
 @media (max-width: 650px) {
     .compare {
+        & .compare__container {
+            & .compare__empty {
+                margin: 50px 0;
+            }
+        }
         & .compare__card {
-
             & .compare__subjects {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
-
                 & .compare__subject {
                     & .compare__subjectIcoContainer {
                         width: 80px;
@@ -321,6 +340,14 @@
 }
 @media (max-width: 480px) {
     .compare {
+        & .compare__container {
+            & .compare__empty {
+                margin: 50px 0;
+                & .compare__subtitle {
+                    margin-bottom: 20px;
+                }
+            }
+        }
         & .compare__card {
             padding: 20px;
 
