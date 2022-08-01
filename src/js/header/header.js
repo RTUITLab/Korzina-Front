@@ -11,6 +11,7 @@ const compareBackground = document.getElementById('CompareBackground')
 let initProjects = false;
 const animationTime = 500;
 const framesCount = 60;
+const YOffset = window.innerWidth <= 650 ? 90 : 150
 let swiper = null
 
 const profiles = [];
@@ -33,7 +34,7 @@ function onLoad() {
             e.preventDefault();
 
             // для каждого якоря берем соответствующий ему элемент и определяем его координату Y
-            let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset - 150;
+            let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset - YOffset;
 
             // запускаем интервал, в котором
             let scroller = setInterval(function() {

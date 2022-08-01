@@ -2,23 +2,23 @@
     "footer": {
         "statistics": [
             {
-                "link": "#",
+                "link": "https://priem.mirea.ru/first-degree/selection/2021",
                 "title": "Приёмная кампания 2021"
             },
             {
-                "link": "#",
+                "link": "https://priem.mirea.ru/first-degree/selection/2020",
                 "title": "Приёмная кампания 2020"
             },
             {
-                "link": "#",
+                "link": "https://priem.mirea.ru/first-degree/selection/2019",
                 "title": "Приёмная кампания 2019"
             },
             {
-                "link": "#",
+                "link": "https://priem.mirea.ru/first-degree/selection/2018",
                 "title": "Приёмная кампания 2018"
             },
             {
-                "link": "#",
+                "link": "https://priem.mirea.ru/first-degree/selection/2017",
                 "title": "Приёмная кампания 2017"
             }
         ],
@@ -48,12 +48,12 @@
             {
                 "ico": "/assets/icons/telegram.svg",
                 "title": "Telegram",
-                "link": "#"
+                "link": "https://telegram.me/priem_mirea"
             },
             {
                 "ico": "/assets/icons/vk.svg",
                 "title": "VK",
-                "link": "#"
+                "link": "https://vk.com/priem_mirea?w=chats-5411326"
             }
         ]
     }
