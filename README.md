@@ -28,3 +28,10 @@ $ npm run start
 ```
 
 And then look main page in [http://localhost:3000/index.html](http://localhost:3000/index.html)
+
+## Production
+
+```
+$ jake
+```
+`jake` also creates production `build` folder
