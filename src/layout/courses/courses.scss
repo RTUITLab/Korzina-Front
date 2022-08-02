@@ -1,0 +1,172 @@
+@import "./src/style.scss";
+
+.courses {
+    @include page-template();
+
+    & .courses__title {
+        @include h1();
+        margin-bottom: 25px;
+    }
+
+    & .courses__nav {
+        @include flexible();
+        justify-content: center;
+        gap: 45px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0 15px 5px;
+        margin-bottom: 50px;
+
+        border-bottom: 2px solid transparent;
+        @include h3-regular();
+        cursor: pointer;
+
+        color: $paragraph-black;
+
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+
+        label {
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            &:hover {
+                border-bottom: 2px solid $primary-color;
+            }
+        }
+
+        input {
+            display: none;
+        }
+
+        & input:checked + label {
+            border-bottom: 2px solid $primary-color;
+            padding-bottom: 5px;
+            color: $primary-color;
+            font-weight: 700;
+        }
+    }
+
+    & .courses__search {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto 75px;
+
+        .courses__input {
+            position: relative;
+            width: 100%;
+            & input {
+                @include paragraph-regular();
+                transition: all 0.4s ease;
+                border: 1px solid white;
+                padding: 15px 64px 16px;
+                color: $paragraph-black;
+                border-radius: 15px;
+                display: block;
+                width: 100%;
+
+                &::placeholder {
+                    color: rgba(44, 44, 44, 0.5);
+                }
+                &:focus {
+                    border: 1px solid $primary-color;
+                }
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 15px;
+                margin: auto;
+                background-size: cover;
+                width: 24px;
+                height: 24px;
+                background: url('/assets/icons/search-loupe.svg') no-repeat;
+            }
+        }
+
+
+        & .courses__result {
+            width: 100%;
+            position: relative;
+
+            & .result__container {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 15px;
+                width: 100%;
+                background: white;
+                box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+
+                & .result__item {
+                    padding: 15px;
+                    @include paragraph-regular();
+                    width: 100%;
+                    display: block;
+                    transition: all 0.4s ease;
+
+                    &:first-child {
+                        border-radius: 15px 15px 0 0;
+                    }
+                    &:last-child {
+                        border-radius: 0 0 15px 15px;
+                    }
+                    &:last-child &:first-child{
+                        border-radius: 15px;
+                    }
+                    &:hover {
+                        background-color: rgba(25, 107, 177, 0.1);
+                    }
+                }
+
+                & .result__round {
+                    &:first-child {
+                        border-radius: 15px;
+                    }
+                    &:last-child {
+                        border-radius: 15px;
+                    }
+                }
+            }
+
+            & .result__hidden {
+                display: none;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1180px) {
+    .courses {
+        & .courses__nav {
+            padding: 0;
+            margin-bottom: 25px;
+        }
+
+        & .courses__search {
+            margin: 0 auto 40px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .courses {
+        & .courses__nav {
+            gap: 20px;
+        }
+        & .courses__search {
+            margin: 0 auto 30px;
+
+            & .courses__input input {
+                padding: 15px 20px 15px 50px;
+            }
+        }
+    }
+}

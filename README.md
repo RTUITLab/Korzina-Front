@@ -23,6 +23,7 @@ $ npm i
 ## Dev running
 
 ```
+$ jake
 $ npm run start
 ```
 

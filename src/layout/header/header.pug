@@ -1,13 +1,10 @@
 div.header__top
-    img(src='/assets/images/mirea-logo.svg' alt='MIREA-logo')
-div.header__container
-    img(src='/assets/images/background-IT-logo.svg' alt='IIT-logo').header__logo
-    .header__information
-        h1.header__title
-            | Корзина компетенций студента РТУ МИРЭА
-        h2.header__subtitle
-            | Институт информационных технологий
-        button.header__button
-            | Ознакомиться
-
-
+    .header__outer
+        .header__inner
+            button(onclick=`history.back()`).header__back.header__hidden#HeaderBack
+                include ../../../assets/icons/header_arrow.svg
+            a(href='/').header__logo
+                img(src='/assets/images/mirea-logo.svg' alt='MIREA-logo')
+            a(href=``).header__compare#CompareLink
+                div.header__badge.header__badge__hidden#HeaderCompare
+                include ../../../assets/icons/header_compare.svg

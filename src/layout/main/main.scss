@@ -1,0 +1,104 @@
+@import "./src/style.scss";
+
+.header__container {
+    position: relative;
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.7), rgba(44, 44, 44, 0.7)), url("/assets/images/background-A421.png") center no-repeat;
+    background-size: cover;
+    height: 91vh;
+    @include flexible();
+    justify-content: center;
+
+    & .header__logo {
+        @include absoluteCenter();
+        z-index: 1;
+        height: 72vh;
+        max-height: 72vh;
+        max-width: 72vw;
+    }
+
+    & .header__information {
+        position: relative;
+        z-index: 2;
+        width: 1170px;
+        margin: 0 auto;
+
+        & .header__title {
+
+            @include h1();
+            color: white;
+            margin-bottom: 40px;
+          }
+
+        & .header__subtitle {
+            @include h2-regular();
+            color: white;
+            text-align: center;
+            margin-bottom: 97px;
+          }
+
+        & .header__button {
+            @include cta-button();
+            margin: 0 auto;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .header__container {
+        padding: 0 20px;
+
+        & .header__information {
+            & .header__subtitle {
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header__container {
+
+        & .header__logo {
+            height: auto;
+        }
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .header__container {
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header__container {
+
+        & .header__information {
+            & .header__title {
+                margin-bottom: 20px;
+            }
+            & .header__subtitle {
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

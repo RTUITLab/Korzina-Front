@@ -1,0 +1,3418 @@
+{
+    "fileName": "ProgInjBach.pug",
+    "position": 4,
+    "ico": "/assets/icons/courses/ProgInj.svg",
+    "background": "/assets/images/courses_backgrounds/ProgInjBack.png",
+    "title": "Программная инженерия",
+    "grade": "Бакалавриат",
+    "cipher": "09.03.04",
+    "price": "266 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "4 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+    "profiles": [
+        {
+            "link": "/profiles/ProgInjBach.html",
+            "className": "infSystResControl",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Информационные системы управления ресурсами предприятия",
+            "ico": "/assets/icons/profiles/resourceControl.svg",
+            "description": "Предлагаемый профиль направлен на подготовку профессионалов высшей квалификации, ориентированных на проектирование, разработку, внедрение, сопровождение и эксплуатацию информационных систем корпоративного управления.\n\nОсобое внимание уделяется изучению лучших отечественных и зарубежных практик проектирования, разработки, внедрения и сопровождения информационных систем синхронизированного планирования ресурсов предприятия (Customer Syn- chronized Resource Planning, CSRP), включая системы планирования потребностей в материалах (Material Requirements Planing, MRP) и в производственных ресурсах (Manufacturing Resource Planing, MRPII), а также системы управления взаимоотношениями с клиентами (Customer Relationship Management, CRM).",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": false,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": false,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": false,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": false,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": true,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": true,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": false,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": true,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": true,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": false,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": false,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": false,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+
+        },
+        {
+            "link": "/profiles/ProgInjBach.html?index=1",
+            "className": "sipiBach",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Системная и программная инженерия",
+            "ico": "/assets/icons/profiles/sipi.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области стандартизации программной и системной инженерии, а также создания и развития сложных, многоверсионных, тиражируемых программных средств и баз данных высокого качества и надёжности.\n\nЛаборатории оснащены современным компьютерным, сетевым, мультимедийным и офисным оборудованием, обеспечивающим учебный процесс, исследовательские проекты и инициативные разработки. Студентам предоставляются возможности для самостоятельной проектной работы, в том числе в области сетевого и системного администрирования.\n\nОсобое внимание уделяется технологиям проектирования и разработки мобильных приложений.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": false,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": false,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": true,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": false,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": true,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": true,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": false,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": true,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": true,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": false,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": true,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": true,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": false,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjBach.html?index=2",
+            "className": "infSystSupport",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Интеллектуальные системы поддержки принятия решений",
+            "ico": "/assets/icons/profiles/supportDecision.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области создания программного обеспечения на основе интеллектуальных методов и подходов, способного обеспечить поддержку принятия решений в произвольной предметной области.\n\nУчебный процесс проходит в компьютерном центре, оснащённом современным аппаратно-программным обеспечением. Студенты приобретают навыки не только в области программирования и моделирования, но и в области концептуального мышления, основанного на изучении методик ситуационного анализа.\n\nОсобое внимание уделяется изучению и применению технологий искусственного интеллекта, разработке соответствующего программного и информационного обеспечения.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": true,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": true,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": false,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": true,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": true,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": true,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": false,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": true,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": false,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": false,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjBach.html?index=3",
+            "className": "gamedev",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Разработка и дизайн компьютерных игр и мультимедийных приложений",
+            "ico": "/assets/icons/profiles/gameDev.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области проектирования и разработки мобильных приложений, интернет-ресурсов и клиент-серверных систем, с учётом углублённой специализации в игровой и медиаиндустрии, ориентированной на создание компьютерных игр, мультимедийных приложений и контента.\n\nУчебный процесс проходит в компьютерных классах, оснащённых современным аппаратно-программным обеспечением, мультимедийным и офисным оборудованием, а также в специализированных лабораториях, оснащённых системами захвата движения и лицевой мимики, оборудованием расширенной (виртуальной, смешанной и дополненной) реальности, программным и техническим обеспечением разработки высококачественной компьютерной графики.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": false,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": true,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": false,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": false,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": false,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": true,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": true,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": false,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": true,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": false,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": false,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": false,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": true,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjBach.html?index=4",
+            "className": "infSystDev",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Разработка программных продуктов и проектирование информационных систем",
+            "ico": "/assets/icons/profiles/devPis.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области разработки и эксплуатации программного обеспечения и проектирования информационных систем как совокупности средств, методов и персонала, используемых для хранения, обработки и выдачи информации для целей управления.\n\nУчебный процесс проходит в компьютерных классах, оснащённых современным аппаратно-программным обеспечением и мультимедийным оборудованием, изучаются отечественные и зарубежные практики индустриального производства программного обеспечения, моделирования предметной области и проектирования компонентов информационных систем.\n\nОсобое внимание уделяется изучению и применению клиент-серверных технологий.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": false,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": false,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": false,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": false,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": true,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": false,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": true,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": true,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": false,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": true,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": false,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": false,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjBach.html?index=5",
+            "className": "VR",
+            "courseName": "Программная инженерия",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.04",
+            "price": "266 000 рублей",
+            "profileName": "Проектирование и разработка сред и приложений дополненной и виртуальной реальности",
+            "ico": "/assets/icons/profiles/VR.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в сферах разработки программного обеспечения и контента для устройств виртуальной, дополненной и смешанной реальности ведущих мировых производителей, в том числе для мобильных устройств с различными операционными системами. Изучаются соответствующие инструментарии разработчика (Software Development Kit — SDK) и межплатформенные среды разработки. \n\nВ процессе обучения особое внимание уделяется изучению технологий и инструментария разработки высококачественной компьютерной графики и анимации.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;ми&shy;рова&shy;ние нейро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/formalLang.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/formalLang_disable.svg",
+                    "isActive": false,
+                    "title": "Теория формаль&shy;ных языков"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "isActive": true,
+                    "title": "Конифгу&shy;рацион&shy;ное управ&shy;ление"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата лицевой мимики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mnogoagentModel.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mnogoagentModel_disable.svg",
+                    "isActive": false,
+                    "title": "Много&shy;агентное модели&shy;рова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/microservises.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/microservises_disable.svg",
+                    "isActive": false,
+                    "title": "Микро&shy;сервисная архи&shy;тек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorDecision.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorDecision_disable.svg",
+                    "isActive": false,
+                    "title": "Теория приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": true,
+                    "title": "Гейм&shy;дизайн"
+                },
+                {
+                    "ico": "/assets/icons/subjects/gameDes.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/gameDes_disable.svg",
+                    "isActive": false,
+                    "title": "Гейм&shy;дизайн и проекти&shy;рова&shy;ние компь&shy;ютерных игр"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Распре&shy;делен&shy;ные системы управ&shy;ления базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/iot_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/soprInfSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/soprInfSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Сопро&shy;вождение програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тиро&shy;ва&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Модели&shy;рова&shy;ние програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Дизайн мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Оценка парамет&shy;ров функци&shy;ониро&shy;вания програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Инфор&shy;ма&shy;ци&shy;он&shy;ное обеспе&shy;чение предпри&shy;ятия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем под&shy;держки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;но-техно&shy;логическая архитек&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiron_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние и обучение нейрон&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/serverSide.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/serverSide_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка сервер&shy;ных частей интер&shy;нет ресур&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка систем поддерж&shy;ки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тектура клиент-серверных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Конфигури&shy;ро&shy;ва&shy;ние систем управле&shy;ния ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;лища данных систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Имитацион&shy;ное модели&shy;рова&shy;ние клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/contentManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ные системы управ&shy;ления корпора&shy;тив&shy;ным контен&shy;том"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clients.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clients_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клинет&shy;ских частей интер&shy;нет ресурсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Интер&shy;фейсы приклад&shy;ного програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Струк&shy;туры и алго&shy;ритмы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка мобиль&shy;ных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/multiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/multiplayer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка много&shy;поль&shy;зо&shy;ва&shy;тельс&shy;ких игр и клиент-сервер&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/analyseData_disable.svg",
+                    "isActive": false,
+                    "title": "Систем&shy;ный анализ данных в систе&shy;мах поддерж&shy;ки приня&shy;тия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка модулей систем управ&shy;ления ресур&shy;сами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние систем управ&shy;ления ресурсами предпри&shy;ятий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Тести&shy;рова&shy;ние и вери&shy;фика&shy;ция програм&shy;ного обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/systManageProd.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/systManageProd_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления произ&shy;водст&shy;вом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/isit_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние интел&shy;лектуаль&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Разраб&shy;отка програм&shy;мных интер&shy;фейсов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Стандар&shy;тизация и серти&shy;фика&shy;ция програм&shy;много обеспе&shy;чения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContent.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContent_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathObesp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mathObesp_disable.svg",
+                    "isActive": false,
+                    "title": "Матема&shy;тичес&shy;кое обеспе&shy;чение систем поддерж&shy;ки приня&shy;тия реше&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crm.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crm_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ления взаимо&shy;отноше&shy;ния&shy;ми с клиен&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ление информа&shy;ционно-техно&shy;логичес&shy;кими услуга&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobilePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobilePO_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура операцион&shy;ных систем мобиль&shy;ных уст&shy;ройств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Мето&shy;доло&shy;гии разра&shy;бот&shy;ки програм&shy;много обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ци&shy;он&shy;ный менедж&shy;мент програм&shy;мных продук&shy;тов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mocap.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mocap_disable.svg",
+                    "isActive": false,
+                    "title": "Системы захвата движе&shy;ния и отслежива&shy;ния объектов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/crossPlat.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/crossPlat_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка кроссплат&shy;формен&shy;ных програм&shy;мных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии виртуа&shy;лиза&shy;ции клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/java_disable.svg",
+                    "isActive": false,
+                    "title": "Шаблоны програм&shy;мных плат&shy;форм языка Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разработ&shy;ки програм&shy;мных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка приложе&shy;ний виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mobileDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/mobileDev_disable.svg",
+                    "isActive": false,
+                    "title": "Плат&shy;фор&shy;мы разра&shy;бот&shy;ки мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/obespSyst.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/obespSyst_disable.svg",
+                    "isActive": false,
+                    "title": "Раз&shy;работ&shy;ка обеспечи&shy;ваю&shy;щих под&shy;систем систем поддержки принятия решений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/requirement.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/requirement_disable.svg",
+                    "isActive": false,
+                    "title": "Обосно&shy;вание и разработ&shy;ка требова&shy;ний к програм&shy;мным системам"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRMultiplayer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRMultiplayer_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка много&shy;пользовательс&shy;ких приложений вирту&shy;аль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VRApp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VRApp_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;бот&shy;ка игровых и мульти&shy;медий&shy;ных прило&shy;жений рас&shy;ширен&shy;ной реальности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/servicePO.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/servicePO_disable.svg",
+                    "isActive": false,
+                    "title": "Настройка и адми&shy;нист&shy;риро&shy;ва&shy;ние сервис&shy;но&shy;го программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;бот&shy;ка крос&shy;сплат&shy;формен&shy;ных приложе&shy;ний дополнен&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Встраи&shy;вае&shy;мые системы управ&shy;ления базами данных для мобиль&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/modeling_disable.svg",
+                    "isActive": true,
+                    "title": "Архитекту&shy;ра приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реаль&shy;нос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/toolsGameDesign.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/toolsGameDesign_disable.svg",
+                    "isActive": false,
+                    "title": "Инстру&shy;мен&shy;таль&shy;ные сред&shy;ства разра&shy;ботки функци&shy;она&shy;ла и дизай&shy;на компьютер&shy;ных игр и мульти&shy;медий&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/openCode.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/openCode_disable.svg",
+                    "isActive": true,
+                    "title": "Инструмен&shy;таль&shy;ные сред&shy;ства разра&shy;бот&shy;ки програм&shy;но&shy;го обеспе&shy;че&shy;ния с откры&shy;тым кодом"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка им&shy;мерсивно&shy;го контен&shy;та для сред дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;ти"
+                },
+                {
+                    "ico": "/assets/icons/subjects/VR.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/VR_disable.svg",
+                    "isActive": true,
+                    "title": "Зарубеж&shy;ные среды разрабо&shy;тки приложе&shy;ний дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/clientServer.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/clientServer_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии обрабо&shy;тки транза&shy;кций клиент-сервер&shy;ных приложе&shy;ний"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Мобиль&shy;ные приложе&shy;ния систем управл&shy;ения ресур&shy;са&shy;ми предпри&shy;я&shy;тий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compGraph_disable.svg",
+                    "isActive": true,
+                    "title": "Зарубеж&shy;ные инструменталь&shy;ные средства компь&shy;ютер&shy;ной графики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/immersContentDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/immersContentDev_disable.svg",
+                    "isActive": true,
+                    "title": "Опти&shy;миза&shy;ция контен&shy;та дополнен&shy;ной и виртуаль&shy;ной реальнос&shy;тей"
+                }
+            ]
+        }
+    ]
+}

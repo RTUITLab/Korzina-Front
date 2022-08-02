@@ -1,0 +1,667 @@
+{
+    "fileName": "IVTBach.pug",
+    "ico": "/assets/icons/courses/IVT.svg",
+    "position": 2,
+    "background": "/assets/images/courses_backgrounds/IVTBack.png",
+    "title": "Информатика и вычислительная техника",
+    "grade": "Бакалавриат",
+    "cipher": "09.03.01",
+    "price": "240 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "4 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg", "examName": "Математика"}, {"ico": "/assets/icons/exam_russian.svg", "examName": "Русский язык"}, {"ico": "/assets/icons/exam_physics.svg", "examName": "Информатика / Физика"}],
+    "profiles": [
+        {
+            "link": "/profiles/IVTBach.html",
+            "profileName": "Цифровые комплексы, системы и сети",
+            "className": "digitalSystems",
+            "courseName": "Информатика и вычислительная техника",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.01",
+            "price": "240 000 рублей",
+            "ico": "/assets/icons/profiles/digitalSystem.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в сфере проектирования, разработки, сопровождения и эксплуатации ИТ-инфраструктуры организации – комплекса программных и аппаратных компонент[ПW1]  включающего объекты физической инфраструктуры, серверы, центры обработки данных, коммутаторы, маршрутизаторы, концентраторы, рабочие места пользователей и т.д. и функционирующее на них программное обеспечение. \n\nВ учебной, проектной и исследовательской деятельности студенты имеют доступ к современному серверному и сетевому оборудованию различных иностранных и отечественных производителей.\n\nОсобое внимание уделяется изучению отечественных и зарубежных практик формирования и сопровождения традиционных и облачных инфраструктур.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Матема&shy;тичес&shy;кая логика и теория алго&shy;рит&shy;мов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Систем&shy;ное програм&shy;мное обеспе&shy;чение"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/vychmath.svg",
+                    "isActive": true,
+                    "title": "Вычис&shy;литель&shy;ная матема&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/issloper.svg",
+                    "isActive": true,
+                    "title": "Исследо&shy;вание операций"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": true,
+                    "title": "Информа&shy;ционно-техноло&shy;гическая инфрас&shy;трук&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": false,
+                    "title": "Програм&shy;миро&shy;вание нейропроцес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_SG.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_SG_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии мобиль&shy;ной связи"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_CloudService.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_CloudService_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии облач&shy;ных серви&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Storage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Storage_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии хране&shy;ния данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Datacom.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Datacom_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии пере&shy;дачи данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorAvt.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorAvt_disable.svg",
+                    "isActive": false,
+                    "title": "Теория автоматов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/elTeh.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/elTeh_disable.svg",
+                    "isActive": true,
+                    "title": "Электро&shy;техни&shy;ка"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Компь&shy;ютерные интер&shy;фейсы и перифе&shy;рийные устрой&shy;ства"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние инфрас&shy;труктуры информа&shy;ционных техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Алгорит&shy;мические основы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archProcessor_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;тура процес&shy;соров и микро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рование вычис&shy;лительных комп&shy;лек&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/networkInfr.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/networkInfr_disable.svg",
+                    "isActive": false,
+                    "title": "Эксплу&shy;атация сетевой инфрас&shy;труктуры"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Wlan.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Wlan_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии беспро&shy;водных локаль&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                    "isActive": true,
+                    "title": "Пред&shy;метно-ориентиро&shy;ванные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/plis_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рование и разра&shy;ботка систем на базе програм&shy;мируемых логи&shy;ческих интег&shy;ральных схем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Надёж&shy;ность програм&shy;мно-аппарат&shy;ных средств компью&shy;терных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка предметно-ориенти&shy;рованных языков програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логия эксплу&shy;атации вычис&shy;литель&shy;ных комп&shy;лексов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/engeGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/engeGraph_disable.svg",
+                    "isActive": true,
+                    "title": "Начерта&shy;тельная геометрия, инжене&shy;рная и компью&shy;терная графика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": true,
+                    "title": "Техни&shy;ческое обслу&shy;живание программно-аппарат&shy;ных комп&shy;лексов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archProcessor_disable.svg",
+                    "isActive": false,
+                    "title": "Разра&shy;ботка и програм&shy;мирование микро&shy;процес&shy;сорных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/plis_disable.svg",
+                    "isActive": true,
+                    "title": "Схемо&shy;техн&shy;ика устройств компью&shy;терных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_AI.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_AI_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии искус&shy;ственного интел&shy;лекта"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_CloudComputing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_CloudComputing_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии облач&shy;ных вычис&shy;ленй"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Security.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Security_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии сетевой безопас&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Storage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Storage_disable.svg",
+                    "isActive": true,
+                    "title": "Системы хра&shy;не&shy;ния данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Datacom.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Datacom_disable.svg",
+                    "isActive": true,
+                    "title": "Системы переда&shy;чи данных"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/IVTBach.html?index=1",
+            "profileName": "Инфраструктура информационных технологий",
+            "className": "infCorp",
+            "courseName": "Информатика и вычислительная техника",
+            "grade": "Бакалавриат",
+            "cipher": "09.03.01",
+            "price": "240 000 рублей",
+            "ico": "/assets/icons/profiles/infrIT.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области проектирования, разработки, сопровождения, эксплуатации и программирования устройств, комплексов, систем и сетей, предназначенных как для хранения и обработки данных, так и для решения задач автоматизации. \n\nСтуденты имеют доступ к современным учебным лабораториям по электротехнике, электронике и микропроцессорной технике, лабораторные стенды соответствуют современному уровню развития вычислительной техники, отладочные платы с промышленными микропроцессорами позволяют прототипировать программно-аппаратные комплексы для широкого спектра задач.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Матема&shy;тичес&shy;кая логика и теория алго&shy;рит&shy;мов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Систем&shy;ное програм&shy;мное обеспе&shy;чение"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                },
+                {
+                    "ico": "/assets/icons/subjects/vychmath.svg",
+                    "isActive": true,
+                    "title": "Вычис&shy;литель&shy;ная матема&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/issloper.svg",
+                    "isActive": true,
+                    "title": "Исследо&shy;вание операций"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;ционно-техноло&shy;гическая инфрас&shy;трук&shy;тура"
+                },
+                {
+                    "ico": "/assets/icons/subjects/neiroproc.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/neiroproc_disable.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;миро&shy;вание нейропроцес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_SG.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_SG_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии мобиль&shy;ной связи"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_CloudService.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_CloudService_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии облач&shy;ных серви&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Storage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Storage_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии хране&shy;ния данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Datacom.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Datacom_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии пере&shy;дачи данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorAvt.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/teorAvt_disable.svg",
+                    "isActive": true,
+                    "title": "Теория автоматов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/elTeh.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/elTeh_disable.svg",
+                    "isActive": false,
+                    "title": "Электро&shy;техни&shy;ка"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compInterface_disable.svg",
+                    "isActive": true,
+                    "title": "Компь&shy;ютерные интер&shy;фейсы и перифе&shy;рийные устрой&shy;ства"
+                },
+                {
+                    "ico": "/assets/icons/subjects/siaod.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/siaod_disable.svg",
+                    "isActive": false,
+                    "title": "Проек&shy;тирова&shy;ние инфрас&shy;труктуры информа&shy;ционных техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": true,
+                    "title": "Алгорит&shy;мические основы обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archProcessor_disable.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура процес&shy;соров и микро&shy;процес&shy;соров"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование вычис&shy;лительных комп&shy;лек&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/networkInfr.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/networkInfr_disable.svg",
+                    "isActive": true,
+                    "title": "Эксплу&shy;атация сетевой инфрас&shy;труктуры"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Wlan.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Wlan_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии беспро&shy;водных локаль&shy;ных сетей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/aikms_disable.svg",
+                    "isActive": false,
+                    "title": "Пред&shy;метно-ориентиро&shy;ванные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/plis_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование и разра&shy;ботка систем на базе програм&shy;мируемых логи&shy;ческих интег&shy;ральных схем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": true,
+                    "title": "Надёж&shy;ность програм&shy;мно-аппарат&shy;ных средств компью&shy;терных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка предметно-ориенти&shy;рованных языков програм&shy;мирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия эксплу&shy;атации вычис&shy;литель&shy;ных комп&shy;лексов и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/engeGraph.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/engeGraph_disable.svg",
+                    "isActive": false,
+                    "title": "Начерта&shy;тельная геометрия, инжене&shy;рная и компью&shy;терная графика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/uitp_disable.svg",
+                    "isActive": false,
+                    "title": "Техни&shy;ческое обслу&shy;живание программно-аппарат&shy;ных комп&shy;лексов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archProcessor_disable.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка и програм&shy;мирование микро&shy;процес&shy;сорных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/plis_disable.svg",
+                    "isActive": false,
+                    "title": "Схемо&shy;техн&shy;ика устройств компью&shy;терных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_AI.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_AI_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии искус&shy;ственного интел&shy;лекта"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_CloudComputing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_CloudComputing_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии облач&shy;ных вычис&shy;ленй"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Security.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Security_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;логии сетевой безопас&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Storage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Storage_disable.svg",
+                    "isActive": false,
+                    "title": "Системы хра&shy;не&shy;ния данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/huawei_Datacom.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/huawei_Datacom_disable.svg",
+                    "isActive": false,
+                    "title": "Системы переда&shy;чи данных"
+                }
+            ]
+        }
+    ]
+}

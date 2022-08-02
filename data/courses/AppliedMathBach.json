@@ -1,0 +1,242 @@
+{
+    "fileName": "AppliedMathBach.pug",
+    "position": 1,
+    "ico": "/assets/icons/courses/AppliedMath.svg",
+    "background": "/assets/images/courses_backgrounds/AppliedMathBack.png",
+    "title": "Прикладная математика",
+    "grade": "Бакалавриат",
+    "cipher": "01.03.04",
+    "price": "222 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "4 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+    "profiles": [
+        {
+            "link": "/profiles/AppliedMathBach.html",
+            "className": "dataAnalyse",
+            "courseName": "Прикладная математика",
+            "grade": "Бакалавриат",
+            "cipher": "01.03.04",
+            "price": "222 000 рублей",
+            "profileName": "Анализ данных",
+            "ico": "/assets/icons/profiles/analyseData.svg",
+            "description": "В ходе обучения студенты получают подготовку в сфере технологий обработки, хранения, поиска и анализа данных, полученных в различных прикладных областях. \n\nОбучение включает получение навыков применения специализированных программных средств и математических методов с целью выявления закономерностей и зависимостей, прогнозирования тенденций и значений параметров, составления аналитических обзоров и справок, подготовки управленческих решений и материалов бизнес-аналитики. Студенты, проходящие обучение по программе, имеют доступ к современным учебным лабораториям, иностранному и отечественному специализированному программному обеспечению, большим объёмам экспериментальных данных в сферах экономики, физики, техники, природных процессов и т.д.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Математика"},{"ico": "/assets/icons/exam_russian.svg","examName": "Русский язык"},{"ico": "/assets/icons/exam_informatics.svg","examName": "Информатика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Питон"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лирова&shy;ние бизнесс-процессов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/cisco.svg",
+                    "isActive": true,
+                    "title": "Основы сетевых техно&shy;логий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Разра&shy;ботка баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/intelligence.svg",
+                    "isActive": true,
+                    "title": "Искус&shy;ствен&shy;ный интеллект"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matan.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческий анализ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование баз данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Инфор&shy;матика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/procprogramming.svg",
+                    "isActive": true,
+                    "title": "Объектно-ориентиро&shy;ван&shy;ное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/iot.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логичес&shy;кие основы интер&shy;нета вещей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура вычисли&shy;тельных машин и систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "isActive": true,
+                    "title": "Системная и прог&shy;раммная инженерия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/linal.svg",
+                    "isActive": true,
+                    "title": "Линейная алгебра и анали&shy;тичес&shy;кая геометрия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Проце&shy;дурное програм&shy;мирова&shy;ние"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sisadm.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;темное админис&shy;триро&shy;вание"
+                },
+                {
+                    "ico": "/assets/icons/subjects/modeling.svg",
+                    "isActive": true,
+                    "title": "Моде&shy;лиро&shy;вание сред и разработка прило&shy;жений вирту&shy;альной и допол&shy;нен&shy;ной реаль&shy;ности"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;ционно-тех&shy;нологи&shy;ческими проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/bigdata.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий анализа больших данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/aikms.svg",
+                    "isActive": true,
+                    "title": "Анализ и концеп&shy;туальное модели&shy;рование систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логия разра&shy;ботки програм&shy;мных прило&shy;жений"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorver.svg",
+                    "isActive": true,
+                    "title": "Теория вероят&shy;ностей и математи&shy;ческая статис&shy;тика"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathlogic.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческая логика и теория алго&shy;ритмов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/java.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мирова&shy;ние на языке Джава"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/issloper.svg",
+                    "isActive": true,
+                    "title": "Математи&shy;ческое модели&shy;рование приклад&shy;ных задач"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mathPhysics.svg",
+                    "isActive": true,
+                    "title": "Урав&shy;нения математи&shy;ческой физики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/predAnalyse.svg",
+                    "isActive": true,
+                    "title": "Модели и методы предик&shy;тивной анали&shy;тики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/optManage.svg",
+                    "isActive": true,
+                    "title": "Модели и методы оптималь&shy;ного управ&shy;ления"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorAlg.svg",
+                    "isActive": true,
+                    "title": "Теория алгорит&shy;мов и рекурсив&shy;ных функций"
+                },
+                {
+                    "ico": "/assets/icons/subjects/dynSyst.svg",
+                    "isActive": true,
+                    "title": "Моделиро&shy;вание динами&shy;ческих систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Системы управ&shy;ления данными"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorGraph.svg",
+                    "isActive": true,
+                    "title": "Теория графов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/python.svg",
+                    "isActive": true,
+                    "title": "Языки програм&shy;мирова&shy;ния для статис&shy;тичес&shy;кой обра&shy;ботки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/langStatProc.svg",
+                    "isActive": true,
+                    "title": "Дополни&shy;тельные главы вычисли&shy;тельной матема&shy;тики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/ML.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии и инструмен&shy;тарий машин&shy;ного обучения"
+                },
+                {
+                    "ico": "/assets/icons/subjects/matStat.svg",
+                    "isActive": true,
+                    "title": "Приклад&shy;ные задачи матема&shy;тической статис&shy;тики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/nonlinearDyn.svg",
+                    "isActive": true,
+                    "title": "Приклад&shy;ные задачи нелиней&shy;ной дина&shy;мики"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progAnalyse.svg",
+                    "isActive": true,
+                    "title": "Прог&shy;нозно-аналити&shy;ческие системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/analyseData.svg",
+                    "isActive": true,
+                    "title": "Методы анализа данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/teorGroupe.svg",
+                    "isActive": true,
+                    "title": "Теория групп и чисел"
+                },
+                {
+                    "ico": "/assets/icons/subjects/orgObrStat.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;логии органи&shy;зации, обработ&shy;ки и хранения статисти&shy;ческих данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/imitModel.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мные средства имитаци&shy;онного моделиро&shy;вания систем"
+                }
+            ]
+        }
+    ]
+}

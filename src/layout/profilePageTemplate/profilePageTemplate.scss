@@ -1,0 +1,247 @@
+@import "./src/style.scss";
+
+.course__header {
+    position: relative;
+    height: 46vh;
+    width: 100%;
+    @include flexible();
+    justify-content: center;
+
+    & .course__background {
+        z-index: 0;
+        height: inherit;
+        display: block;
+        width: 100%;
+        @include absoluteCenter();
+        object-fit: cover;
+    }
+    & .course__information {
+        width: 1200px;
+        margin: 0 auto;
+
+        & .course__title {
+            position: relative;
+            z-index: 1;
+            @include h1();
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        & .course__cipher {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            @include h2-regular();
+            color: white;
+        }
+    }
+}
+
+.profiles__container {
+    @include page-template();
+
+    & .profiles__title {
+        @include h1();
+        margin-bottom: 50px;
+    }
+}
+
+.card__parent {
+    & .card__content {
+       grid-gap: 50px;
+    }
+    & .card__container {
+        cursor: grab;
+    }
+}
+
+.card__subject {
+    & .card__topic {
+        margin: 50px 0 30px;
+        @include h2-bold;
+        text-align: center;
+    }
+
+    & .card__special {
+        margin: 75px 0 50px;
+    }
+
+    & .subject {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 25px 9px;
+        align-items: flex-start;
+
+        .subject__container {
+            width: 120px;
+            margin: 0 auto;
+            .subject__icon {
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(73.81% 92.33% at 8.65% 12.15%, #65BFFF 0%, #FF6FCE 100%);
+                border-radius: 10px;
+                @include flexible();
+                justify-content: center;
+                margin: 0 auto 10px;
+
+                & img {
+                    display: block;
+
+                }
+            }
+
+            .subject__name {
+                margin: 0 auto;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                color: $paragraph-black;
+            }
+        }
+
+        & .subject__container__disabled {
+            & .subject__icon {
+                background: #CBCBCB;
+            }
+            & .subject__name__disabled {
+                color: rgba(44, 44, 44, 0.5);
+            }
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .course__header {
+        padding: 0 20px;
+    }
+
+    .profiles__container {
+        & .profiles__title {
+            margin-bottom: 30px;
+        }
+    }
+
+    .card__subject {
+
+        & .subject {
+            grid-template-columns: repeat(7, 1fr);
+
+            & .subject__container {
+                width: 100%;
+                max-width: 120px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .card__subject {
+       & .subject {
+           grid-template-columns: repeat(6, 1fr);
+           grid-gap: 15px 5px;
+
+           & .subject__container {
+
+               & .subject__name {
+                   width: 105px;
+               }
+           }
+        }
+    }
+    .profiles__container {
+        & .profiles__title {
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .card__subject {
+       & .subject {
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+}
+@media (max-width: 650px) {
+    .card__subject {
+
+        & .card__topic {
+            margin: 25px 0 15px;
+            @include h2-bold;
+            text-align: center;
+        }
+        & .subject {
+            grid-template-columns: repeat(4, 1fr);
+
+            & .subject__container {
+
+                & .subject__icon {
+                    width: 80px;
+                    height: 80px;
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                & .subject__name {
+                    width: 90px;
+                    font-size: 10px;
+                    line-height: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .card__parent {
+        & .card__content {
+            grid-gap: 17px;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .card__subject {
+       & .subject {
+            grid-template-columns: repeat(3, 1fr);
+
+
+            & .subject__container {
+
+                & .subject__icon {
+                    width: 70px;
+                    height: 70px;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                & .subject__name {
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .card__subject {
+       & .subject {
+           & .subject__container {
+                & .subject__icon {
+                    width: 60px;
+                    height: 60px;
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+                & .subject__name {
+                    width: 60px;
+                }
+            }
+        }
+    }
+}

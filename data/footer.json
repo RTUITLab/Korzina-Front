@@ -1,0 +1,60 @@
+{
+    "footer": {
+        "statistics": [
+            {
+                "link": "https://priem.mirea.ru/first-degree/selection/2021",
+                "title": "Приёмная кампания 2021"
+            },
+            {
+                "link": "https://priem.mirea.ru/first-degree/selection/2020",
+                "title": "Приёмная кампания 2020"
+            },
+            {
+                "link": "https://priem.mirea.ru/first-degree/selection/2019",
+                "title": "Приёмная кампания 2019"
+            },
+            {
+                "link": "https://priem.mirea.ru/first-degree/selection/2018",
+                "title": "Приёмная кампания 2018"
+            },
+            {
+                "link": "https://priem.mirea.ru/first-degree/selection/2017",
+                "title": "Приёмная кампания 2017"
+            }
+        ],
+        "social_media": [
+            {
+                "link": "https://vk.com/mirea_official",
+                "title": "Официальная группа VK"
+            },
+            {
+                "link": "https://vk.com/sumirea",
+                "title": "Студенческий союз МИРЭА"
+            },
+            {
+                "link": "https://vk.com/priem_mirea",
+                "title": "Абитуриенту РТУ МИРЭА"
+            },
+            {
+                "link": "https://vk.com/life.mirea",
+                "title": "Студенту РТУ МИРЭА"
+            },
+            {
+                "link": "#",
+                "title": "Ответственно PRO ИТ"
+            }
+        ],
+        "chats": [
+            {
+                "ico": "/assets/icons/telegram.svg",
+                "title": "Telegram",
+                "link": "https://telegram.me/priem_mirea"
+            },
+            {
+                "ico": "/assets/icons/vk.svg",
+                "title": "VK",
+                "link": "https://vk.com/priem_mirea?w=chats-5411326"
+            }
+        ]
+    }
+}

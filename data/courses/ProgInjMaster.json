@@ -1,0 +1,705 @@
+{
+    "fileName": "ProgInjMaster.pug",
+    "position": 4,
+    "ico": "/assets/icons/courses/ProgInj.svg",
+    "background": "/assets/images/courses_backgrounds/ProgInjBack.png",
+    "title": "Программная инженерия",
+    "grade": "Магистратура",
+    "cipher": "09.04.04",
+    "price": "226 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/ProgInjMaster.html",
+            "className": "infSystArch",
+            "courseName": "Программная инженерия",
+            "grade": "Магистратура",
+            "cipher": "09.04.04",
+            "price": "226 000 рублей",
+            "profileName": "Архитектура информационных систем",
+            "ico": "/assets/icons/profiles/archIS.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в сфере анализа, выбора и реализации архитектурных решений при проектировании программного обеспечения и информационно-вычислительных систем различного назначения в контексте их индустриального производства.\n\nУчебный процесс проходит в компьютерных классах, оснащённых современным аппаратно-программным обеспечением и мультимедийным оборудованием, изучаются отечественные и зарубежные практики индустриального производства программного обеспечения, анализа, выбора и реализации архитектурных решений.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": true,
+                    "title": "Методы организа&shy;ции разработ&shy;ки програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;ва&shy;ние и разработ&shy;ка програм&shy;мных интер&shy;фей&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/ITLibrary.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/ITLibrary_disable.svg",
+                    "isActive": true,
+                    "title": "Библиоте&shy;ка инфраст&shy;рукту&shy;ра информацион&shy;ных техноло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/networkIS.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/networkIS_disable.svg",
+                    "isActive": true,
+                    "title": "Управле&shy;ние сетевыми информа&shy;ци&shy;онны&shy;ми систе&shy;ма&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Облачные и распре&shy;де&shy;лен&shy;ные платформы и сервисы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рова&shy;ние архитекту&shy;ры инфор&shy;мацион&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Платформы построе&shy;ния вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": false,
+                    "title": "Проектирова&shy;ние програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObespResourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObespResourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;цион&shy;ное обеспече&shy;ние систем управления ресурсами и взаимо&shy;отноше&shy;ния&shy;ми предприя&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": true,
+                    "title": "Управле&shy;ние информа&shy;ци&shy;ей в процес&shy;се разработ&shy;ки программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем управле&shy;ния ресурса&shy;ми и взаимо&shy;отноше&shy;ни&shy;ями предп&shy;рия&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": false,
+                    "title": "Документи&shy;рова&shy;ние и управ&shy;ле&shy;ние версия&shy;ми програм&shy;мно&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;ту&shy;ра систем управ&shy;ле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отношени&shy;я&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Системы управ&shy;ле&shy;ния реляцион&shy;ны&shy;ми и нереляци&shy;он&shy;ны&shy;ми базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Системы синхрон&shy;но&shy;го планиро&shy;ва&shy;ния ресур&shy;сов пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;цион&shy;но-техноло&shy;ги&shy;чес&shy;кой инфраст&shy;рук&shy;ту&shy;рой и архитек&shy;ту&shy;рой"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sinleInfSpace.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sinleInfSpace_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии формиро&shy;ва&shy;ния межотрасле&shy;во&shy;го и меж&shy;государст&shy;вен&shy;но&shy;го едино&shy;го информа&shy;цион&shy;но&shy;го прост&shy;ранст&shy;ва"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": true,
+                    "title": "Инструмен&shy;таль&shy;ное прог&shy;рам&shy;мное обес&shy;пече&shy;ние разра&shy;бот&shy;ки и проекти&shy;рова&shy;ния информа&shy;ци&shy;он&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/safety.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/safety_disable.svg",
+                    "isActive": false,
+                    "title": "Безопас&shy;ность функциони&shy;ро&shy;ва&shy;ния систем управле&shy;ния ресурс&shy;ами и взаимо&shy;отноше&shy;ния&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/lifeCycle.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние жизнен&shy;ным циклом систем управле&shy;ния ресурсами и взаимо&shy;отноше&shy;ни&shy;я&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Нацио&shy;наль&shy;ные и между&shy;народ&shy;ные стандарты прог&shy;рам&shy;мной и систем&shy;ной инже&shy;не&shy;рии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Методы верифи&shy;ка&shy;ции и вали&shy;да&shy;ции характе&shy;рис&shy;тик програм&shy;мно&shy;го обес&shy;пече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;ли&shy;ща данных систем управле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отноше&shy;ния&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/flexManage_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние и разра&shy;бот&shy;ка систем управ&shy;ле&shy;ния информаци&shy;он&shy;ны&shy;ми ресур&shy;са&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sipi_disable.svg",
+                    "isActive": false,
+                    "title": "Сис&shy;тем&shy;ная инже&shy;не&shy;рия информа&shy;цион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/riskManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/riskManage_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние риска&shy;ми информац&shy;ион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тек&shy;ту&shy;ра вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Интегра&shy;ция и мигра&shy;ция баз данных"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjMaster.html?index=1",
+            "className": "infSystResCompanyControl",
+            "courseName": "Программная инженерия",
+            "grade": "Магистратура",
+            "cipher": "09.04.04",
+            "price": "226 000 рублей",
+            "profileName": "Информационные системы управления ресурсами и взаимоотношениями предприятия",
+            "ico": "/assets/icons/profiles/resourceControl.svg",
+            "description": "В ходе обучения студенты получают теоретическую и практическую подготовку в области стандартизации программной и системной инженерии, создания и развития сложных, многоверсионных, тиражируемых программных средств и баз данных высокого качества и надежности на основе междисциплинарного подхода. Лаборатории оснащены современным компьютерным, сетевым, мультимедийным и офисным оборудованием, обеспечивающим учебный процесс, исследовательские проекты и инициативные разработки. Студентам предоставляются возможности для самостоятельной работы, в том числе в области разработки и внедрения программного обеспечения, а также сетевого и системного администрирования.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": false,
+                    "title": "Методы организа&shy;ции разработ&shy;ки програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Проектиро&shy;ва&shy;ние и разработ&shy;ка програм&shy;мных интер&shy;фей&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/ITLibrary.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/ITLibrary_disable.svg",
+                    "isActive": false,
+                    "title": "Библиоте&shy;ка инфраст&shy;рукту&shy;ра информацион&shy;ных техноло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/networkIS.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/networkIS_disable.svg",
+                    "isActive": false,
+                    "title": "Управле&shy;ние сетевыми информа&shy;ци&shy;онны&shy;ми систе&shy;ма&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": false,
+                    "title": "Облачные и распре&shy;де&shy;лен&shy;ные платформы и сервисы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние архитекту&shy;ры инфор&shy;мацион&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Платформы построе&shy;ния вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": false,
+                    "title": "Проектирова&shy;ние програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObespResourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObespResourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Информа&shy;цион&shy;ное обеспече&shy;ние систем управления ресурсами и взаимо&shy;отноше&shy;ния&shy;ми предприя&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": false,
+                    "title": "Управле&shy;ние информа&shy;ци&shy;ей в процес&shy;се разработ&shy;ки программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рова&shy;ние систем управле&shy;ния ресурса&shy;ми и взаимо&shy;отноше&shy;ни&shy;ями предп&shy;рия&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": true,
+                    "title": "Документи&shy;рова&shy;ние и управ&shy;ле&shy;ние версия&shy;ми програм&shy;мно&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;ту&shy;ра систем управ&shy;ле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отношени&shy;я&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ле&shy;ния реляцион&shy;ны&shy;ми и нереляци&shy;он&shy;ны&shy;ми базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": true,
+                    "title": "Системы синхрон&shy;но&shy;го планиро&shy;ва&shy;ния ресур&shy;сов пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;цион&shy;но-техноло&shy;ги&shy;чес&shy;кой инфраст&shy;рук&shy;ту&shy;рой и архитек&shy;ту&shy;рой"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sinleInfSpace.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sinleInfSpace_disable.svg",
+                    "isActive": false,
+                    "title": "Техно&shy;ло&shy;гии формиро&shy;ва&shy;ния межотрасле&shy;во&shy;го и меж&shy;государст&shy;вен&shy;но&shy;го едино&shy;го информа&shy;цион&shy;но&shy;го прост&shy;ранст&shy;ва"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ное прог&shy;рам&shy;мное обес&shy;пече&shy;ние разра&shy;бот&shy;ки и проекти&shy;рова&shy;ния информа&shy;ци&shy;он&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/safety.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/safety_disable.svg",
+                    "isActive": true,
+                    "title": "Безопас&shy;ность функциони&shy;ро&shy;ва&shy;ния систем управле&shy;ния ресурс&shy;ами и взаимо&shy;отноше&shy;ния&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/lifeCycle.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние жизнен&shy;ным циклом систем управле&shy;ния ресурсами и взаимо&shy;отноше&shy;ни&shy;я&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": false,
+                    "title": "Нацио&shy;наль&shy;ные и между&shy;народ&shy;ные стандарты прог&shy;рам&shy;мной и систем&shy;ной инже&shy;не&shy;рии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": false,
+                    "title": "Методы верифи&shy;ка&shy;ции и вали&shy;да&shy;ции характе&shy;рис&shy;тик програм&shy;мно&shy;го обес&shy;пече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": true,
+                    "title": "Храни&shy;ли&shy;ща данных систем управле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отноше&shy;ния&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/flexManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние и разра&shy;бот&shy;ка систем управ&shy;ле&shy;ния информаци&shy;он&shy;ны&shy;ми ресур&shy;са&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sipi_disable.svg",
+                    "isActive": false,
+                    "title": "Сис&shy;тем&shy;ная инже&shy;не&shy;рия информа&shy;цион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/riskManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/riskManage_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние риска&shy;ми информац&shy;ион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": false,
+                    "title": "Архи&shy;тек&shy;ту&shy;ра вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Интегра&shy;ция и мигра&shy;ция баз данных"
+                }
+            ]
+        },
+        {
+            "link": "/profiles/ProgInjMaster.html?index=2",
+            "className": "sipiMaster",
+            "courseName": "Программная инженерия",
+            "grade": "Магистратура",
+            "cipher": "09.04.04",
+            "price": "226 000 рублей",
+            "profileName": "Системная инженерия",
+            "ico": "/assets/icons/profiles/sipi.svg",
+            "description": "Программа направлена на углубленную подготовку профессионалов в вопросах внедрения, сопровождения, доработки и эксплуатации отечественных и зарубежных систем класса ERPII (ERRP, Enterprise Resource and Relationship Processing), включающих функционал синхронизированного планирования ресурсов предприятия (Customer Synchronized Resource Planning, CSRP), планирования потребностей в материалах (Material Requirements Planing, MRP), планирования потребностей в производственных ресурсах (Manufacturing Resource Planing, MRPII), управления взаимоотношениями с клиентами (Customer Relationship Management, CRM), а также управления цепочками поставок (Supply Chain Management, SCM).",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": false,
+                    "title": "Методы организа&shy;ции разработ&shy;ки програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progInterface.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/progInterface_disable.svg",
+                    "isActive": false,
+                    "title": "Проектиро&shy;ва&shy;ние и разработ&shy;ка програм&shy;мных интер&shy;фей&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/ITLibrary.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/ITLibrary_disable.svg",
+                    "isActive": false,
+                    "title": "Библиоте&shy;ка инфраст&shy;рукту&shy;ра информацион&shy;ных техноло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/networkIS.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/networkIS_disable.svg",
+                    "isActive": true,
+                    "title": "Управле&shy;ние сетевыми информа&shy;ци&shy;онны&shy;ми систе&shy;ма&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/virtualizing.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/virtualizing_disable.svg",
+                    "isActive": true,
+                    "title": "Облачные и распре&shy;де&shy;лен&shy;ные платформы и сервисы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние архитекту&shy;ры инфор&shy;мацион&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": true,
+                    "title": "Платформы построе&shy;ния вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/trpp.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/trpp_disable.svg",
+                    "isActive": true,
+                    "title": "Проектирова&shy;ние програм&shy;мно&shy;го обеспече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infObespResourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/infObespResourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Информа&shy;цион&shy;ное обеспече&shy;ние систем управления ресурсами и взаимо&shy;отноше&shy;ния&shy;ми предприя&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": false,
+                    "title": "Управле&shy;ние информа&shy;ци&shy;ей в процес&shy;се разработ&shy;ки программ&shy;но&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;рова&shy;ние систем управле&shy;ния ресурса&shy;ми и взаимо&shy;отноше&shy;ни&shy;ями предп&shy;рия&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/confControl.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/confControl_disable.svg",
+                    "isActive": false,
+                    "title": "Документи&shy;рова&shy;ние и управ&shy;ле&shy;ние версия&shy;ми програм&shy;мно&shy;го обеспе&shy;че&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Архитек&shy;ту&shy;ра систем управ&shy;ле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отношени&shy;я&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Системы управ&shy;ле&shy;ния реляцион&shy;ны&shy;ми и нереляци&shy;он&shy;ны&shy;ми базами данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/resourceManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/resourceManage_disable.svg",
+                    "isActive": false,
+                    "title": "Системы синхрон&shy;но&shy;го планиро&shy;ва&shy;ния ресур&shy;сов пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pis.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/pis_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние информа&shy;цион&shy;но-техноло&shy;ги&shy;чес&shy;кой инфраст&shy;рук&shy;ту&shy;рой и архитек&shy;ту&shy;рой"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sinleInfSpace.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sinleInfSpace_disable.svg",
+                    "isActive": true,
+                    "title": "Техно&shy;ло&shy;гии формиро&shy;ва&shy;ния межотрасле&shy;во&shy;го и меж&shy;государст&shy;вен&shy;но&shy;го едино&shy;го информа&shy;цион&shy;но&shy;го прост&shy;ранст&shy;ва"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/archDev_disable.svg",
+                    "isActive": false,
+                    "title": "Инструмен&shy;таль&shy;ное прог&shy;рам&shy;мное обес&shy;пече&shy;ние разра&shy;бот&shy;ки и проекти&shy;рова&shy;ния информа&shy;ци&shy;он&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/safety.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/safety_disable.svg",
+                    "isActive": false,
+                    "title": "Безопас&shy;ность функциони&shy;ро&shy;ва&shy;ния систем управле&shy;ния ресурс&shy;ами и взаимо&shy;отноше&shy;ния&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/lifeCycle.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/lifeCycle_disable.svg",
+                    "isActive": false,
+                    "title": "Управ&shy;ле&shy;ние жизнен&shy;ным циклом систем управле&shy;ния ресурсами и взаимо&shy;отноше&shy;ни&shy;я&shy;ми предпри&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/standarts.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/standarts_disable.svg",
+                    "isActive": true,
+                    "title": "Нацио&shy;наль&shy;ные и между&shy;народ&shy;ные стандарты прог&shy;рам&shy;мной и систем&shy;ной инже&shy;не&shy;рии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/reliability_disable.svg",
+                    "isActive": true,
+                    "title": "Методы верифи&shy;ка&shy;ции и вали&shy;да&shy;ции характе&shy;рис&shy;тик програм&shy;мно&shy;го обес&shy;пече&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Храни&shy;ли&shy;ща данных систем управле&shy;ния ресур&shy;са&shy;ми и взаимо&shy;отноше&shy;ния&shy;ми пред&shy;при&shy;я&shy;тия"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/flexManage_disable.svg",
+                    "isActive": false,
+                    "title": "Проекти&shy;ро&shy;ва&shy;ние и разра&shy;бот&shy;ка систем управ&shy;ле&shy;ния информаци&shy;он&shy;ны&shy;ми ресур&shy;са&shy;ми"
+                },
+                {
+                    "ico": "/assets/icons/subjects/sipi.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/sipi_disable.svg",
+                    "isActive": true,
+                    "title": "Сис&shy;тем&shy;ная инже&shy;не&shy;рия информа&shy;цион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/riskManage.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/riskManage_disable.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ле&shy;ние риска&shy;ми информац&shy;ион&shy;ных техно&shy;ло&shy;гий"
+                },
+                {
+                    "ico": "/assets/icons/subjects/compComplex.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/compComplex_disable.svg",
+                    "isActive": true,
+                    "title": "Архи&shy;тек&shy;ту&shy;ра вычисли&shy;тель&shy;ных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "ico_disable": "/assets/icons/subjects/non-special/database_disable.svg",
+                    "isActive": false,
+                    "title": "Интегра&shy;ция и мигра&shy;ция баз данных"
+                }
+            ]
+        }
+    ]
+}

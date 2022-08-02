@@ -1,0 +1,127 @@
+{
+    "fileName": "IVTMaster.pug",
+    "position": 2,
+    "ico": "/assets/icons/courses/IVT.svg",
+    "background": "/assets/images/courses_backgrounds/IVTBack.png",
+    "title": "Информатика и вычислительная техника",
+    "grade": "Магистратура",
+    "cipher": "09.04.01",
+    "price": "226 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/IVTMaster.html",
+            "className": "archIVT",
+            "courseName": "Информатика и вычислительная техника",
+            "grade": "Магистратура",
+            "cipher": "09.04.01",
+            "price": "226 000 рублей",
+            "profileName": "Архитектура вычислительной техники и информационных систем",
+            "ico": "/assets/icons/profiles/intelligence.svg",
+            "description": "В рамках данной магистерской программы   студенты познакомятся с цифровым производством, с принципами его функционирования, получат навыки применения технологии IIoT в производстве, разработки встраиваемых систем управления технологическим оборудованием. Студенты научатся как создавать самостоятельное программное обеспечение, так и интегрировать свои решения в существующие программные продукты и системы, овладеют навыками построения и администрирования ИТ-инфраструктурой предприятия. В лабораториях студенты научатся работать с системами управления российского производства, а также зарубежных фирм Siemens, OMRON, Bosch Rexroth, B&R Industrial Automation и др. Выпускники данной образовательной программы окажутся подготовленными к процессу цифровой трансформации производственных предприятий.",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/neiron.svg",
+                    "isActive": true,
+                    "title": "Инстру&shy;менталь&shy;ные сред&shy;ства проек&shy;тирова&shy;ния цифро&shy;вых уст&shy;ройств в составе инфо&shy;коммуника&shy;ци&shy;онных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "isActive": true,
+                    "title": "Проекти&shy;рование и разра&shy;ботка циф&shy;ро&shy;вых уст&shy;ройств на базе програм&shy;миру&shy;емых логи&shy;чес&shy;ких интег&shy;раль&shy;ных схем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/nonlinearDyn.svg",
+                    "isActive": true,
+                    "title": "Инструмен&shy;тальные свой&shy;ства разра&shy;ботки програм&shy;мно-аппарат&shy;ных комплек&shy;сов"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avtProekt.svg",
+                    "isActive": true,
+                    "title": "Зарубеж&shy;ные комп&shy;лексы обра&shy;ботки инфор&shy;мации и автомати&shy;зирован&shy;ного проектиро&shy;вания"
+                },
+                {
+                    "ico": "/assets/icons/subjects/progObesp.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мное обеспе&shy;чение уст&shy;ройств и систем вычисли&shy;тельной техники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/controlDiagnostics.svg",
+                    "isActive": true,
+                    "title": "Контроль и диаг&shy;ностика циф&shy;ровых устройств в инфо&shy;коммуни&shy;кацион&shy;ных системах"
+                },
+                {
+                    "ico": "/assets/icons/subjects/avmis.svg",
+                    "isActive": true,
+                    "title": "Архи&shy;тектура уст&shy;ройств и систем вычис&shy;литель&shy;ной техники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/reliability.svg",
+                    "isActive": true,
+                    "title": "Вери&shy;фикация проек&shy;тов в сис&shy;темах автомати&shy;зирован&shy;ного проек&shy;тирова&shy;ния"
+                },
+                {
+                    "ico": "/assets/icons/subjects/plis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирова&shy;ние уст&shy;ройств и систем вычис&shy;лительной тех&shy;ники"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archProcessor.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирован&shy;ие систем на крис&shy;тал&shy;ле"
+                }
+            ]
+        }
+    ]
+}

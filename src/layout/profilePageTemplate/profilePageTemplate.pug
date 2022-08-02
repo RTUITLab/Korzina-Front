@@ -1,0 +1,123 @@
+block variables
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description" content=obj.description)
+        title #{obj.title}
+
+        link(rel="stylesheet" href="../swiper/swiper-bundle.min.css")
+        link(rel="stylesheet" href="../commonStyles.scss")
+        link(rel="stylesheet" href="../layout/profilePageTemplate/profilePageTemplate.scss")
+        link(rel="stylesheet" href="../layout/header/header.scss")
+        link(rel="stylesheet" href="../layout/footer/footer.scss")
+        script(src='../js/header/header.js', type='module')
+        script(src='../js/profilePageTemplate/profilePageTemplate.js', type='module')
+
+    body
+        header
+            include ../header/header.pug
+        main
+            section.course__header
+                img(src=`${obj.background}`).course__background
+                .course__information
+                    h1.course__title
+                        =obj.title
+                    h2.course__cipher
+                        =obj.cipher
+                        |  /
+                        |
+                        =obj.grade
+            section.profiles__container
+                h1.profiles__title
+                    | Профили подготовки
+                .swiper-pagination.profilesSwiperPagination
+                .swiper.profilesSwiperParent
+                    .swiper-wrapper
+                        each item in obj.profiles
+                            .swiper-slide
+                                .card__parent
+                                    .card__container
+                                        .card__header
+                                            .card__iconContainer
+                                                img(src=`${item.ico}`).card__icon.profileCard__icon
+                                            .card__nameContainer
+                                                h2.card__title.profileCard__title
+                                                    =item.profileName
+                                        .card__content
+                                            .card__info
+                                                .card__item.profileCard__item
+                                                    .item__title
+                                                        | Стоимость обучения
+                                                    .item__text
+                                                        =obj.price
+                                                .card__item.profileCard__item
+                                                    .item__title
+                                                        | Адрес обучения
+                                                    .item__text
+                                                        =obj.address
+                                                .card__item.profileCard__item
+                                                    .item__title
+                                                        | Срок обучения
+                                                    .item__text
+                                                        =obj.period
+                                                .card__item
+                                                    .item__title
+                                                        | Вступительные испытания
+                                                    each exam in item.exams
+                                                        .card__exam
+                                                            img(src=`${exam.ico}`).item__ico
+                                                            .item__text
+                                                                =exam.examName
+                                            .card__profiles.profileCard__profiles
+                                                div
+                                                    h3.profile__title
+                                                        | Описание профиля обучения
+                                                    .profile__description
+                                                        =item.description
+                                                    .profile__important
+                                                        span
+                                                            | Важно:
+                                                            |
+                                                        =item.important
+                                                button(class=`${item.className} card__button`, onclick=`handleAppendProfile('${item.profileName}')`)
+                                                    | Добавить к сравнению
+                                        .card__subject
+                                            h2.card__topic
+                                                | Базовые компетенции
+                                            .subject
+                                                each base in item.based
+                                                    if(base.isActive)
+                                                        .subject__container
+                                                            .subject__icon
+                                                                img(src=`${base.ico}` loading="lazy")
+                                                            div.subject__name !{base.title}
+                                                    else
+                                                        .subject__container.subject__container__disabled
+                                                            .subject__icon
+                                                                img(src=`${base.ico_disable}` loading="lazy")
+                                                            .subject__name !{base.title}
+                                        if item.special
+                                            .card__subject
+                                                h2.card__topic.card__special
+                                                    | Профильные компетенции
+                                                .subject
+                                                    each special in item.special
+                                                        if(special.isActive)
+                                                            .subject__container
+                                                                .subject__icon
+                                                                    img(src=`${special.ico}`, loading="lazy")
+                                                                .subject__name !{special.title}
+                                                        else
+                                                            .subject__container.subject__container__disabled
+                                                                .subject__icon
+                                                                    img(src=`${special.ico_disable}`, loading="lazy")
+                                                                .subject__name.subject__name__disabled !{special.title}
+
+
+
+        footer
+            include ../footer/footer.pug

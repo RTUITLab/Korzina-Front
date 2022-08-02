@@ -5,6 +5,7 @@ html(lang="ru")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description" content='Корзина компетенций для приемной комиссии')
         title Competencies
 
         script(src='./styles.js', type='module')
@@ -12,3 +13,8 @@ html(lang="ru")
     body
         header
             include ./layout/header/header.pug
+            include ./layout/main/main.pug
+        main
+            include ./layout/courses/courses.pug
+        footer
+            include ./layout/footer/footer.pug

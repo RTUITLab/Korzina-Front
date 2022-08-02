@@ -1,0 +1,127 @@
+{
+    "fileName": "AppliedInformaticsMaster.pug",
+    "position": 3,
+    "ico": "/assets/icons/courses/AppliedInformatics.svg",
+    "background": "/assets/images/courses_backgrounds/AppliedInformaticsBack.png",
+    "title": "Прикладная информатика",
+    "grade": "Магистратура",
+    "cipher": "09.04.03",
+    "price": "226 000 рублей",
+    "address": "Москва, пр-кт Вернадского, 78",
+    "period": "2 года",
+    "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+    "profiles": [
+        {
+            "link": "/profiles/AppliedInformaticsMaster.html",
+            "className": "kis",
+            "courseName": "Прикладная информатика",
+            "grade": "Магистратура",
+            "cipher": "09.04.03",
+            "price": "226 000 рублей",
+            "profileName": "Корпоративные и распределенные информационные системы",
+            "ico": "/assets/icons/profiles/kis.svg",
+            "important": "выбор профиля обучения осуществляется студентом после окончания первого курса обучения. Распределение происходит на основе успеваемости студента.",
+            "description": "В рамках данной магистерской программы студенты познакомятся с цифровым производством, с принципами его функционирования, получат навыки применения технологии IIoT в производстве, разработки встраиваемых систем управления технологическим оборудованием. Студенты научатся как создавать самостоятельное программное обеспечение, так и интегрировать свои решения в существующие программные продукты и системы, овладеют навыками построения и администрирования ИТ-инфраструктурой предприятия. В лабораториях студенты научатся работать с системами управления российского производства, а также зарубежных фирм Siemens, OMRON, Bosch Rexroth, B&R Industrial Automation и др. Выпускники данной образовательной программы окажутся подготовленными к процессу цифровой трансформации производственных предприятий.",
+            "exams": [{"ico": "/assets/icons/exam_math.svg","examName": "Высшая математика"}],
+            "based": [
+                {
+                    "ico": "/assets/icons/subjects/oop.svg",
+                    "isActive": true,
+                    "title": "Разработ&shy;ка програм&shy;мно-аппара&shy;тного обеспе&shy;чения информаци&shy;онных и автоматизи&shy;рованных сис&shy;тем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/constructor.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия проведе&shy;ния научно-исследова&shy;тельс&shy;ких и опытно-конструк&shy;торс&shy;ких работ"
+                },
+                {
+                    "ico": "/assets/icons/subjects/archDev.svg",
+                    "isActive": true,
+                    "title": "Архитек&shy;тура, програм&shy;мирова&shy;ние и разра&shy;ботка програм&shy;мных средств"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infAnalyse.svg",
+                    "isActive": true,
+                    "title": "Методо&shy;логия информа&shy;ционно-аналити&shy;ческой работы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/uitp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление информа&shy;ционно-технологи&shy;ческими проектами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/database.svg",
+                    "isActive": true,
+                    "title": "Проектиро&shy;вание и разра&shy;ботка баз и храни&shy;лищ данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/isit.svg",
+                    "isActive": true,
+                    "title": "Интел&shy;лектуаль&shy;ные системы и техноло&shy;гии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/flexManage.svg",
+                    "isActive": true,
+                    "title": "Гибкое управ&shy;ление проек&shy;тами"
+                },
+                {
+                    "ico": "/assets/icons/subjects/mbp.svg",
+                    "isActive": true,
+                    "title": "Управ&shy;ление бизнес процес&shy;сами"
+                }
+            ],
+            "special": [
+                {
+                    "ico": "/assets/icons/subjects/obespKis.svg",
+                    "isActive": true,
+                    "title": "Програм&shy;мное обес&shy;печение коропра&shy;тивных информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/kis.svg",
+                    "isActive": true,
+                    "title": "Проек&shy;тирование корпора&shy;тивных информа&shy;ционных систем"
+                },
+                {
+                    "ico": "/assets/icons/subjects/infTech.svg",
+                    "isActive": true,
+                    "title": "Базо&shy;вые и приклад&shy;ные информа&shy;ционные техно&shy;логии"
+                },
+                {
+                    "ico": "/assets/icons/subjects/optManage.svg",
+                    "isActive": true,
+                    "title": "Модели и методы опти&shy;маль&shy;ного управ&shy;ления"
+                },
+                {
+                    "ico": "/assets/icons/subjects/supportSyst.svg",
+                    "isActive": true,
+                    "title": "Системы и службы под&shy;держ&shy;ки пользова&shy;телей"
+                },
+                {
+                    "ico": "/assets/icons/subjects/pasprIS.svg",
+                    "isActive": true,
+                    "title": "Распределен&shy;ные информаци&shy;онные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/kis.svg",
+                    "isActive": true,
+                    "title": "Корпора&shy;тивные информа&shy;ционные системы"
+                },
+                {
+                    "ico": "/assets/icons/subjects/dataProcessingMethods.svg",
+                    "isActive": true,
+                    "title": "Методы обработки данных"
+                },
+                {
+                    "ico": "/assets/icons/subjects/informatics.svg",
+                    "isActive": true,
+                    "title": "Совре&shy;мен&shy;ные проблемы и методы приклад&shy;ной информа&shy;тики и развития информа&shy;ционного общества"
+                },
+                {
+                    "ico": "/assets/icons/subjects/contentManage.svg",
+                    "isActive": true,
+                    "title": "Методы и техно&shy;логии управ&shy;ления дан&shy;ными органи&shy;зации"
+                }
+            ]
+        }
+    ]
+}
