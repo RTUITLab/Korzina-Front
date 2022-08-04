@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  feedback-front:
+    image: registry.rtuitlab.dev/korzina/front:latest
+    logging:
+      driver: json-file
+      options:
+        max-file: "5"
+        max-size: 100k
+    deploy:
+      resources:
+        limits:
+          cpus: "0.2"
+          memory: 100M
+    networks:
+      - net
+networks:
+  net:
+    driver: overlay

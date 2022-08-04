@@ -1,0 +1,10 @@
+node_modules/
+.vscode/
+.idea/
+.git/
+docker*.yml
+**/Dockerfile*
+**/*.md
+azure-pipelines.yml
+build/
+.parcel-cache/

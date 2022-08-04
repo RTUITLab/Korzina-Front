@@ -1,0 +1,73 @@
+trigger:
+  branches:
+    include:
+      - "*"
+  tags:
+    include:
+      - "*"
+
+name: $(BuildID)-$(Build.SourceBranchName)
+
+variables:
+  ${{ if notIn(variables['Build.SourceBranch'], 'refs/heads/master') }}:
+    dockerfile: 'Dockerfile'
+    dockerCommand: 'build'
+    deployService: false
+    deployEnvironment: 'no'
+    imageTags: 'no'
+    serviceName: 'no'
+  ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/master') }}:
+    dockerfile: 'Dockerfile'
+    dockerCommand: 'buildAndPush'
+    deployService: true
+    deployEnvironment: production
+    imageTags: |
+      $(Build.BuildId)
+      latest
+    serviceName: korzina_front
+
+stages:
+  - stage: packDockerImages
+    displayName: Build/Push docker images
+    jobs:
+      - job: packPublicImage
+        displayName: Build public docker image
+        steps:
+          - task: Docker@2
+            displayName: Build image for docker hub
+            inputs:
+              containerRegistry: 'rtuitlab connection by admin'
+              repository: 'rtuitlab/korzina-front'
+              Dockerfile: '$(Build.SourcesDirectory)/deploy/${{ variables.dockerfile }}'
+              buildContext: '$(Build.SourcesDirectory)/'
+              command: '${{ variables.dockerCommand }}'
+              tags: '${{ variables.imageTags }}'
+      - job: packPrivateImage
+        displayName: Build private docker image
+        steps:
+          - task: Docker@2
+            displayName: Build image for private docker registry
+            inputs:
+              containerRegistry: 'private rtuitlab registry'
+              repository: 'korzina/front'
+              Dockerfile: '$(Build.SourcesDirectory)/deploy/${{ variables.dockerfile }}'
+              buildContext: '$(Build.SourcesDirectory)/'
+              command: '${{ variables.dockerCommand }}'
+              tags: '${{ variables.imageTags }}'
+  - stage: deploy
+    displayName: Deploy service
+    condition: and(succeeded(), ${{ variables.deployService }})
+    jobs:
+      - deployment: Deploy
+        environment: ${{ variables.deployEnvironment }}
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: none
+                - task: SSH@0
+                  inputs:
+                    sshEndpoint: 'swarm manager'
+                    runOptions: 'commands'
+                    commands: 'docker service update --image registry.rtuitlab.dev/korzina/front:$(Build.BuildId) ${{ variables.serviceName }} --with-registry-auth'
+                    readyTimeout: '20000'
