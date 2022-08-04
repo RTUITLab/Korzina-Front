@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  feedback-front:
+  front:
     image: registry.rtuitlab.dev/korzina/front:latest
     logging:
       driver: json-file

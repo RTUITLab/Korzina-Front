@@ -5,7 +5,7 @@ RUN npm ci
 COPY . .
 RUN npx jake
 
-FROM nginx
+FROM nginx:alpine
 EXPOSE 9000
 
 COPY --from=build-stage /app/build /app
